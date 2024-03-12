@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "transform": { "scheme": "https"}}	},
+    "condition": { 
+		"urlFilter":"|http://oktools.ru",
+		"resourceTypes": ["main_frame"] 
+	}
+  }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>OkTools</title>
+	<script src="js/popup.js" defer></script>
+	<link rel="stylesheet" href="/css/popup.css">
+</head>
+<body>
+<div id="wrapper">
+	<div class="screen settings_screen d-flex flex-column active" id="main">
+        <header class="d-flex justify-center align-center">			
+			<span>OkTools 5.4</span>
+            <button class="icon close_btn"></button>
+        </header>
+        <main class="text-center d-flex flex-column justify-between" style="overflow-y:auto;">
+			<div class="">
+				<ul class="settings_list">
+					<li class="settings_item" id="open_ok">
+					   <div class="js-setting-link js-setting-links">
+							<span class="icon ok"></span>
+							<span><b>Открыть OK.RU</b></span>
+						</div>
+					</li>
+				</ul>
+				<div class="option_title">
+					<span class="option_title_left" id="OkTools_reload" okt_tooltip="Сбросить все настройки" flow="right">
+						<span class="icon reload active"></span>
+					</span>
+					<span class="option_title_center">Основные модули</span>
+				</div>
+				<ul class="settings_list" id="script_main"></ul>
+				<div class="option_title">
+					<span class="option_title_left" id="OkTools_newScript" okt_tooltip="Добавить новый скрипт" flow="right">
+						<span class="icon add active"></span>
+					</span>
+					<span class="option_title_center">Пользовательские модули</span>
+				</div>				
+				<ul class="settings_list" id="script_user"></ul>
+				<ul class="settings_list">
+					<li class="settings_item" id="clearData">
+					   <div class="js-setting-link js-setting-links">
+							<span class="icon"></span>
+							<span><b>Очистить все данные</b></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </main>
+	</div>
+</div>
+</body>
+</html>

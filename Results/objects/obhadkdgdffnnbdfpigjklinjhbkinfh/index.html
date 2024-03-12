@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sell items">
+    <meta name="keywords" content="csgo, skin, bitcoin, sell">
+
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <title>blank</title>
+    <link href="assets/ext.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+    <div class="container">
+        <div class="white-box ext" id="logged" style="display: none">
+            <div class="user-block">
+                <div class="wrapper user-wrapper">
+                    <div class="user-avatar">
+                        <img src="/assets/img2/photo.svg" alt="">
+                    </div>
+
+                    <div class="user-title">
+                        <div class="user-name"></div>
+                        <div class="user-steamid"></div>
+                        <div class="user-prof-icon">
+                            <img src="assets/images/icons/profile-icon.svg">
+                            <span>My profile</span>
+                        </div>
+                    </div>
+
+                    <div class="user-status info">
+                        <div class="status-dot"><span></span></div>
+                        <div class="status-text">Loading</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-settings__panel">
+                <div class="wrapper user-settings-wrapper">
+                    <h3 class="text-left">Settings</h3>
+
+                    <div class="text-left settings-switch">
+                        <label for="chrome_notification">Chrome Notifications</label>
+                        <label class="switch"><input type="checkbox" id="chrome_notification"> <span class="slider round"></span></label>
+                    </div>
+
+                    <div class="text-left settings-switch">
+                        <label for="chrome_sound_notification">Trade Notification Sound</label>
+                        <label class="switch"><input type="checkbox" id="chrome_sound_notification"> <span class="slider round"></span></label>
+                    </div>
+
+                    <div class="text-left settings-switch">
+                        <label for="redirect_to_timer">Redirect back to ShadowPay</label>
+                        <label class="switch"><input type="checkbox" id="redirect_to_timer"> <span class="slider round"></span></label>
+                    </div>
+
+                    <div class="text-left settings-switch">
+                        <label for="ext_auto_accept">Auto-accept incoming trades</label>
+                        <label class="switch"><input type="checkbox" id="ext_auto_accept"> <span class="slider round"></span></label>
+                    </div>
+                </div>
+            </div>
+
+            <!--new extension markup-->
+
+            <div class="user-info-status__panel">
+                <div class="wrapper user-info-wrapper">
+<!--                    <div class="user-info-status__top">-->
+<!--                        <div class="user-info-status__text">-->
+<!--                            status:-->
+<!--                        </div>-->
+<!--                        <div class="user-info-status__online">-->
+<!--                            <label class="switch"><input type="checkbox"> <span class="slider round"></span></label>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="user-info-status__allert success-info__alert">
+                        <img src="assets/images/icons/succes-icon.svg">
+                        <span>Wait for your items will be purchased.</span>
+                    </div>
+
+                    <!-- <div class="user-info-status__allert default-info__alert">
+                        <img src="assets/images/icons/hold-items-icon.svg">
+                        <span>Items on hold.</span>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="user-items-slots__block">
+              <div class="wrapper user-items-slots-wrapper">
+                <h3 class="text-left section-title">Items Awaiting confirmation</h3>
+
+                <div class="user-items__text">
+                  Total Cost: <span class="dollar">$</span><span class="cell-value total-cost">0</span>
+                </div>
+
+                <div class="items-block await">
+                  <div class="empty-items">
+                    <div class="empty-items__icon">
+                      <img src="assets/images/icons/empty-items-icon.svg"/>
+                    </div>
+                    <div class="empty-items__text">
+                      <p>No item(s)</p>
+                      <p>for confirmation</p>
+                    </div>
+                  </div>
+
+                  <div class="items-list" style="display: none">
+                    <div class="items-slots">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="white-box" id="sign_in" style="display: none">
+        <div>
+            <div class="title ">Please, sign in.</div>
+            <a href="#" target="_blank" class="btn mt20 shadowpay" id="login-button">sign in on ShadowPay</a>
+            <a href="https://steamcommunity.com/login#shadowpay_login" target="_blank" class="btn mt20 steam">sign in on steam</a>
+        </div>
+    </div>
+</div>
+
+    <script src="third_party/zepto.min.js"></script>
+    <script src="libs/config.js"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</body>
+
+<div class="slot slot-template" style="display: none;">
+    <!---->
+    <div class="item-overlay">
+        <div class="item-name"></div>
+        <div class="item-state"></div>
+    </div>
+    <span class="item-rarity"></span>
+    <img src="" alt="">
+    <div class="item-price"></div>
+    <i title="Hot Deal!" class="icon ion-md-flame is-red" style="font-size: 30px;"></i>
+</div>
+
+</html>

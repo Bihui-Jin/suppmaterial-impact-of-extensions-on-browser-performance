@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "文案門 · 小插件"
+  },
+  "appDescription": {
+    "message": "邂逅文案，瀏覽美圖，快速記錄，靈感一觸即發。文案人必備的工具。"
+  },
+  "autosaved": {
+    "message": "自動保存"
+  },
+  "loading": {
+    "message": "加載中"
+  },
+  "more": {
+    "message": "更多"
+  },
+  "copy": {
+    "message": "複製"
+  },
+  "copied": {
+    "message": "已複製"
+  },
+  "next": {
+    "message": "下一條"
+  },
+  "weibo": {
+    "message": "微博"
+  },
+  "twitter": {
+    "message": "推特"
+  },
+  "note": {
+    "message": "記錄"
+  },
+  "photoBy": {
+    "message": "攝影師"
+  },
+  "history": {
+    "message": "歷史圖片"
+  },
+  "timer": {
+    "message": "圖片切換"
+  },
+  "fullscreen": {
+    "message": "全屏"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "inputSth": {
+    "message": "鍵入靈感..."
+  },
+  "copynclear": {
+    "message": "複製並清除"
+  },
+  "settings": {
+    "message": "設置"
+  }
+}

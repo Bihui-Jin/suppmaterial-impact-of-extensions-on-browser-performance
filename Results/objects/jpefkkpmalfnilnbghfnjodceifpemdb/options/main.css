@@ -1,0 +1,164 @@
+.nav-tabs>li {
+	height: 50px;
+	width: 200px;
+	outline: 1px solid #ddd;
+}
+
+.menutab> a {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.menutab:hover {
+	border-radius: none;
+}
+
+.nav-tabs> li> a, .nav-tabs>li>a>div {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+
+.nav-tabs>li>a span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.row {
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border-color: transparent!important;
+	background: #ddd;
+	border-radius: 0;
+}
+
+.menu-div {
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 21px;
+}
+
+.div-content {
+	background: #ddd;
+	margin-left: 197px;
+	z-index: 1;
+	position: relative;
+	padding-top: 10px;
+}
+
+li.menutab.active {
+	border: 1px solid #989898;
+	outline: 1px solid #ad09d6;
+}
+
+label {
+	padding-left: 5px;
+}
+
+.panel-body {
+	background: #f1efef;
+}
+
+.tab-content {
+	display: inline-block;
+	width: 100%;
+	min-height: 666px;
+}
+
+.modal-footer {
+	text-align: center!important;
+}
+
+.modal-dialog {
+	position: relative!important;
+	display: table!important;
+	overflow-y: auto!important;
+	overflow-x: auto!important;
+	width: auto!important;
+	min-width: 300px!important;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+.table tr td {
+	vertical-align: middle!important;
+}
+
+table tr td * {
+	vertical-align: middle!important;
+}
+
+td p {
+	padding: 0;
+	margin: 0;
+}
+
+.panel-dd, .panel-dd-timer {
+	margin-bottom: 2px;
+}
+
+#draggablePanelList .panel-heading {
+	cursor: move;
+}
+
+.panel-dd>div, .panel-dd-timer>div {
+	padding: 5px;
+}
+
+#trace_img_src {
+	width: 450px;
+}
+
+.table_auto {
+	width: auto!important;
+}
+
+.divtab1, .divtab2 {
+	width: 200px;
+	display: inline-block;
+}
+
+.divtab4 * {
+	vertical-align: middle;
+	margin-right: 13px;
+}
+
+.divtab4 {
+	display: block;
+	width: 100%;
+}
+
+.divtab4 audio {
+	margin: 5px;
+}
+
+.divtab3 {
+	display: inline-block;
+}
+
+#draggablePanelListTimers .panel-heading {
+	cursor: move;
+}
+
+.filter_table label, .additional_table label {
+	font-weight: 100;
+	padding: 0 10px;
+}
+
+.filter_table input[type=checkbox], input[type=radio], .additional_table input[type=checkbox], input[type=radio] {
+	margin: 0 3px 0 0!important;
+}
+
+#files {
+	padding-top: 5px;
+}
+
+td[id^=selignorid], img[id^=sturquoise_grid_map_], label, td[id^=selavatrid], img[id^=selsled], img[id^=sel_monster_fon], #background_scripts_host_juki, #background_scripts_host_erhelp {
+	cursor: pointer;
+}

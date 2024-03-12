@@ -1,0 +1,22 @@
+{
+    "title": "Free Best VPN for PC-Unlimited Proxy Guide",
+    "site_url": "https://www.apkforpcwindows.download/",
+    "badge_color": "#ff0000",
+    "settings_button": "show",
+    "notification_title": "feed_title",
+    "show_extended_options": "yes",
+    "feeds": [
+        {
+            "feed_title": "VPN for PC Guide",
+            "feed_url": "https://www.apkforpcwindows.download/feeds/posts/default/-/vpn%20for%20pc/?alt=rss",
+            "feed_type": "rss",
+            "feed_view": "default",
+            "feed_image": "Hide",
+            "feed_image_type": "enclosure",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "yes"
+        } 
+    ]
+}

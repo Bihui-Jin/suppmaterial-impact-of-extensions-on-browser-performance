@@ -1,0 +1,92 @@
+
+body{
+    width:400px;
+    font-size:12px;
+}
+a, u {
+    text-decoration: none;
+}
+
+img.icon {
+    vertical-align:middle;
+    width:16px;
+    height:16px;
+    margin-right:3px;
+    margin-bottom:3px;
+}
+img.icon.logo {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+div.header {
+    color: #369;
+    font-weight: bold;
+}
+div.info {
+    padding:5px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 390px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+div.configuration {
+    right: 10px;
+    bottom: 45px;
+    padding: 5px;
+    position: fixed;
+    display: none;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+div.save {
+    padding:5px;
+    position: fixed;
+    bottom: 35px;
+    left: 184px;
+}
+
+div.save img {
+    width:32px;
+    height:32px;
+    cursor: pointer;
+}
+
+ul.tree, ul.tree ul {
+    list-style-type: none;
+    background: url(images/vline.png) repeat-y;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tree {
+    margin: 0 0 75px 16px;
+}
+
+ul.tree ul {
+    margin-left: 10px;
+}
+
+ul.tree li {
+    margin: 0;
+    padding: 0 12px;
+    line-height: 20px;
+    background: url(images/node.png) no-repeat;
+    color: #369;
+    font-weight: bold;
+}
+/*
+ul.tree > li:first-child {
+    background: #fff url(images/firstnode.png) no-repeat;
+}
+*/
+ul.tree li:last-child {
+    background: #fff url(images/lastnode.png) no-repeat;
+}
+
+ul.tree li > ul > li:hover {
+    background-color: #dddddd;
+}

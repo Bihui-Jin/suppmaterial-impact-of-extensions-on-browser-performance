@@ -1,0 +1,21 @@
+{
+    "/js/extension.js": "/js/extension.js",
+    "/js/background.js": "/js/background.js",
+    "/css/extension.css": "/css/extension.css",
+    "/manifest.json": "/manifest.json",
+    "/popup.html": "/popup.html",
+    "/img/.DS_Store": "/img/.DS_Store",
+    "/img/alert.png": "/img/alert.png",
+    "/img/icon128.png": "/img/icon128.png",
+    "/img/icon38.png": "/img/icon38.png",
+    "/img/icon48.png": "/img/icon48.png",
+    "/img/icon64.png": "/img/icon64.png",
+    "/img/radar-image.png": "/img/radar-image.png",
+    "/img/radar.png": "/img/radar.png",
+    "/fonts/.DS_Store": "/fonts/.DS_Store",
+    "/fonts/noto-sans.woff2": "/fonts/noto-sans.woff2",
+    "/fonts/weathericons-regular-webfont.eot": "/fonts/weathericons-regular-webfont.eot",
+    "/fonts/weathericons-regular-webfont.svg": "/fonts/weathericons-regular-webfont.svg",
+    "/fonts/weathericons-regular-webfont.ttf": "/fonts/weathericons-regular-webfont.ttf",
+    "/fonts/weathericons-regular-webfont.woff": "/fonts/weathericons-regular-webfont.woff"
+}

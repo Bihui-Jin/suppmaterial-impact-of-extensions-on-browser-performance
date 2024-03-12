@@ -1,0 +1,1 @@
+class WsClient{constructor(){}isReady(){}shouldReconnect(){}close(){}send(e,n){}}WsClient.getClient=function(){return"centrifuge"===localStorage.getItem("wss_connection")?new CentrifugeClient:new SwooleClient};

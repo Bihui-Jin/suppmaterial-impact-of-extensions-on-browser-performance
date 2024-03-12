@@ -1,0 +1,1 @@
+export default(()=>{const a=[],b=Object.keys(localStorage);for(let c=b.length;c--;)a.push(JSON.parse(localStorage.getItem(b[c])));return a.forEach(a=>delete a.src),a});

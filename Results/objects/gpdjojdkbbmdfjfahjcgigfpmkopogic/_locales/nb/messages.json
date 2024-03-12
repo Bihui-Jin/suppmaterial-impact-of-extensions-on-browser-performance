@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Lagre-knapp for Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Lagre favorittideene dine på nettet, så blir det lett å finne dem igjen senere.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Beklager, det er ikke tillatt å lagre Pins fra dette domenet. Kontakt den som driver nettstedet, hvis du lurer på noe.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Alternativer for Lagre-knappen",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Skjul pekeraktiverte Lagre-knapper",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Søk",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Lagre",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Lagre en idé på Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Velg opptil tjue bilder",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Neste",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Velg alle",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Lagre på tavlen",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Lagret på",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Besøk",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Hjelp",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Velg tavle",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Populære valg",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Alle tavler",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Opprett tavle",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Hemmelig",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Velg seksjon",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Legg til seksjon",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ja",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Nei",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Avbryt",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Opprett",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Kunne ikke opprette ny tavle",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Kunne ikke lagre denne siden",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Beklager, noe er galt. Sjekk at du er logget på Pinterest, og prøv på nytt.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Oops!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Få hjelp",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Det ser ikke ut som du er logget på Pinterest. Det kan vi raskt gjøre noe med.",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Logg på",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

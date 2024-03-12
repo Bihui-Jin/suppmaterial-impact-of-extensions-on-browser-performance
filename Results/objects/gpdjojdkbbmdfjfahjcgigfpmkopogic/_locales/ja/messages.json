@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterest 保存ボタン",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "オンラインで見つけたお気に入りのアイデアを保存すると、いつでも簡単にアクセスすることができます。",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "申し訳ありません。HTML 以外のページでピンを作成することはできません。画像をアップロードするには、pinterest.com にアクセスしてください。",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "保存ボタンのオプション",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "保存のホバーボタンを非表示にする",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "検索",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "保存",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Pinterest にアイデアを保存しよう",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "最大 20 件の画像を選択してください",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "次へ",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "すべて選択する",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "ボードに保存する",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "保存先ボード：",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "アクセス",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "ヘルプ",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "ボードを選択する",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "人気のボード",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "すべてのボード",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "新規ボードを作成する",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "シークレット（非公開）",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "サブボードを選択する",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "サブボードを追加する",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Yes",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "No",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "キャンセル",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "作成",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "新しいボードを作成できませんでした",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "このページを保存できませんでした",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "エラーが発生しました。Pinterest にログインしていることを確認して、もう一度やり直してください。",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "エラー：",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "お問い合わせ",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "エラー！",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Pinterest にログインしていないようです。今すぐログインしましょう。",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "ログイン",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

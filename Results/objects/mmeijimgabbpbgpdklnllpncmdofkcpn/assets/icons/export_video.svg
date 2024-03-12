@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>upload_file_black_24dp</title>
+    <g id="FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Link-Settings-Expanded" transform="translate(-1161.000000, -721.000000)">
+            <g id="upload_file_black_24dp" transform="translate(1161.000000, 721.875000)">
+                <polygon id="Path" points="0 0 22 0 22 22 0 22"></polygon>
+                <path d="M13.375,2 L5.875,2 C4.84375,2 4.009375,2.81 4.009375,3.8 L4,18.2 C4,19.19 4.834375,20 5.865625,20 L17.125,20 C18.15625,20 19,19.19 19,18.2 L19,7.4 L13.375,2 Z M17.125,18.2 L5.875,18.2 L5.875,3.8 L12.4375,3.8 L12.4375,8.3 L17.125,8.3 L17.125,18.2 Z M14.1452865,16.3580144 L12.3132612,16.3206261 L12.264736,14.2610892 L9.6173282,16.908497 L8.29150298,15.5826718 L10.9389108,12.935264 L8.87300992,12.8931028 L8.84198561,11.0547135 L14.0389553,11.1477865 L14.1452865,16.3580144 Z" id="Shape" fill="#4F4F4F" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

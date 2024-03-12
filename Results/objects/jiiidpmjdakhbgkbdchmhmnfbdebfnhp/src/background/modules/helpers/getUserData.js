@@ -1,0 +1,1 @@
+export default((a,b)=>{chrome.identity.getProfileUserInfo(c=>c&&""!==c.id&&""!==c.email?void(a&&a(c)):void chrome.storage.sync.get("userData",({userData:c})=>{c&&""!==c.id&&""!==c.email?a&&a(c):b&&b()}))});

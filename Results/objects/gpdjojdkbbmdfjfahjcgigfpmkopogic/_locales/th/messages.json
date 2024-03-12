@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "ปุ่มบันทึกของ Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "บันทึกไอเดียโปรดแบบออนไลน์เพื่อให้กลับมาดูในภายหลังได้ง่ายๆ",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "ขออภัย โดเมนนี้ไม่อนุญาตให้ปักพิน โปรดติดต่อผู้ดูแลเว็บไซต์หากมีข้อสงสัย",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "ตัวเลือกปุ่มบันทึก",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "ซ่อนปุ่มบันทึกแบบเลื่อนเมาส์มาวาง",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "ค้นหา",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "บันทึก",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "บันทึกไอเดียไว้ใน Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "เลือกรูปภาพได้สูงสุด 20 ภาพ",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "ถัดไป",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "เลือกทั้งหมด",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "บันทึกไปที่บอร์ด",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "บันทึกไปที่",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "เข้าชม",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "ความช่วยเหลือ",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "เลือกบอร์ด",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "ตัวเลือกยอดนิยม",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "บอร์ดทั้งหมด",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "สร้างบอร์ด",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "เป็นความลับ",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "เลือกหมวดบอร์ด",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "เพิ่มหมวดบอร์ด",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "ใช่",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "ไม่",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "ยกเลิก",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "สร้าง",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "ไม่สามารถสร้างบอร์ดใหม่",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "ไม่สามารถบันทึกหน้านี้",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "ขออภัย มีบางอย่างผิดปกติ โปรดตรวจสอบว่าคุณลงชื่อเข้าใช้ Pinterest แล้วลองอีกครั้ง",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "อ๊ะ!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "ขอความช่วยเหลือ",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "นี่ๆ",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "ดูเหมือนว่าคุณไม่ได้ลงชื่อเข้าใช้ Pinterest มาแก้ไขกันเถอะ",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "เข้าสู่ระบบ",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

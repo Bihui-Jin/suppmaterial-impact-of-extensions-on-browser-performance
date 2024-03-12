@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/popup.css">
+  </head>
+  <body>
+    <div class="popup-container">
+      <div class="header">
+        LM Note Generator For ESPN Fantasy Football
+      </div>
+      <div class="container">
+        <div class="container-row">
+          <label for="periodId">Current Week:</label>
+          <input type="number" id="periodId" name="periodId" min="1" max="18">
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="sub-header">
+          Database Management - <span id="league-name"></span>
+        </div>
+        <div class="container-row">
+          <div id="loading-div" style="display:none;">
+            <span>Loading...</span>
+          </div>
+          <div id="database-info" style="display:inline-block;">
+            <span>Last Updated:</span><span id="database-last-update"></span>
+          </div>
+          <button id="delete-database">Delete DB</button>
+          <button id="update-database">Update</button>
+        </div>
+      </div>
+      <div class="container align-center">
+        <div class="sub-header align-left">
+          Generate League History Content
+        </div>
+        <div class="container-row">
+          <div class="col-12 align-left">
+            <button id="all-time-wins">Leader Board</button>
+          </div>
+          <div class="col-12 align-center">
+            <button id="record-book">Record Book</button>
+          </div>
+        </div>
+      </div>
+      <div class="container align-center">
+        <div class="sub-header align-left">
+          Weekly Power Rankings - <span id="power-ranking-week"></span>
+        </div>
+        <div class="container-row">
+          <div class="align-right">
+            <table id="power-rankings-table"><tbody></tbody></table>
+            <button id="power-rankings">Generate Weekly Ranking</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../vendor/html2canvas.min.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/recordBook.js"></script>
+<script src="../js/powerRankingUtil.js"></script>
+<script src="../js/popup.js"></script>

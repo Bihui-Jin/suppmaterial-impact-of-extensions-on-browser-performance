@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterests Spara-knapp",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Spara dina favoritidéer online så att du enkelt kan återkomma till dem senare.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Tyvärr går det inte att pinna från den här domänen. Kontakta webbplatsoperatören om du har frågor.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Alternativ för Spara-knappen",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Dölj hovrande Spara-knappar",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Sök",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Spara",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Spara en idé på Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Välj upp till 20 bilder",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Nästa",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Välj alla",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Spara på anslagstavla",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Sparades på",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Besök",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Hjälp",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Välj anslagstavla",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Bästa valen",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Alla anslagstavlor",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Skapa anslagstavla",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Privat",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Välj avsnitt",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Lägg till avsnitt",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ja",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Nej",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Avbryt",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Skapa",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Det gick inte att skapa en ny anslagstavla",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Det gick inte att spara den här sidan",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Tyvärr har ett fel uppstått. Kontrollera att du är inloggad på Pinterest och försök igen.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Hoppsan!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Få hjälp",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Det verkar som om du inte är inloggad på Pinterest. Låt oss fixa det!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Logga in",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

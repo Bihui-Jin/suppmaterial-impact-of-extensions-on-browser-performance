@@ -1,0 +1,930 @@
+[
+  {
+    "country": "AD",
+    "account": "ad%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AE",
+    "account": "ae%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AF",
+    "account": "af%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AG",
+    "account": "ag%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AI",
+    "account": "ai%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AL",
+    "account": "al%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AM",
+    "account": "am%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AO",
+    "account": "ao%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AR",
+    "account": "ar%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AS",
+    "account": "as%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AT",
+    "account": "austrian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AU",
+    "account": "australian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AW",
+    "account": "aw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "AZ",
+    "account": "az%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BA",
+    "account": "ba%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BB",
+    "account": "bb%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BD",
+    "account": "bd%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BE",
+    "account": "be%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BF",
+    "account": "bf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BG",
+    "account": "bulgarian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BH",
+    "account": "bh%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BI",
+    "account": "bi%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BJ",
+    "account": "bj%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BL",
+    "account": "bl%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BM",
+    "account": "bm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BN",
+    "account": "bn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BO",
+    "account": "bo%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BR",
+    "account": "brazilian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BS",
+    "account": "bs%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BT",
+    "account": "bt%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BW",
+    "account": "bw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BY",
+    "account": "by%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "BZ",
+    "account": "bz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CA",
+    "account": "canadian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CD",
+    "account": "cd%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CF",
+    "account": "cf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CG",
+    "account": "cg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CH",
+    "account": "ch%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CI",
+    "account": "ci%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CK",
+    "account": "ck%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CL",
+    "account": "cl%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CM",
+    "account": "cm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CN",
+    "account": "china%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CO",
+    "account": "co%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CR",
+    "account": "cr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CU",
+    "account": "cu%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CV",
+    "account": "cv%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CW",
+    "account": "cw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CY",
+    "account": "cy%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "CZ",
+    "account": "czech%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DE",
+    "account": "german%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DJ",
+    "account": "dj%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DK",
+    "account": "danish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DM",
+    "account": "dm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DO",
+    "account": "do%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "DZ",
+    "account": "dz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "EC",
+    "account": "ec%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "EE",
+    "account": "ee%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "EG",
+    "account": "eg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ER",
+    "account": "er%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ES",
+    "account": "spain%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ET",
+    "account": "et%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FI",
+    "account": "finnish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FJ",
+    "account": "fj%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FK",
+    "account": "fk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FM",
+    "account": "fm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FO",
+    "account": "fo%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "FR",
+    "account": "french%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GA",
+    "account": "ga%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GB",
+    "account": "uk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GD",
+    "account": "gd%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GE",
+    "account": "ge%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GF",
+    "account": "gf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GG",
+    "account": "gg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GH",
+    "account": "gh%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GI",
+    "account": "gi%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GL",
+    "account": "gl%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GM",
+    "account": "gm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GN",
+    "account": "gn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GP",
+    "account": "gp%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GQ",
+    "account": "gq%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GR",
+    "account": "greek%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GT",
+    "account": "gt%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GU",
+    "account": "gu%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GW",
+    "account": "gw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "GY",
+    "account": "gy%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "HK",
+    "account": "hong_kong%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "HN",
+    "account": "hn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "HR",
+    "account": "croatian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "HT",
+    "account": "ht%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "HU",
+    "account": "hungarian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ID",
+    "account": "indonesian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IE",
+    "account": "irish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IL",
+    "account": "jewish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IM",
+    "account": "im%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IN",
+    "account": "indian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IQ",
+    "account": "iq%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IR",
+    "account": "ir%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IS",
+    "account": "is%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "IT",
+    "account": "italian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "JE",
+    "account": "je%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "JM",
+    "account": "jm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "JO",
+    "account": "jo%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "JP",
+    "account": "japanese%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KE",
+    "account": "ke%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KG",
+    "account": "kg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KH",
+    "account": "kh%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KI",
+    "account": "ki%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KM",
+    "account": "km%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KN",
+    "account": "kn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KP",
+    "account": "kp%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KR",
+    "account": "south_korea%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KW",
+    "account": "kw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KY",
+    "account": "ky%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "KZ",
+    "account": "kz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LA",
+    "account": "la%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LB",
+    "account": "lb%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LC",
+    "account": "lc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LI",
+    "account": "li%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LK",
+    "account": "lk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LR",
+    "account": "lr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LS",
+    "account": "ls%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LT",
+    "account": "lithuanian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LU",
+    "account": "lu%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LV",
+    "account": "latvian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "LY",
+    "account": "ly%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MA",
+    "account": "ma%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MC",
+    "account": "mc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MD",
+    "account": "md%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ME",
+    "account": "me%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MF",
+    "account": "mf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MG",
+    "account": "mg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MH",
+    "account": "mh%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MK",
+    "account": "mk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ML",
+    "account": "ml%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MM",
+    "account": "mm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MN",
+    "account": "mn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MO",
+    "account": "mo%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MP",
+    "account": "mp%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MQ",
+    "account": "mq%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MR",
+    "account": "mr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MS",
+    "account": "ms%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MT",
+    "account": "mt%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MU",
+    "account": "mu%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MV",
+    "account": "mv%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MW",
+    "account": "mw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MX",
+    "account": "mexican%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MY",
+    "account": "malaysia%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "MZ",
+    "account": "mz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NA",
+    "account": "na%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NC",
+    "account": "nc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NE",
+    "account": "ne%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NG",
+    "account": "ng%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NI",
+    "account": "ni%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NL",
+    "account": "dutch%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NO",
+    "account": "norwegian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NP",
+    "account": "np%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NR",
+    "account": "nr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "NZ",
+    "account": "new_zealand%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "OM",
+    "account": "om%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PA",
+    "account": "pa%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PE",
+    "account": "pe%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PF",
+    "account": "pf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PG",
+    "account": "pg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PH",
+    "account": "philippines%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PK",
+    "account": "pk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PL",
+    "account": "polish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PM",
+    "account": "pm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PR",
+    "account": "pr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PT",
+    "account": "portuguese%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PW",
+    "account": "pw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "PY",
+    "account": "py%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "QA",
+    "account": "qa%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "RE",
+    "account": "re%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "RO",
+    "account": "romanian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "RS",
+    "account": "rs%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "RU",
+    "account": "russian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "RW",
+    "account": "rw%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SA",
+    "account": "sa%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SA",
+    "account": "saudiarabian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SB",
+    "account": "sb%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SC",
+    "account": "sc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SD",
+    "account": "sd%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SE",
+    "account": "swedish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SG",
+    "account": "singapore%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SH",
+    "account": "sh%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SI",
+    "account": "slovenian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SK",
+    "account": "slovak%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SL",
+    "account": "sl%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SM",
+    "account": "sm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SN",
+    "account": "sn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SO",
+    "account": "so%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SR",
+    "account": "sr%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SS",
+    "account": "ss%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ST",
+    "account": "st%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SV",
+    "account": "sv%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SX",
+    "account": "sx%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SY",
+    "account": "sy%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "SZ",
+    "account": "sz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TC",
+    "account": "tc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TD",
+    "account": "td%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TG",
+    "account": "tg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TH",
+    "account": "th%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TJ",
+    "account": "tj%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TL",
+    "account": "tl%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TM",
+    "account": "tm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TN",
+    "account": "tn%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TO",
+    "account": "to%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TR",
+    "account": "turkish%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TT",
+    "account": "tt%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TV",
+    "account": "tv%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TW",
+    "account": "taiwan%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "TZ",
+    "account": "tz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "UA",
+    "account": "ukrainian%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "UG",
+    "account": "ug%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "US",
+    "account": "usa%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "UY",
+    "account": "uy%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "UZ",
+    "account": "uz%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VA",
+    "account": "va%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VC",
+    "account": "vc%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VE",
+    "account": "ve%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VG",
+    "account": "vg%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VI",
+    "account": "vi%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VN",
+    "account": "vietnamese%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "VU",
+    "account": "vu%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "WF",
+    "account": "wf%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "WS",
+    "account": "ws%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "XK",
+    "account": "xk%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "YE",
+    "account": "ye%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "YT",
+    "account": "yt%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ZM",
+    "account": "zm%23holiday@group.v.calendar.google.com"
+  },
+  {
+    "country": "ZW",
+    "account": "zw%23holiday@group.v.calendar.google.com"
+  }
+]

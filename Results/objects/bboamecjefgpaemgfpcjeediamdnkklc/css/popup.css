@@ -1,0 +1,113 @@
+#body {
+  font-family: Segoe UI, Tahoma, Sans-Serif;
+  font-size: 12;
+  height: 285px;
+  width: 320px;
+}
+
+#darkbody {
+  font-family: Segoe UI, Tahoma, Sans-Serif;
+  font-size: 12;
+  color: white;
+  height: 285px;
+  width: 320px;
+  background-color: rgb(53, 54, 58);
+}
+
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+.action-button {
+  position: relative;
+  padding: 10px 10px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.blue {
+  background-color: #4b88ef;
+  text-shadow: 0px -2px #2980b9;
+}
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+.divc {
+  padding-left: 90px;
+}
+
+.divd {
+  position: fixed;
+  padding-top: 0px;
+  padding-left: 142px;
+}
+
+.dive {
+  padding-left: 202px;
+  padding-top: 10px;
+  position: fixed;
+}
+
+.action-button2 {
+  position: relative;
+  padding: 10px 10px;
+  margin: 0px 2px 2px 0px;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.line {
+  width: 317px;
+  height: 17px;
+  border-bottom: 1px solid #5f6368;
+  position: absolute;
+}
+
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: 4b88ef;
+  text-align: center;
+  font-size: 9px;
+  height: 11px;
+}
+
+.top-left {
+  position: absolute;
+  top: -9px;
+  left: 10px;
+  color: 539ff7;
+  text-decoration: none;
+}
+
+.action-whole {
+  position: relative;
+  padding: 5px 5px;
+  margin: 0px 5px 5px 0px;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: 539ff7;
+  text-decoration: none;
+}

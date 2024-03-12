@@ -1,0 +1,198 @@
+.LinerDarkMode {
+  background-color: var(--gray40) !important;
+}
+
+.LinerDarkMode .LNewTabHeader {
+  background-color: var(--gray50) !important;
+  box-shadow: var(--SHADOW_0_0_8_02) !important;
+}
+
+.LinerDarkMode .LNewTabHeader__colorThemeBtn:hover {
+  background-color: var(--white10) !important;
+}
+
+.LinerDarkMode .LNewTabSearch {
+  background: linear-gradient(rgb(51, 55, 61) 50%, rgba(51, 55, 61, 0) 100%) !important;
+}
+
+.LinerDarkMode .autoComplete__icon {
+  display: none !important;
+}
+
+.LinerDarkMode .autoComplete__icon.darkMode {
+  display: block !important;
+}
+
+.LinerDarkMode .LNewTabSearch__input {
+  caret-color: rgb(255, 255, 255) !important;
+  background-color: var(--white10) !important;
+  color: var(--gray20T07) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__input:hover {
+  background-color: var(--autoCompleteBgDarkMode) !important;
+  color: var(--gray20T07) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__input:focus {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  color: var(--white00) !important;
+  background-color: var(--autoCompleteBgDarkMode) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__input::placeholder {
+  color: var(--gray20T07) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__autoComplete.desktop::after {
+  background-color: var(--gray35) !important;
+}
+
+.LinerDarkMode .autoComplete__list.focusAutoKeyword {
+  background-color: var(--white10) !important;
+}
+
+.LinerDarkMode .Shortcut {
+  background-color: transparent !important;
+  color: var(--gray30) !important;
+}
+
+.LinerDarkMode .Shortcut:hover {
+  background-color: var(--white10) !important;
+}
+
+.LinerDarkMode .Shortcut__favicon {
+  background-color: var(--white20);
+}
+
+.LinerDarkMode .Shortcut__favicon:hover {
+  background-color: var(--white30);
+}
+
+.LinerDarkMode .Shortcut__favicon.add {
+  background-color: var(--white10) !important;
+  box-shadow: none !important;
+}
+
+.LinerDarkMode .Shortcut__favicon.add:hover {
+  background-color: var(--white20) !important;
+  box-shadow: none !important;
+  transform: translate(0, 0) !important;
+  transition: inherit !important;
+}
+
+.LinerDarkMode .Shortcut__name {
+  color: var(--gray20) !important;
+}
+
+.LinerDarkMode .Shortcut__name.add {
+  color: var(--gray35) !important;
+}
+
+.LinerDarkMode .LNewTabRecommended__title {
+  color: var(--gray20) !important;
+}
+
+.LinerDarkMode .MoreBtn__desktop {
+  color: var(--gray20T07) !important;
+}
+
+.LinerDarkMode .RecommendedArticle__title {
+  color: var(--white00) !important;
+}
+
+.LinerDarkMode .RecommendedArticle__description {
+  color: var(--gray20) !important;
+}
+
+.LinerDarkMode .RecommendedArticle__url {
+  color: var(--gray30T07) !important;
+}
+
+.LinerDarkMode .RecommendedArticle:hover {
+  background-color: var(--white050) !important;
+}
+
+.LinerDarkMode .moreBtn__mobile {
+  background-color: var(--white10) !important;
+  color: var(--gray25) !important;
+}
+
+.LinerDarkMode .moreBtn__mobile:hover {
+  background-color: var(--white20) !important;
+}
+
+.LinerDarkMode .LNewTabSwitch {
+  background-color: var(--white10) !important;
+}
+
+.LinerDarkMode .LNewTabSwitch:hover {
+  background-color: var(--white20) !important;
+}
+
+.LinerDarkMode .LNewTabSwitch__title {
+  color: var(--gray30) !important;
+}
+
+.LinerDarkMode .LNewTabSwitch__bubbleArrow {
+  border-bottom: 6px solid var(--gray20) !important;
+}
+
+.LinerDarkMode .LNewTabSwitch__bubbleBody {
+  color: var(--gray50) !important;
+  background-color: var(--gray20) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__form {
+  background-color: var(--white20) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__autoComplete {
+  background-color: var(--autoCompleteBgDarkMode) !important;
+}
+
+.LinerDarkMode .autoComplete__list {
+  color: var(--gray20) !important;
+}
+
+.LinerDarkMode .autoComplete__list:hover {
+  background-color: var(--white10) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__input--mobile {
+  background-color: var(--gray40) !important;
+  border: 1px solid var(--gray40) !important;
+  border-bottom: 1px solid var(--gray35) !important;
+
+  color: var(--gray20) !important;
+}
+
+.LinerDarkMode .LNewTabSearch__autoComplete.mobile {
+  background-color: var(--gray40) !important;
+}
+
+.LinerDarkMode .backBtn--lightmode {
+  display: none !important;
+}
+
+.LinerDarkMode .backBtn--darkmode {
+  display: block !important;
+}
+
+.LinerDarkMode .EditBtn__icon {
+  display: none !important;
+}
+
+.LinerDarkMode .EditBtn__icon.darkMode {
+  display: block !important;
+}
+
+.LinerDarkMode .LNewTabShortcut__divide {
+  background-color: var(--gray40) !important;
+}
+
+.LinerDarkMode .RecommendedArticle__thumbWrap {
+  background-color: var(--white10) !important;
+}

@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterest 저장 버튼",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "나중에 쉽게 다시 찾을 수 있도록 온라인에 좋아하는 아이디어를 저장하세요.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "죄송합니다. 이 도메인에서는 핀하기가 허용되지 않습니다. 질문이 있으시면 사이트 운영자에게 문의하시기 바랍니다.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "저장 버튼 옵션",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "마우스 오버 저장 버튼 숨기기",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "검색",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "저장",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Pinterest에 아이디어를 저장하세요",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "이미지를 최대 20개까지 선택하세요",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "다음",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "모두 선택",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "보드에 저장",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "저장 위치:",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "방문하기",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "도움말",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "보드 선택",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "최고 인기",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "모든 보드",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "보드 만들기",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "비밀",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "보드 섹션 선택",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "보드 섹션 추가",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "예",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "아니요",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "취소",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "만들기",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "새 보드를 만들지 못했습니다",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "이 페이지를 저장하지 못했습니다",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "죄송합니다. 문제가 발생했습니다. Pinterest에 로그인했는지 확인하고 다시 시도하세요.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "죄송합니다!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "도움 받기",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "잠깐!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Pinterest에 로그인하지 않은 것 같습니다. 로그인하세요!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "로그인",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

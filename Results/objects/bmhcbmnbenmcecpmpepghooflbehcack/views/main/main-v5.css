@@ -1,0 +1,759 @@
+.L-extensionBox * {
+  font-family: system-ui;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mainContainer {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.mainContainer .header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 6px 0 6px;
+  border-radius: 12px 12px 0 0;
+  border-top: 1px solid #f2f3f7;
+  border-left: 1px solid #f2f3f7;
+  border-right: 1px solid #f2f3f7;
+}
+
+.mainContainer .header .linerLogoBtn {
+  display: inline-block;
+  margin-left: 6px;
+  width: 36px;
+  height: 36px;
+  background-image: url('../../images/main/box-logo--16@3x.png');
+  background-size: 16px;
+  background-position: center;
+}
+
+.mainContainer .header .webTitleLabel {
+  max-width: 200px;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #33373d;
+  margin: 0;
+}
+
+.mainContainer .header .settingsBtn {
+  position: absolute;
+  top: 12px;
+  right: 38px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/main/settings@3x.png);
+  background-size: 24px 24px;
+  background-position: 50% 50%;
+}
+
+.mainContainer .header .settingsBtn:hover {
+  background-color: #f6f8fa;
+  border-radius: 20px;
+}
+
+.mainContainer .header .closeBtn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/main/box-close--24@3x.png');
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+.mainContainer .header .closeBtn:hover {
+  background-color: #f2f3f7;
+  border-radius: 50%;
+}
+
+.mainContainer .saveToLinerBtn {
+  display: none;
+  cursor: pointer;
+  width: 248px;
+  height: 36.5px;
+  border-radius: 4px;
+  background-color: #00bdb8;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContainer .saveToLinerBtn:hover {
+  background-color: #00a7a0;
+}
+
+.mainContainer .saveToLinerBtn span {
+  position: relative;
+  top: 9px;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mainContainer .tagContainer {
+  display: none;
+  padding: 4px 6px 4px 6px;
+  width: 236px;
+  min-height: 24px;
+  border-radius: 4px;
+  border: solid 1px #eef1f4;
+  background-color: #f6f8fa;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.mainContainer .tagContainer .addTagsContainer .currentTags.tag {
+  padding: 1px 5px;
+}
+
+.mainContainer .tagContainer.editing {
+  height: auto;
+}
+
+.mainContainer .tagContainer.editing .addTagsContainer {
+  display: none;
+}
+
+.mainContainer .tagContainer.editing .editTagsContainer {
+  display: inline-block;
+}
+
+.mainContainer .tagContainer .tagIcon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/main/tag-icon@3x.png');
+  background-size: 24px 24px;
+  background-position: 50% 50%;
+  margin-top: 2.5px;
+}
+
+.mainContainer .tagContainer .tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 1px 1px 1px 5px;
+  border-radius: 4px;
+  border: solid 1px #eef1f4;
+  background-color: #eef1f4;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #787d86;
+  margin-left: 7px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  cursor: auto;
+  height: 20px;
+}
+
+.mainContainer .tagContainer .tag span {
+  text-overflow: ellipsis;
+  max-width: 190px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.mainContainer .tagContainer .tag.focused {
+  background-color: #dde1e7;
+}
+
+.mainContainer .tagContainer .tag:hover {
+  background-color: #dde1e7;
+}
+
+.mainContainer .tagContainer .addTagsContainer .tag {
+  cursor: pointer;
+}
+
+.mainContainer .tagContainer .tag .deleteTagBtn {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-size: 8px 8px;
+  background-position: 50% 50%;
+  background-image: url('../../images/main/delete-tag@3x.png');
+  vertical-align: middle;
+  position: relative;
+  padding: 3px;
+  margin-left: 1px;
+}
+
+.mainContainer .tagContainer .addTagsLabel {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 9px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.27px;
+  color: #787d86;
+  margin-top: 2.5px;
+}
+
+.mainContainer .tagContainer .editTagsContainer {
+  display: none;
+}
+
+.mainContainer .tagContainer .editTagsContainer .tagInput {
+  display: none;
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #52565d;
+  vertical-align: top;
+  width: 100px;
+  height: 24px;
+  padding: 0;
+  outline: none;
+  margin-left: 8px;
+  margin-top: 1.5px;
+
+  -webkit-touch-callout: auto; /* iOS Safari */
+  -webkit-user-select: auto; /* Chrome/Safari/Opera */
+  -khtml-user-select: auto; /* Konqueror */
+  -moz-user-select: auto; /* Firefox */
+  -ms-user-select: auto; /* Internet Explorer/Edge */
+  user-select: auto; /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+
+.mainContainer .tagContainer .editTagsContainer .tagInput::-webkit-input-placeholder {
+  /* Edge */
+  color: #969aa2;
+}
+
+.mainContainer .tagContainer .editTagsContainer .tagInput:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #969aa2;
+}
+
+.mainContainer .tagContainer .editTagsContainer .tagInput::placeholder {
+  color: #969aa2;
+}
+
+.mainContainer .tagContainer .editTagsContainer .tagInput:focus {
+  border: none;
+}
+
+.mainContainer .footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #f2f3f7;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.mainContainer .L-folderContainer {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  border-left: 1px solid #f2f3f7;
+  border-right: 1px solid #f2f3f7;
+}
+
+.mainContainer .L-folderContainer.L-folderContainer-hidden {
+  display: none;
+}
+
+.mainContainer .L-folderContainer .L-folderBtn {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  padding: 13px 12px;
+  background-color: #f8f9fb;
+  border: 1px solid #f2f3f7;
+  border-radius: 8px;
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderEmoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  font-style: normal;
+  margin-right: 8px;
+  background: none;
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderEmoji.L-Uncategorized {
+  background: no-repeat center/100% url('../../images/main/uncategorized-folder--15.svg');
+}
+.mainContainer .L-folderContainer .L-folderBtn .L-folderEmoji.L-EmptyEmoji {
+  background: no-repeat center/100% url('../../images/main/default-folder--15.svg');
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderName {
+  max-width: 178px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #33373d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderDropdownArrow {
+  margin-left: auto;
+  width: 8px;
+  height: 6px;
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderDropdownArrow .L-folderDropdownArrow__up {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center/100% url('../../images/main/box-dropdown-up@3x.png');
+}
+
+.mainContainer .L-folderContainer .L-folderBtn .L-folderDropdownArrow .L-folderDropdownArrow__down {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center/100% url('../../images/main/box-dropdown-down@3x.png');
+}
+
+.mainContainer
+  .L-folderContainer
+  .L-folderBtn.L-folderDropdown__hidden
+  .L-folderDropdownArrow
+  .L-folderDropdownArrow__down {
+  display: flex;
+}
+
+.mainContainer
+  .L-folderContainer
+  .L-folderBtn.L-folderDropdown__shown
+  .L-folderDropdownArrow
+  .L-folderDropdownArrow__up {
+  display: flex;
+}
+
+.mainContainer .footer.unsavedPage .shareBtn {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.mainContainer .footer.unsavedPage .shareBtn:hover {
+  background-color: initial;
+}
+
+.mainContainer .footer .shareBtn {
+  margin-left: 8px;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.mainContainer .footer .shareBtn:hover {
+  background-color: #f2f3f7;
+}
+
+.mainContainer .footer .shareBtn .icon {
+  display: inline-block;
+  background-image: url(../../images/main/box-share@3x.png);
+  background-size: contain;
+  width: 16px;
+  height: 14px;
+  background-size: 16px 14px;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.mainContainer .footer .shareBtn .label {
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 13px;
+  letter-spacing: -0.25px;
+  color: #959ca6;
+  vertical-align: middle;
+}
+
+.mainContainer .footer.unsavedPage .goToDashboardBtn {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.mainContainer .footer.unsavedPage .goToDashboardBtn:hover {
+  background-color: initial;
+}
+
+.mainContainer .footer .goToDashboardBtn {
+  margin-right: 8px;
+  margin-left: auto;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  color: #00c3cc;
+  border-radius: 4px;
+}
+
+.mainContainer .footer .goToDashboardBtn .arrow {
+  display: inline-block;
+  margin-left: 4px;
+  width: 5px;
+  height: 8px;
+  background-image: url('../../images/main/box-arrow-right@3x.png');
+}
+
+.mainContainer .footer .goToDashboardBtn.hover {
+  background: rgba(0, 195, 204, 0.1);
+}
+
+.mainContainer .footer .myHighlightsHotspot {
+  position: absolute;
+  top: -7px;
+  display: none;
+  width: 32px;
+  height: 32px;
+}
+
+.feedbackView {
+  position: fixed;
+  z-index: 10;
+  bottom: -32px;
+  width: 100%;
+  height: 32px;
+  display: none;
+}
+
+.feedbackView .label {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0;
+}
+
+.shareContainer {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.shareContainer .header {
+  box-sizing: border-box;
+  position: relative;
+  padding: 12px 0 12px 8px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 12px 0 0;
+  border-top: 1px solid #f2f3f7;
+  border-right: 1px solid #f2f3f7;
+  border-left: 1px solid #f2f3f7;
+}
+
+.shareContainer .header .backBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/main/box-arrow-back@3x.png');
+  background-size: 16px;
+  background-position: center;
+  margin: 0 4px 0 0;
+}
+
+.shareContainer .header .backBtn:hover {
+  background-color: #f2f3f7;
+  border-radius: 50%;
+}
+
+.shareContainer .header .headerLabel {
+  margin: 0;
+  max-width: 210px;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #272b31;
+}
+
+.shareContainer .shareMethods {
+  height: 88px;
+  padding: 0 19px;
+  border-left: 1px solid #f2f3f7;
+  border-right: 1px solid #f2f3f7;
+}
+
+.shareContainer .shareMethods .shareMethod {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 11px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.shareContainer .shareMethods .shareMethod:hover .shareHover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 43, 49, 0.1);
+  border-radius: 30px;
+}
+
+.shareContainer .shareMethods .shareMethod.facebook {
+  background-image: url('../../images/main/facebook@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.twitter {
+  background-image: url('../../images/main/twitter@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.linkedin {
+  background-image: url('../../images/main/linkedin@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.messenger {
+  background-image: url('../../images/main/messenger@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.line {
+  background-image: url('../../images/main/line@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.kakaotalk {
+  background-image: url('../../images/main/kakaotalk@3x.png');
+}
+
+.shareContainer .shareMethods .shareMethod.mail {
+  background-image: url('../../images/main/mail@3x.png');
+}
+
+.shareContainer .footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  border: solid 1px #f2f3f7;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px 0 16px;
+}
+
+.shareContainer .footer .shareLinkLabel {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.shareContainer .footer .shareLinkLabel:hover {
+  opacity: 0.8;
+}
+
+.shareContainer .footer .copyBtn {
+  margin-left: auto;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 100%;
+  letter-spacing: normal;
+  border-radius: 4px;
+  color: #00c3cc;
+}
+
+.shareContainer .footer .copyBtn:hover {
+  background: rgba(0, 195, 204, 0.1);
+}
+
+.settingsContainer {
+  display: none;
+  width: 100%;
+}
+
+.settingsContainer .header {
+  position: relative;
+}
+
+.settingsContainer .header .backBtn {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 11px;
+  margin-right: 2px;
+  margin-bottom: 12px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/main/back@3x.png');
+  background-size: 16px 16px;
+  background-position: 50% 50%;
+}
+
+.settingsContainer .header .headerLabel {
+  max-width: 210px;
+  position: absolute;
+  left: 35px;
+  top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: -0.3px;
+  color: #333333;
+}
+
+.settingsContainer .settings {
+  height: 100%;
+}
+
+.settingsContainer .settings .settingContentContainer {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid #eef1f4;
+  position: relative;
+}
+
+.settingsContainer .settings .settingContentContainer.removeBorder {
+  border: none;
+}
+
+.settingsContainer .settings .settingContentContainer .settingTitle {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #52565d;
+  padding-left: 16px;
+  cursor: pointer;
+  display: inline-block;
+  width: 188px;
+}
+
+.settingsContainer .settings .settingContentContainer .settingBtn {
+  width: 26px;
+  height: 16px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  right: 16px;
+  outline: none;
+}
+
+.settingsContainer .settings .settingContentContainer .circleBtn {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  font-style: normal;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.settingBtnOn {
+  background-color: #00bdb8;
+}
+
+.settingBtnOff {
+  background-color: #b9bcc2;
+}
+
+.settingRedOn {
+  background-color: #f35750;
+}
+
+.settingOn {
+  transform: translate(5px, 1px);
+}
+
+.settingOff {
+  transform: translate(-5px, 1px);
+}
+
+.settingBtnOn,
+.settingBtnOff,
+.settingRedOn,
+.settingOn,
+.settingOff {
+  transition: all 0.2s linear;
+}
+
+/* skeleton */
+.skeleton {
+  width: 100%;
+  height: 100%;
+}

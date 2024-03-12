@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Butonul Pinterest „Salvează”",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Salvează ideile preferate online ca să poți reveni cu ușurință la ele mai târziu.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Ne pare rău, nu se pot adăuga Pinuri de pe domeniu. Dacă ai întrebări, contactează operatorul site-ului.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Opțiuni pentru butonul „Salvează”",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Ascunde butoanele Pinterest „Salvează” suprapuse peste imagini",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Caută",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Salvează",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Salvează o idee pe Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Selectează până la douăzeci de imagini",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Continuă",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Alege-le pe toate",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Salvează pe panou",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Salvat pe",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Accesează",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Asistență",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Alege panou",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Alegeri de top",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Toate panourile",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Creează panou",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Secret",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Alege secțiunea de panou",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Adaugă o secțiune de panou",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Da",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Nu",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Anulează",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Creează",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Noul panou nu a putut fi creat",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Pagina nu a putut fi salvată",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Ne pare rău, ceva nu este tocmai în regulă aici. Verifică dacă ești conectat la Pinterest și încearcă din nou.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Ups!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Obține ajutor",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Se pare că nu ești conectat la Pinterest. Să remediem situația!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Conectează-te",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+.LNewTab__Skeleton {
+  margin: 0 auto !important;
+  width: calc(100% - 20px) !important;
+  height: fit-content !important;
+  left: 20px !important;
+  top: 34px !important;
+  z-index: 10 !important;
+  background-color: var(--white00) !important;
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  transform: translateY(12px);
+}
+
+.LinerDarkMode .LNewTab__Skeleton {
+  background-color: var(--gray40) !important;
+}
+
+.Skelton__item {
+  width: 100% !important;
+  padding-bottom: 69px !important;
+  height: 320px !important;
+}
+
+.Skelton__thumbnail {
+  width: 100% !important;
+  height: 180px !important;
+  border-radius: 20px !important;
+  background-color: var(--gray20) !important;
+  margin-bottom: 24px !important;
+}
+
+.LinerDarkMode .Skelton__thumbnail {
+  background-color: var(--white10) !important;
+}
+
+.LNewTab__description {
+  border-radius: 8px !important;
+  background-color: var(--gray20) !important;
+  display: block;
+}
+
+.LinerDarkMode .LNewTab__description {
+  background-color: var(--white10) !important;
+}
+
+.LNewTab__description:first-of-type {
+  width: calc(100% - 78px) !important;
+  margin-bottom: 12px !important;
+  height: 22px !important;
+}
+
+.LNewTab__description:last-of-type {
+  width: calc(100% - 161px) !important;
+  height: 17px !important;
+}
+
+/* 2개 */
+@media (min-width: 664px) {
+  .LNewTab__Skeleton {
+    width: calc(100% - 80px) !important;
+    left: 40px !important;
+    top: 50px !important;
+    position: absolute !important;
+    margin: 0 !important;
+    transform: none;
+    padding-bottom: 14px !important;
+  }
+
+  .Skelton__item:first-of-type {
+    padding-bottom: 107px !important;
+    height: 411px !important;
+  }
+
+  .Skelton__item:not(:first-of-type) {
+    width: calc((100% / 2) - 16px) !important;
+    padding-bottom: 81px !important;
+    height: 366px !important;
+  }
+
+  .Skelton__thumbnail {
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+  .LNewTab__description:first-of-type {
+    width: calc(100% - 79px) !important;
+  }
+
+  .LNewTab__description:last-of-type {
+    width: calc(100% - 162px) !important;
+  }
+}
+/* 3개 */
+@media (min-width: 1359px) {
+  .LNewTab__Skeleton {
+    width: 1200px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    padding-bottom: 42px !important;
+  }
+
+  .Skelton__thumbnail:first-of-type {
+    margin-bottom: 24px !important;
+  }
+
+  .Skelton__item:first-of-type .Skelton__thumbnail {
+    width: 584px !important;
+    flex-shrink: 0 !important;
+    margin-right: 33px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .desktop__mainDescription {
+    width: 100% !important;
+  }
+
+  .Skelton__item:first-of-type {
+    padding-bottom: 32px !important;
+    display: flex !important;
+    flex-direction: inherit !important;
+    height: 232px !important;
+  }
+
+  .Skelton__item:not(:first-of-type) {
+    width: calc(100% / 3 - 21px) !important;
+    padding-bottom: 85px !important;
+    height: 360px !important;
+  }
+
+  .LNewTab__description:first-of-type {
+    width: calc(100% - 79px) !important;
+  }
+
+  .LNewTab__description:last-of-type {
+    width: calc(100% - 162px) !important;
+  }
+}

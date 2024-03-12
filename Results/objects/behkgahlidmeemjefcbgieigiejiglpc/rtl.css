@@ -1,0 +1,37 @@
+p,h1,h2,h3,h4,h5,h6,input,select,label,.section,.modList li{direction:rtl!important;text-align:right!important}
+.feed small{text-align:right!important}
+
+#search .custom_input{background-position:center right 10px;padding:8px 48px 8px 8px}
+
+.modList li{padding:10px 10px 10px 70px !important}
+#userEvents li{padding:10px 10px 10px 36px !important;word-wrap:break-word}
+#events li{padding:10px!important}
+.modList li i,.modList li b{right:inherit!important;left:3px!important}
+.modList li b{left:35px!important}
+
+
+/* absolutes RIGHT */
+h2::before{left:inherit!important;right:0!important}
+
+
+/* absolutes LEFT */
+#center h2 em{left:0!important;right:inherit!important}
+
+
+/* floats RIGHT */
+#modal_settings .custom_feed p em{float:right!important}
+#center h2 .country{float:none;margin:0;position:absolute;top:0;right:0;margin-top:-14px}
+#center h2 em a{float:right;margin:0 10px 0 0}
+#center h2 img{margin:0!important}
+
+
+/* floats LEFT */
+#modal_settings .lnk{float:left!important}
+
+
+/* center */
+#footer,#footer *,.links,.links *{text-align:center!important}
+
+
+/* LTR */
+.custom_input.inputFeed,.custom_input.wallpaper{direction:ltr!important}

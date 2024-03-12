@@ -1,0 +1,11 @@
+{
+  "appDesc": {
+    "description": "The description of the application",
+    "message":
+      "Source Tech Candidates with AmazingHiring Extension"
+  },
+  "appName": {
+    "description": "The name of the application",
+    "message": "AmazingHiring"
+  }
+}

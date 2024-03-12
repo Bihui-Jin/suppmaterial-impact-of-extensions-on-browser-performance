@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<script type="text/javascript" src="../lib/jquery.min.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+		
+		<style>
+			body{
+				margin:0;
+			}
+			ul {
+			    list-style-type: none;
+			    font-size:14px;
+			    padding: 0;
+			    margin:0;
+			}
+			li.menu-title{
+				white-space:nowrap;
+				border-bottom:1px solid black;
+			    font-size:12px;
+			    padding: 3px 10px 3px 10px;
+			    font-weight:bold;
+			}
+			li.menu-action{
+				width:160px;
+				white-space:nowrap;
+				cursor:pointer;
+			    padding: 3px 10px;
+			}
+			li.menu-action:hover{
+				background: #cee1fb;
+			}
+			li.switch-league{
+				overflow-x:hidden;
+				text-overflow:ellipsis;
+			}
+			.shortcut{
+				float:right;
+				color:gray;
+				padding-top:2px;
+			    font-size:12px;
+			}
+			li.menu-action .star{
+				float:right;
+				margin:2px;
+				width:16px;
+				height:16px;
+    			background-image: url(../skin/starvoid.png);
+			}
+			li.menu-action .star.fav{
+    			background-image: url(../skin/stargold.png);
+			}
+			.menu-clear{
+				font-size:11px;
+    			line-height: 11px;
+				float:right;
+				padding: 2px 0;
+			    color: #1b1bff;
+			    text-decoration: underline;
+			    cursor:pointer;
+			}
+			.menu-clear:hover{
+			    color: #ff1b1b;
+			}
+		</style>
+	</head>
+    <body>
+    	<ul>
+    		<li class='menu-title'>Insert Player Icons</li>
+    		<li class='menu-action' id="parse-nfl" title='Insert NFL icons'><div class='shortcut'>Ctrl-Shift-F</div>NFL</li>
+    		<li class='menu-action' id="parse-mlb" title='Insert MLB icons'><div class='shortcut'>Ctrl-Shift-S</div>MLB</li>
+    		<li class='menu-action' id="parse-nba" title='Insert NBA icons'><div class='shortcut'>Ctrl-Shift-A</div>NBA</li>
+    	</ul>
+		<div id="workaround-307912" style="width:1px;height:1px;display:none"></div>
+    </body>
+</html>

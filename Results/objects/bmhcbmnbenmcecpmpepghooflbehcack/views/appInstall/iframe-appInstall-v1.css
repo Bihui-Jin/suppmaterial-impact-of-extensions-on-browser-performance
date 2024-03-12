@@ -1,0 +1,15 @@
+iframe.liner-popover.liner-popover-appInstall {
+  position: fixed !important;
+  top: 163px;
+  right: 20px !important;
+  left: initial !important;
+  width: 280px !important;
+  height: 284px;
+  min-height: initial !important;
+  margin: 0 !important;
+  border: 1px solid #f2f3f7;
+  border-radius: 12px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 8px 0 rgba(39, 43, 49, 0.2) !important;
+  z-index: 99999999 !important;
+}

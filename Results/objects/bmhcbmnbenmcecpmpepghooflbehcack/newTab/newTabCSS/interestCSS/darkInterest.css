@@ -1,0 +1,48 @@
+.LinerDarkMode .LNewTabInterest {
+  border-top: 1px solid var(--white20) !important;
+}
+
+.LinerDarkMode .LNewTabInterest__moreBtn {
+  background: var(--GRADATION_DARK_INTEREST_BTN) !important;
+}
+
+.LinerDarkMode .LNewTabInterest__item {
+  background-color: var(--gray40);
+  border: 1px solid var(--gray35);
+  color: var(--white00);
+}
+
+.LinerDarkMode .LNewTabInterest__item:hover {
+  background-color: var(--white20);
+}
+
+.LinerDarkMode .LNewTabInterest__item.select {
+  background-color: var(--white00);
+  color: var(--gray40);
+  border: 1px solid var(--white00);
+}
+
+/*
+  open, close에 따라 관리
+*/
+.LinerDarkMode .LNewTabInterest.open {
+  border-bottom: 1px solid var(--white20) !important;
+}
+
+.LinerDarkMode .LNewTabInterest.open .LNewTabInterest__moreBtnIcon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjAwNjUgMTEuMDc5OUMxNC4zMzMxIDEwLjc1MzIgMTQuMzMzMSAxMC4yMjY2IDE0LjAwNjUgOS44OTk5Mkw4LjQ2NjQ2IDQuMzU5OTJDOC4yMDY0NiA0LjA5OTkyIDcuNzg2NDYgNC4wOTk5MiA3LjUyNjQ2IDQuMzU5OTJMMS45ODY0NiA5Ljg5OTkyQzEuNjU5OCAxMC4yMjY2IDEuNjU5OCAxMC43NTMyIDEuOTg2NDYgMTEuMDc5OUMyLjMxMzEzIDExLjQwNjYgMi44Mzk4IDExLjQwNjYgMy4xNjY0NiAxMS4wNzk5TDcuOTk5OCA2LjI1MzI1TDEyLjgzMzEgMTEuMDg2NkMxMy4xNTMxIDExLjQwNjYgMTMuNjg2NSAxMS40MDY2IDE0LjAwNjUgMTEuMDc5OVoiIGZpbGw9IiNGMkYzRjciLz4KPC9zdmc+Cg==');
+}
+
+.LinerDarkMode .LNewTabInterest.close .LNewTabInterest__moreBtnIcon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuOTkzNTMgNC45MjAwOEMxLjY2Njg3IDUuMjQ2NzUgMS42NjY4NyA1Ljc3MzQyIDEuOTkzNTMgNi4xMDAwOEw3LjUzMzUzIDExLjY0MDFDNy43OTM1NCAxMS45MDAxIDguMjEzNTQgMTEuOTAwMSA4LjQ3MzU0IDExLjY0MDFMMTQuMDEzNSA2LjEwMDA4QzE0LjM0MDIgNS43NzM0MiAxNC4zNDAyIDUuMjQ2NzUgMTQuMDEzNSA0LjkyMDA4QzEzLjY4NjkgNC41OTM0MiAxMy4xNjAyIDQuNTkzNDIgMTIuODMzNSA0LjkyMDA4TDguMDAwMiA5Ljc0Njc1TDMuMTY2ODcgNC45MTM0MkMyLjg0Njg3IDQuNTkzNDIgMi4zMTM1MyA0LjU5MzQyIDEuOTkzNTMgNC45MjAwOFoiIGZpbGw9IiNGMkYzRjciLz4KPC9zdmc+Cg==');
+}
+
+@media (min-width: 1523px) {
+  .LinerDarkMode .LNewTabInterest {
+    border: none !important;
+  }
+
+  .LinerDarkMode .LNewTabArticle {
+    border-top: 1px solid var(--white20) !important;
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" layout-dir="ltr">
+
+<head>
+    <title>Tasks</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="/icons/32-new_tab.png" />
+    <script src="/scripts/base.js"></script>
+    <script src="/assets/translations.js"></script>
+
+    <script defer src="/scripts/jquery.js"></script>
+    <script defer src="/scripts/jquery-sortable.js"></script>
+
+    <script defer src="/scripts/main.js"></script>
+
+    <script defer src="/scripts/mod_todo.js"></script>
+
+    <link href="/main.css" rel="stylesheet">
+</head>
+
+<body id="sidebar_root">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+    <div id="todo">
+        <h2 data-key="ttl_todo">To do</h2>
+        <div class="userAdd addTask">
+            <input class="custom_input" name="newTask" type="text" autocomplete="off" data-key="placeholder_add_task"
+                   placeholder="New task">
+            <a class="icon-add" data-key="btn_add_task"></a>
+        </div>
+        <ul id="tasks" class="modList"></ul>
+        <p class="info" data-key="txt_todo">Add your tasks to your to-do list.</p>
+    </div>
+
+
+    <div id="footer">
+        <p>Made with ❤️ in Brazil - <a href="https://www.buymeacoffee.com/fmschuler"
+               title="Support my work with a small donation">Buy me a coffee</a></p>
+    </div>
+
+</body>
+
+</html>

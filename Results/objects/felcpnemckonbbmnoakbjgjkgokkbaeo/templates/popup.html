@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trusted Shop</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;;
+            width: 356px;
+        }
+
+        #ts-logo {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 110px;
+            height: 54px;
+            background-color: transparent;
+            background-image: url(../images/logo.svg);
+            background-repeat: no-repeat;
+            background-size: 76px auto;
+            background-position: 2px 4px;
+        }
+
+        main {
+            /* margin: 20px; */
+            padding: 20px;
+        }
+
+        .regular .variant-regular {
+            display: block;
+        }
+
+        .regular .variant-ts {
+            display: none;
+        }
+
+        .ts .variant-regular {
+            display: none;
+        }
+
+        .ts .variant-ts {
+            display: block;
+        }
+
+        header {
+            font-size: 17px;
+            font-weight: bold;
+
+            margin: -4px 0 16px 0;
+            border-bottom: 2px solid #ffdc0f;
+            padding-bottom: 14px;
+        }
+
+        .text {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .button {
+            background-color: #0dbedc;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            display: inline-block;
+            padding: 8px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: rgba(13, 190, 220, 0.86);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .mb15 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            font-size: 11px;
+            font-weight: 400;
+        }
+
+        hr {
+            border: none;
+            background: none;
+        }
+
+        .short {
+            margin-left: -3px;
+            margin-right: 12px;
+            border-top: 1px solid #dddddd;
+        }
+
+        /* RateUs start */
+        #rateUsPart {
+            position: relative;
+            margin-bottom: 15px;
+            font-size: 13px;
+            display: none;
+        }
+
+        #feedbackTitle {
+            margin-bottom: 5px;
+            padding: 0;
+            font-size: 115%;
+        }
+
+        #feedbackText {
+            padding: 0;
+            margin: 0;
+        }
+
+        /*#starsContainer {*/
+        /*    margin-left: -16px;*/
+        /*}*/
+
+        #feedbackStars {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        #feedbackStars > a:first-child {
+            outline: none;
+            text-decoration: none;
+        }
+
+        .yellow {
+            color: #FFDC0F;
+        }
+
+        .grey {
+            color: #CCCCCC;
+        }
+
+        #feedbackButton {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #feedbackCloser {
+            cursor: pointer;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 18px;
+            color: #706f67;
+        }
+
+        /* RateUs end */
+
+        #dbPart {
+            margin-bottom: 10px;
+        }
+
+        .greyText {
+            color: rgba(0, 0, 0, 0.5);
+            /*color: #706f67;*/
+            /*font-size: 12px;*/
+        }
+
+        #updDbInfo {
+            display: inline-block;
+        }
+
+        #lastDbUpdate {
+            /*font-size: 87%;*/
+            margin-bottom: 8px;
+            margin-top: 4px;
+        }
+
+        .updDBImg {
+            width: 14px;
+            height: 14px;
+            vertical-align: top;
+            display: none;
+            margin-right: 8px;
+        }
+
+        #updDb {
+            cursor: pointer;
+        }
+
+        #impressum {
+            text-decoration: none;
+        }
+
+    </style>
+    <script src="../js/config.js"></script>
+    <script src="../js/popup/popupCommon.js"></script>
+    <script src="../js/popup/popup.js"></script>
+    <script src="../js/helpers/localizer.js"></script>
+</head>
+<body>
+<main class="regular">
+    <header>
+        <div>{{p_header}}</div>
+    </header>
+
+    <div id="rateUsPart">
+        <h3 id="feedbackTitle">{{p_feedbackTitle}}</h3>
+        <p id="feedbackText">{{p_feedbackText}}</p>
+        <div id="starsContainer">
+            <div id="feedbackStars">
+                <a target="_blank" id="reviewLink"
+                   href="">
+                <span id="starsLine">
+                    <span id="1" class="yellow">&#9733;</span>
+                    <span id="2" class="yellow">&#9733;</span>
+                    <span id="3" class="yellow">&#9733;</span>
+                    <span id="4" class="yellow">&#9733;</span>
+                    <span id="5" class="yellow">&#9733;</span>
+                </span>
+                </a>
+            </div>
+            <div id="feedbackButton">
+                <a target="_blank" class="button"
+                   href="">
+                    {{p_feedbackButton}}
+                </a>
+            </div>
+            <div id="feedbackCloser">{{p_feedbackDoNotShow}}</div>
+        </div>
+        <hr class="short">
+    </div>
+
+    <section>
+        <div id="ts-text" class="variant-ts text mb15">{{p_ts_text}}</div>
+        <div id="regular-text" class="variant-regular text mb15">{{p_regular_text}}</div>
+        <div class="center variant-regular mb15">
+            <a id="reportFakeShop" href="{{p_reportFakeShop_href}}" class="button"
+               target="_blank">{{p_regular_button}}</a>
+        </div>
+    </section>
+
+    <footer>
+        <div id="dbPart" class="greyText">
+        <span>
+            <img id="updDb" class="updDBImg" src="../images/fa-refresh_64.png" alt="{{p_updDbButtonText}}"
+                 title="{{p_updDbButtonText}}">
+            <img id="loader" class="updDBImg" src="../images/loader-large.gif">
+        </span>
+            <span id="updDbInfo">
+            <span>{{p_lastDbUpdText}}</span>
+            <br>
+            <span id="lastDbUpdate"></span>
+        </span>
+        </div>
+
+        <div>
+            <a id="impressum" href="{{p_impressumHref}}" target="_blank" class="greyText">{{p_impressumText}}</a>
+        </div>
+    </footer>
+</main>
+<div id="ts-logo"></div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.L-FolderDropdownWrapper {
+  padding: 8px;
+}
+
+.L-FolderDropdownWrapper * {
+  font-family: system-ui;
+}
+
+.L-FolderDropdownBox {
+  height: 184px;
+  overflow-y: auto;
+}
+
+.L-FolderDropdownBox::-webkit-scrollbar {
+  width: 4px;
+}
+
+.L-FolderDropdownBox::-webkit-scrollbar-thumb {
+  background-color: #bec0c3;
+  border-radius: 2px;
+}
+
+.L-FolderDropdownBox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.L-FolderDropdown {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.L-FolderItem:hover,
+.L-AddFolderBtn:hover {
+  background-color: #f2f3f7;
+  border-radius: 8px;
+}
+
+.L-FolderItem.L-FolderItem__current:hover {
+  background-color: initial;
+}
+
+.L-FolderItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.L-FolderItem.L-FolderItem__current {
+  cursor: default;
+}
+
+.L-FolderItem__emoji {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  font-style: normal;
+  margin-right: 8px;
+  background: none;
+}
+
+.L-FolderItem__emoji.L-EmptyEmoji {
+  background: no-repeat center/100% url('../../images/main/default-folder--15.svg');
+}
+
+.L-FolderItem__nameWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.L-FolderItem__name {
+  width: 100%;
+  max-width: 148px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #33373d;
+}
+
+.L-FolderItem.L-FolderItem__current span.L-FolderItem__name {
+  max-width: 137px;
+  color: #00c3cc;
+  font-weight: 500;
+}
+
+.L-FolderItem__icon {
+  display: none;
+  width: 11px;
+  height: 7.5px;
+  margin-left: auto;
+  background: no-repeat center/100% url('../../images/main/box-check@3x.png');
+}
+
+.L-FolderItem.L-FolderItem__current i.L-FolderItem__icon {
+  display: flex;
+}
+
+.L-AddFolderBtn {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+}
+
+.L-AddFolderBtn__icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background: no-repeat center/100% url('../../images/main/box-add@3x.png');
+  margin-right: 4px;
+}
+
+.L-AddFolderBtn__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #33373d;
+}

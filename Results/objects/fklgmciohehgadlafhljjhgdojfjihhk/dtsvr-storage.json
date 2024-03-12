@@ -1,0 +1,12 @@
+{
+	"name": "saas.vendor.rum@dynatrace.com",
+	"description": "ignored",
+	"type": "storage",
+	"data":
+	{
+		"DynatraceSVRConfig": {
+			"fetchUrl": "https://{your-environment-id}.dynatrace.com/api/v1/browserextension/config?Api-Token={your-token}",
+			"adminMode": false
+		}
+	}
+}

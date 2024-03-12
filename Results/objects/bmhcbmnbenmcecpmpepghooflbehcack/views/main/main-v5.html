@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Main Popover - LINER</title>
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./main-v5.css" />
+  </head>
+  <body class="L-extensionBox">
+    <div class="mainContainer">
+      <div class="header">
+        <a
+          class="linerLogoBtn"
+          href="https://getliner.com/myhighlights/highlights"
+          target="_blank"
+        ></a>
+        <p class="webTitleLabel truncate"></p>
+        <!-- <div class="settingsBtn btn"></div> -->
+        <div class="closeBtn btn"></div>
+      </div>
+      <div class="saveToLinerBtn">
+        <span></span>
+      </div>
+      <div class="L-folderContainer L-folderContainer-hidden">
+        <button class="L-folderBtn L-folderDropdown__hidden" type="button">
+          <i class="L-folderEmoji L-Uncategorized"></i>
+          <span class="L-folderName">Uncategorized</span>
+          <div class="L-folderDropdownArrow">
+            <i class="L-folderDropdownArrow__up"></i>
+            <i class="L-folderDropdownArrow__down"></i>
+          </div>
+        </button>
+      </div>
+      <div class="footer unsavedPage">
+        <div class="shareBtn btn">
+          <div class="icon"></div>
+          <span class="label"></span>
+        </div>
+        <a
+          class="goToDashboardBtn btn"
+          href="https://getliner.com/myhighlights/highlights"
+          target="_blank"
+          ><span></span>
+          <div class="arrow"></div
+        ></a>
+        <div class="myHighlightsHotspot"></div>
+      </div>
+    </div>
+    <div class="shareContainer">
+      <div class="header">
+        <a class="backBtn btn"></a>
+        <p class="headerLabel truncate"></p>
+      </div>
+      <div class="shareMethods">
+        <a class="facebook shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+        <a class="twitter shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+        <a class="linkedin shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+        <a class="messenger shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+        <a class="line shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+        <a class="kakaotalk shareMethod btn"><span class="shareHover"></span></a>
+        <a class="mail shareMethod btn" target="_blank"><span class="shareHover"></span></a>
+      </div>
+      <div class="footer">
+        <a class="shareLinkLabel btn"></a>
+        <a class="copyBtn btn"></a>
+      </div>
+    </div>
+    <div class="settingsContainer">
+      <div class="header">
+        <a class="backBtn btn"></a>
+        <p class="headerLabel truncate"></p>
+      </div>
+      <div class="settings">
+        <p class="settingContentContainer">
+          <span class="settingTitle settingPickedByLiner"></span>
+          <button class="settingBtn settingBtnOn btn blueSwitch">
+            <i class="circleBtn settingOn btn"></i>
+          </button>
+        </p>
+        <p class="settingContentContainer removeBorder">
+          <span class="settingTitle settingDontRunOnThisPage"></span>
+          <button class="settingBtn btn settingBtnOff redSwitch">
+            <i class="circleBtn settingOff btn"></i>
+          </button>
+        </p>
+        <p class="settingContentContainer">
+          <span class="settingTitle settingDontRunOnThisSite"></span>
+          <button class="settingBtn btn settingBtnOff redSwitch">
+            <i class="circleBtn settingOff btn"></i>
+          </button>
+        </p>
+      </div>
+    </div>
+    <div class="feedbackView">
+      <p class="label"></p>
+    </div>
+    <lottie-player
+      class="skeleton"
+      src="./main-skeleton.json"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay
+    ></lottie-player>
+  </body>
+  <script src="../lottie-player.js"></script>
+  <script src="../common.js" charset="utf-8"></script>
+  <script src="../../liner-core.be.js" charset="utf-8"></script>
+  <script src="./main-v5.js" charset="utf-8"></script>
+</html>

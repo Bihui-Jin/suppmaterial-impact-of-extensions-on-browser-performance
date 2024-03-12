@@ -1,0 +1,1 @@
+const ok=document.getElementById("ok"),okRu=document.getElementById("ok-ru");ok?ok.addEventListener("click",(e=>{e.preventDefault(),chrome.runtime.sendMessage({type:"CLOSE_UPDATES_EN"})})):okRu&&okRu.addEventListener("click",(e=>{e.preventDefault(),chrome.runtime.sendMessage({type:"CLOSE_UPDATES_RU"})}));

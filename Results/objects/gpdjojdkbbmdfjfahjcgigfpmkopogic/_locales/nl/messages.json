@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterest-bewaarknop",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Bewaar je lievelingsideeën online zodat je ze later gemakkelijk kunt terugvinden.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Het is niet toegestaan om vanaf dit domein pins te bewaren. Neem contact op met de beheerder van de website als je hierover vragen hebt.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Opties voor bewaarknop",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Bewaarknoppen over afbeeldingen heen verbergen",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Zoeken",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Bewaren",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Een idee op Pinterest bewaren",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Selecteer maximaal 20 afbeeldingen",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Volgende",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Alles selecteren",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Bewaren op bord",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Bewaard op",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Bezoeken",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Help",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Kies een bord",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Populairste keuzes",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Alle borden",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Bord maken",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Verborgen",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Sectie kiezen",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Sectie toevoegen",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ja",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Nee",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Annuleren",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Maken",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Maken van nieuw bord mislukt",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Bewaren van pagina mislukt",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Er is iets misgegaan. Controleer of je op Pinterest ingelogd bent en probeer het opnieuw.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Oeps!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Help",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Zo te zien ben je niet ingelogd op Pinterest. Dat is zo gepiept!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Inloggen",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

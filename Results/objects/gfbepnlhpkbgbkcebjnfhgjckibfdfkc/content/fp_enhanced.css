@@ -1,0 +1,149 @@
+th.fp-enhanced,td.fp-enhanced{
+	text-align:center;
+	vertical-align:middle;
+	min-width:40px;
+}
+td.fp-enhanced{
+	background-color:#e6f2fa !important;
+	color: #333;
+	font-size:12px;
+}
+
+th.fp-enhanced.fp-enhanced-yahoo a{
+	color: #0078FF;
+}
+th.fp-enhanced-espn a:hover{
+	color: #fff5a8 !important;
+}
+td.fp-enhanced.fp-enhanced-espn{
+	font-size: 10px;
+}
+.tableWrap .playerNameAndInfo a.fp-icon__link, 
+.tableWrap .teamNameAndInfo a.fp-icon__link{
+	float:none;
+}
+
+th.fp-enhanced-ndc a{
+	color: #364C88 !important;
+}
+th.fp-enhanced-ndc span{
+	padding-left:3px !important;
+	padding-right:3px !important;
+}
+th.fp-enhanced-ndc,
+td.fp-enhanced-ndc{
+	text-align:center !important;
+}
+
+.easy-matchup{
+	color:green !important;
+}
+.hard-matchup{
+	color:red !important;
+}
+.fp-matchup-stars{
+	width:65px !impotant;
+	white-space:nowrap;
+}
+.fp-matchup-star{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin-right:1px;
+	background-size: cover;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/star-blue.png');
+}
+
+.fp-matchup-star.fp-matchup-bad-star{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/star-gray.png');
+}
+.fp-player-table-yahoo .fpExtensionIcon{
+	float:right;
+	margin:0 3px;
+}
+.fp-player-table-espn .fpNewsPlayer{
+	float:right !important;
+}
+.fp-player-table-espn .playertablePlayerName {
+    min-width: 200px;
+}
+.fp-player-table-ndc .fpNewsPlayer{
+	float:right !important;
+}
+.fp-player-table-cbs .fpExtensionIcon {
+	float:right !important;
+	margin-top: -2px;
+}
+.fp-player-table-mfl .fpNewsPlayer,
+#roster_away .fpNewsPlayer,
+#roster_home .fpNewsPlayer,
+#options_02 table.report .fpNewsPlayer{
+	float:right;
+	margin-right:3px;
+}
+.sync-status{
+	margin-left:30px;
+	background:#26771d;
+	color:white;
+	font-weight:bold;
+	font-size:12px;
+	padding:2px 6px; 
+	border-radius:6px;
+	white-space:nowrap;
+}
+
+a.sync-status{
+	color:white !important;
+	text-decoration:none;
+}
+
+a.sync-status:hover{
+	color:white !important;
+	background:#C41207 !important;
+	text-decoration:none !important;
+}
+
+.sync-status.sync-searching{
+	background:#db0000;
+}
+.sync-status-container{
+    position: absolute;    
+    padding: 9px 10px;  
+    z-index: 100;
+    background-color:#26282a;
+	width:100%;
+}
+.sync-status-container .sync-status{
+	margin: 0 !important;
+}
+.sync-status-container .close{
+	color:white !important;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+	margin:8px;
+}
+.sync-status-container .close:hover{
+	color:red !important;
+	text-decoration:none;
+}
+#auctiondraft .sync-status{
+    margin: 0 30px;
+    padding: 1px 6px;
+    font-size: 10px;
+}
+.sync-status.sync-status-ndc{
+	margin-left:0px;
+	position:absolute;
+	top:20px;
+	right:50px;
+}
+
+.sync-status-container-sleeper{
+    position: relative;
+    background: none;
+    width: 205px;
+}
+.sync-status-container-sleeper .close{
+	text-decoration:none;
+}

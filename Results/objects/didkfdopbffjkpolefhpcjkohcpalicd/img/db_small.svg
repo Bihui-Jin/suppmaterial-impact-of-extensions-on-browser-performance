@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>db</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A5A8A7" offset="0%"></stop>
+            <stop stop-color="#787A79" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="db" sketch:type="MSLayerGroup" fill="url(#linearGradient-1)">
+            <path d="M5.5,0 C2.46228169,0 0,0.716300129 0,1.5 L0,3.75 C0,4.53369987 2.46228169,5.25 5.5,5.25 C8.53771831,5.25 11,4.53369987 11,3.75 L11,1.5 C11,0.716300129 8.53771831,0 5.5,0 L5.5,0 Z M5.5,9.75 C2.46228169,9.7497453 0,9.07819221 0,8.25 L0,10.5 C0,11.3284469 2.46228169,12 5.5,12 C8.53771831,12 11,11.3284469 11,10.5 L11,8.25 C11,9.07819221 8.53771831,9.7497453 5.5,9.75 L5.5,9.75 Z M5.5,6 C3.46551585,6.07191144 1.69295763,5.74072811 0.785714286,5.25 L0,5.25 L0,7.5 C0,8.26367527 2.46228169,9 5.5,9 C8.53771831,9 11,8.26367527 11,7.5 L11,5.25 L10.2142857,5.25 C9.30659767,5.74072811 7.53448415,6.07191144 5.5,6 L5.5,6 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

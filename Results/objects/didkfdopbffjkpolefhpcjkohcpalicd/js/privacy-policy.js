@@ -1,0 +1,1 @@
+let agree=document.getElementById("agree"),dontAgree=document.getElementById("dont-agree");agree.addEventListener("click",(e=>{e.preventDefault(),chrome.runtime.sendMessage({payload:{},type:"PRIVACY_POLICY_AGREE"})})),dontAgree.addEventListener("click",(e=>{e.preventDefault(),chrome.runtime.sendMessage({payload:{},type:"PRIVACY_POLICY_DONT_AGREE"})}));

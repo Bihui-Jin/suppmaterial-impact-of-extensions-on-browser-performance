@@ -1,0 +1,143 @@
+#TsBarElement_db8d3657bdbe440c985ae127463eaad5 {
+    position: fixed;
+    bottom: 15px;
+    right: 100px;
+    z-index: 2147483648;
+}
+
+.tsContainer_db8d3657bdbe440c985ae127463eaad5 {
+    box-shadow: 0 0 10px #777;
+    background-color: #ffdc10;
+    position: relative;
+    animation: fadeInAndOut 7s linear forwards;
+    -moz-animation: fadeInAndOut 7s linear forwards;
+    overflow: hidden;
+}
+
+@keyframes fadeInAndOut {
+    0%,98% { opacity: 0; height: 60px; }
+    20%,80% { opacity: 1; height: 60px; }
+    99%, 100% {opacity: 0; height: 0; }
+}
+
+.tsContainer_db8d3657bdbe440c985ae127463eaad5 a,
+.tsContainer_db8d3657bdbe440c985ae127463eaad5 a:hover {
+    color: #2a5cb1 !important;
+    text-decoration: none !important;
+}
+
+.tsContainer_db8d3657bdbe440c985ae127463eaad5 .footerArrow_db8d3657bdbe440c985ae127463eaad5 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 6px 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    bottom: 2px;
+    right: 42px;
+}
+
+.tsContainer_db8d3657bdbe440c985ae127463eaad5 .footerArrow_db8d3657bdbe440c985ae127463eaad5.no_audit {
+    right: 83px;
+}
+
+.tsBar_db8d3657bdbe440c985ae127463eaad5 {
+    color: #545551;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    height: 53px;
+    background-color: #fff;
+}
+
+.tsCon_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    margin: 10px;
+    width: 290px;
+}
+
+.closeContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    margin-top: 17px;
+    text-align: center;
+    width: 40px;
+}
+
+.closeContainer_db8d3657bdbe440c985ae127463eaad5 img,
+.settingsContainer_db8d3657bdbe440c985ae127463eaad5 img {
+    cursor: pointer;
+}
+
+.separatorContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    width: 1px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: #ddd;
+}
+
+.starsContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    width: 65px;
+    text-align: center;
+    background: url("../images/ico_stars.png") 0 -13px no-repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 -13px;*/
+    margin: 0 12px 0 0;
+    /*margin-right: 12px;*/
+
+    /*background-image: url("../images/ico_stars.png");*/
+}
+
+.starsContainer_db8d3657bdbe440c985ae127463eaad5 .stars_db8d3657bdbe440c985ae127463eaad5 {
+    height: 12px;
+    background: url("../images/ico_stars.png") 0 0 no-repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 0;*/
+    /*background-image: url("../images/ico_stars.png");*/
+}
+
+.rankingContainer_db8d3657bdbe440c985ae127463eaad5 {
+    color: #000;
+    float: left;
+    margin-top: 0;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rankingContainer_db8d3657bdbe440c985ae127463eaad5 .bestMark_db8d3657bdbe440c985ae127463eaad5 {
+    color: #545454;
+    font-weight: normal;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.reviewContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    color: #2a5cb1;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.badgeContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    /*margin-top: 5px;*/
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.logoContainer_db8d3657bdbe440c985ae127463eaad5 {
+    float: right;
+    margin: 10px;
+}
+
+.logoContainer_db8d3657bdbe440c985ae127463eaad5 img {
+    width: 73px;
+}
+
+.secureShopping_db8d3657bdbe440c985ae127463eaad5 {
+    float: left;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}

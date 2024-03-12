@@ -1,0 +1,28 @@
+{
+	"type": "object",
+	"properties": {
+		"fetchUrl": {
+			"type": "string"
+		},
+		"revision": {
+			"type": "number"
+		},
+		"adminMode": {
+			"type": "boolean"
+		},
+		"applications": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"urlRegex": {
+						"type": "string"
+					},
+					"jsAgentScript": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

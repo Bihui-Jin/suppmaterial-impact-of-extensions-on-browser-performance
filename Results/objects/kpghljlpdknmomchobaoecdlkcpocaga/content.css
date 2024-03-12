@@ -1,0 +1,122 @@
+a > .media-filter {
+    display:none;
+}
+
+a:hover > .media-filter,
+a.mf-active > .media-filter{
+    display:block;
+}
+
+a.mf-active > .media-filter {
+    opacity: 1;
+}
+a.mf-active:hover > .media-filter {
+    /*display:none;*/
+    /*opacity: 0.3;
+    transition: opacity .5s*/;
+}
+.media-filter{
+    position:absolute;
+    z-index: 1000;
+}
+.section .media-filter{
+    top: 0px;  
+}
+.section_wide .media-filter{
+    line-height: normal;
+}
+.media-filter > span {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 2px;
+    background-color:#608FFB;
+    color: #ffffff;
+    position: relative;
+    z-index: 1001;
+    
+    margin-left: 0px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*
+a.mf-blocked > .media-filter {
+    display: initial;
+    position: relative;
+    margin-right: 5px;
+    text-decoration:none;
+}
+*/
+
+a.mf-blocked > .media-filter > span {
+    background-color:#F1685E;
+    color: #ffffff;
+}
+
+a.mf-blocked > .media-filter > span > img {
+    display:none;
+}
+
+a.mf-active:hover > .media-filter > span {
+    position: relative;
+    margin-left: -24px;
+/*    opacity: 0.4;*/
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: #ACC800;
+}
+
+
+
+/* 메인페이지 주요뉴스 */
+/*
+.news_prime a:hover > .media-filter,
+.news_prime a.mf-blocked > .media-filter,
+.news_prime a.mf-active > .media-filter {
+    display:inline-block;
+    position: static;
+    margin-right: 5px;
+}
+.news_prime a:hover > .media-filter span,
+.news_prime a.mf-blocked > .media-filter span,
+.news_prime a.mf-active > .media-filter span {
+    position: static;
+}
+.news_prime a.mf-active:hover > .media-filter > span {
+    position: static;
+    margin-left: 0;
+    opacity: 0.4;
+    transition: all 0.5s;
+    background-color: #ACC800;
+}
+*/
+
+/* 많이 본 뉴스 */
+.aside_popular a:hover > .media-filter,
+.aside_popular a.mf-blocked > .media-filter,
+.aside_popular a.mf-active > .media-filter {
+    display:inline-block;
+    position: static;
+    margin-right: 5px;
+}
+.aside_popular a:hover > .media-filter span,
+.aside_popular a.mf-blocked > .media-filter span,
+.aside_popular a.mf-active > .media-filter span {
+    position: static;
+}
+.aside_popular a.mf-active:hover > .media-filter > span {
+    position: static;
+    margin-left: 0;
+    opacity: 0.4;
+    transition: all 0.5s;
+    background-color: #ACC800;
+}
+
+
+/* 페이지 하단 : 이 시각 추천뉴스 */
+.realtime_view a:hover > .media-filter,
+.realtime_view a.mf-blocked > .media-filter,
+.realtime_view a.mf-active > .media-filter{
+    display:block;
+    margin-top:-20px;
+}

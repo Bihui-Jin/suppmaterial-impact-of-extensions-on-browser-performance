@@ -1,0 +1,1 @@
+import environment from"./environment.js";const apiUrl=()=>{if(environment.isDev)return"https://designertools.baars.design";return environment.isTest?"https://designertools.baars.design":environment.isProd?"https://designertools.baars.design":void 0};export default apiUrl();

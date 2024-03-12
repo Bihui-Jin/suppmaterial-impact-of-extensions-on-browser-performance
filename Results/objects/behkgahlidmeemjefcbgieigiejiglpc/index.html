@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en" layout-dir="ltr">
+
+<head>
+	<title>New Tab</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="shortcut icon" href="/icons/32-new_tab.png" />
+
+	<script src="/scripts/base.js"></script>
+	<script src="/assets/translations.js"></script>
+
+	<script defer src="/scripts/jquery.js"></script>
+	<script defer src="/scripts/jquery-sortable.js"></script>
+
+	<script defer src="/scripts/main.js"></script>
+
+	<script defer src="/scripts/masonry.js"></script>
+	<script defer src="/scripts/mod_feed.js"></script>
+
+	<script defer src="/scripts/datepicker.js"></script>
+	<script defer src="/scripts/mod_calendar.js"></script>
+
+	<script defer src="/scripts/mod_todo.js"></script>
+
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<!--class="default search_only search_news no_events no_todo"-->
+
+<body>
+	<script src="/scripts/settings.js"></script>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+
+	<div id="overlay_search_only" style="display:none"></div>
+
+	<!-- ROOT -->
+	<div id="root" class="tab" style="opacity:0">
+
+		<!-- SETTINGS -->
+		<a id="btn_settings" title="Settings" data-key="btn_settings" class="icon-settings"></a>
+
+
+		<!-- TOP CONTENT -->
+		<div id="top">
+
+			<!-- clock -->
+			<div id="clock" style="visibility:hidden">
+				<div class="clock" style="position:relative">
+					<strong><b>00:00</b><i class="AM">AM</i><i class="PM">PM</i></strong>
+					<span>--/--/----</span>
+				</div>
+			</div>
+
+
+			<!-- weather -->
+			<div id="weather">
+				<div class="lds-ripple">
+					<div></div>
+					<div></div>
+				</div>
+				<a href="https://www.google.com/search?client=bettertab.app&q=weather">
+					<span class="ic"><img src="" style="visibility:hidden" /></span>
+					<span class="cond">
+						<strong class="temp"></strong>
+						<span class="desc"></span>
+					</span>
+				</a>
+				<div class="forecast_days"></div>
+			</div>
+
+
+			<!-- search -->
+			<div id="search">
+				<input class="custom_input" name="search" type="text" data-key="placeholder_search"
+					   placeholder="Search with Google or enter an URL">
+
+				<div class="links">
+					<a href="https://s.click.aliexpress.com/e/_AOgNL3"><img
+							 src="https://www.google.com/s2/favicons?domain=http://best.aliexpress.com&sz=16">AliExpress</a>
+					<a href="https://amazon.com"><img
+							 src="https://www.google.com/s2/favicons?domain=http://amazon.com&sz=16">Amazon</a>
+					<a href="https://compre.vc/v2/78eda9e84f" class="hide ico-americanas"><img
+							 src="https://www.google.com/s2/favicons?domain=http://americanas.com.br&sz=16">Americanas</a>
+					<a
+					   href="https://www.banggood.com/?utm_campaign=Compraimportada&utm_content=3638&p=7602201578006201505T"><img
+							 src="https://www.google.com/s2/favicons?domain=http://banggood.com&sz=16">Banggood</a>
+					<a href="https://shp.ee/7j9hggx" class="hide ico-shopee"><img
+							 src="https://www.google.com/s2/favicons?domain=http://shopee.com&sz=16">Shopee</a>
+					<a href="https://sovrn.co/u2idcap" class="hide ico-walmart"><img
+							 src="https://www.google.com/s2/favicons?domain=http://walmart.com&sz=16">Walmart</a>
+					<a href="https://www.netflix.com/"><img
+							 src="https://www.google.com/s2/favicons?domain=http://netflix.com&sz=16">Netflix</a>
+					<a href="https://www.youtube.com/"><img
+							 src="https://www.google.com/s2/favicons?domain=http://youtube.com&sz=16">YouTube</a>
+				</div>
+			</div>
+
+
+			<!-- speedDial -->
+			<div id="speedDial" style="display: none;">
+				<h3 data-key="ttl_speeddial">Shortcuts</h3>
+
+				<div class="add_speeddial_item">
+					<div class="ctn">
+						<h4 data-key="ttl_speeddial_new">New shortcut</h4>
+						<a class="close">&times;</a>
+						<span>URL</span>
+						<input id="new_speed_item_url" type="text" data-key="placeholder_speeddial_url"
+							   placeholder="Type or paste a URL" />
+
+						<span data-key="txt_speeddial_name">Name</span>
+						<input id="new_speed_item_ttl" type="text" data-key="placeholder_speeddial_name"
+							   placeholder="Type a name" />
+
+						<div class="actions">
+							<input class="btn_add" type="button" value="Add" />
+						</div>
+					</div>
+				</div>
+				<ul id="shorcuts"></ul>
+			</div>
+		</div>
+
+
+
+		<!-- CONTENT -->
+		<div id="content">
+
+			<!-- LEFT CONTENT -->
+			<div id="left" class="columns">
+				<h2 data-key="ttl_events">Events</h2>
+				<div class="userAdd addEvent">
+					<input class="custom_input newEvent" name="newEvent" type="text" data-key="placeholder_add_event"
+						   autocomplete="off" placeholder="New event">
+					<input class="custom_input calendar_picker" name="datePicker" type="text" autocomplete="off">
+					<a class="icon-add" data-key="btn_add_event"></a>
+				</div>
+				<ul id="userEvents" class="modList listEvents"></ul>
+				<ul id="events" class="modList listEvents">
+					<p class="info"></p>
+					<div class="lds-ripple">
+						<div></div>
+						<div></div>
+					</div>
+				</ul>
+			</div>
+
+
+
+			<!-- CENTER CONTENT -->
+			<div id="center" class="columns">
+				<h2><span>&nbsp;</span> <em><a class="modify" data-key="btn_modify">Modify</a></em>
+				</h2>
+				<div class="lds-ripple feed">
+					<div></div>
+					<div></div>
+				</div>
+				<div id="feed" class="grid"></div>
+			</div>
+
+
+
+			<!-- RIGHT CONTENT -->
+			<div id="right" class="columns">
+				<div id="todo">
+					<h2 data-key="ttl_todo">To do</h2>
+					<div class="userAdd addTask">
+						<input class="custom_input" name="newTask" type="text" data-key="placeholder_add_task"
+							   autocomplete="off" placeholder="New task">
+						<a class="icon-add" data-key="btn_add_task"></a>
+					</div>
+					<ul id="tasks" class="modList"></ul>
+					<p class="info" data-key="txt_todo">Add your tasks to your to-do list.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="footer">
+			<p>Made with ❤️ in Brazil - <a href="https://www.buymeacoffee.com/fmschuler"
+				   title="Support my work with a small donation">Buy me a coffee</a></p>
+		</div>
+	</div>
+	<!-- // ROOT // -->
+
+
+
+	<!-- SETTINGS -->
+	<div class="overlay" style="display:none"></div>
+	<div id="modal_settings">
+		<h2 data-key="btn_settings">Settings</h2>
+
+
+		<div class="section darkmode">
+			<h3 data-key="settings_dark_mode">Dark mode</h3>
+
+			<input type="radio" id="darkmode_auto" name="darkmode" value="auto" checked>
+			<label for="darkmode_auto" data-key="settings_auto">System default</label><br>
+			<input type="radio" id="darkmode_on" name="darkmode" value="dark">
+			<label for="darkmode_on" data-key="settings_on">Always on</label><br>
+			<input type="radio" id="darkmode_darker" name="darkmode" value="darker">
+			<label for="darkmode_darker" data-key="settings_darker">Darker</label><br>
+			<input type="radio" id="darkmode_batman" name="darkmode" value="batman">
+			<label for="darkmode_batman">I'm Batman</label><br>
+		</div>
+
+
+		<div class="section pagestyle">
+			<h3 data-key="settings_content">Content</h3>
+			<input type="radio" id="pagestyle_0" name="pagestyle" value="default" checked>
+			<label for="pagestyle_0" data-key="settings_default">Default</label><br>
+
+			<input type="radio" id="pagestyle_1" name="pagestyle" value="search_only">
+			<label for="pagestyle_1" data-key="settings_search_only">Search only</label><br>
+
+			<input type="radio" id="pagestyle_2" name="pagestyle" value="search_news">
+			<label for="pagestyle_2" data-key="settings_search_news">Search and News</label><br>
+
+			<input type="radio" id="pagestyle_3" name="pagestyle" value="no_events">
+			<label for="pagestyle_3" data-key="settings_no_events">No Events</label><br>
+
+			<input type="radio" id="pagestyle_4" name="pagestyle" value="no_todo">
+			<label for="pagestyle_4" data-key="settings_no_todo">No To-do</label><br>
+
+			<input type="checkbox" id="check_sidebar" name="check_sidebar">
+			<label for="check_sidebar" data-key="txt_show_sidebar">Show sidebar</label>
+
+			<div class="bgSelector">
+				<h4 data-key="settings_select_bg">Select background</h4>
+				<a id="_default_wallpaper00" class="selected"><img
+						 src="https://bettertab.app/_src-app/resize/index.php?url=https://bettertab.app/_src-app/wallpapers/_default_wallpaper00.jpg&size=74x50c" /></a>
+				<a id="_default_wallpaper01"><img
+						 src="https://bettertab.app/_src-app/resize/index.php?url=https://bettertab.app/_src-app/wallpapers/_default_wallpaper01.jpg&size=74x50c" /></a>
+				<a id="_default_wallpaper02"><img
+						 src="https://bettertab.app/_src-app/resize/index.php?url=https://bettertab.app/_src-app/wallpapers/_default_wallpaper02.jpg&size=74x50c" /></a>
+				<a id="_default_wallpaper03"><img
+						 src="https://bettertab.app/_src-app/resize/index.php?url=https://bettertab.app/_src-app/wallpapers/_default_wallpaper03.jpg&size=74x50c" /></a>
+				<a id="_default_wallpaper04"><img
+						 src="https://bettertab.app/_src-app/resize/index.php?url=https://bettertab.app/_src-app/wallpapers/_default_wallpaper04.jpg&size=74x50c" /></a>
+				<input class="custom_input wallpaper" name="customWallpaper" type="text"
+					   data-key="placeholder_custom_bg" placeholder="Custom image URL - http://...">
+			</div>
+		</div>
+
+
+		<div class="section news">
+			<h3 data-key="ttl_news">News</h3>
+			<p data-key="settings_feed">Select your news source</p>
+
+			<div class="feed_selector">
+				<select name="news_language" id="news_language"></select>
+				<select name="news_source" id="news_source"></select>
+			</div>
+
+			<a class="lnk lnk_custom_feed" data-key="btn_add_rss">Custom feed</a>
+			<div class="custom_feed" style="display:none">
+				<input class="custom_input inputFeed" name="customFeedRSS" type="text" placeholder="http://...">
+				<a class="lnk lnk_custom_feed_cancel" data-key="btn_cancel">Delete</a>
+				<p><em class="icon-alert"></em><i data-key="txt_add_rss">URL of RSS feed.</i></p>
+			</div>
+		</div>
+
+
+		<div class="section rate">
+			<p data-key="txt_rate_p">Do you like Better Tab? Give us 5 stars!</p>
+			<a class="btnRate" href="https://bettertab.app/go/?review=true"><span
+					  class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <em data-key="txt_rate_lnk">Rate &
+					review</em></a>
+		</div>
+
+
+		<button class="btn btn_save" data-key="settings_save">Save</button>
+
+
+		<div class="footer links">
+			<p>Made with ❤️ in Brazil</p>
+			<span>
+				<!--a href="https://twitter.com/fmschuler" class="icon-twitter" title="Twitter"></a-->
+				<a href="https://instagram.com/fmschuler" class="icon-instagram" title="Instagram"></a>
+			</span>
+			<p class="bitcoin"><strong>Bitcoin:</strong> <code>3R1bzEQSsHXoyDopRG5tauQcmAqwqUZzF1</code></p>
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+:root {
+  /* color */
+  --white00: #ffffff;
+  --black00: #000000;
+  --modalWrap: rgba(51, 55, 61, 0.5);
+  --autoCompleteBgDarkMode: #717478;
+
+  --white10: rgba(255, 255, 255, 0.1);
+  --white20: rgba(255, 255, 255, 0.2);
+  --white30: rgba(255, 255, 255, 0.3);
+  --white40: rgba(255, 255, 255, 0.4);
+  --white050: rgba(255, 255, 255, 0.05);
+  --white50: rgba(255, 255, 255, 0.5);
+  --white70: rgba(255, 255, 255, 0.7);
+
+  --gray00: #e5e5e5;
+  --gray10: #f8f9fb;
+  --gray20: #f2f3f7;
+  --gray25: #e1e5ec;
+  --gray30: #c2c6ce;
+  --gray35: #959ca6;
+  --gray40: #50555c;
+  --gray50: #33373d;
+
+  --liner10: rgba(0, 195, 204, 0.05);
+  --liner20: rgba(0, 195, 204, 0.1);
+  --liner30: rgba(0, 195, 204, 0.2);
+  --liner50: #00c3cc;
+  --liner50hover: #08aeb7;
+
+  --red10: rgba(255, 84, 84, 0.05);
+  --red50: #ff5454;
+
+  /* opacity */
+  --opacity: transparent;
+  --gray25T05: rgba(225, 229, 236, 0.5);
+
+  --gray20T07: rgba(242, 243, 247, 0.7);
+  --gray30T07: rgba(194, 198, 206, 0.7);
+  --gray40T07: rgba(80, 85, 92, 0.7);
+
+  /* gradient */
+  --GRADATION_LIGHT: linear-gradient(180deg, #f2f3f7 50%, rgba(242, 243, 247, 0) 93.42%) !important;
+  --GRADATION_DARK: linear-gradient(rgb(51, 55, 61) 50%, rgba(51, 55, 61, 0) 100%) !important;
+  --GRADATION_LIGHT_INTEREST_BTN: linear-gradient(
+    270deg,
+    #ffffff 34%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+
+  --GRADATION_DARK_INTEREST_BTN: linear-gradient(
+    270deg,
+    #50555c 34%,
+    rgba(80, 85, 92, 0) 100%
+  ) !important;
+
+  /* shadow */
+  --SHADOW_0_0_8_02: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  --SHADOW_0_2_20_008: 0px 2px 20px rgba(0, 0, 0, 0.08);
+  --SHADOW_0_2_20_016: 0px 2px 20px rgba(0, 0, 0, 0.16);
+  --SHADOW_0_2_24_02: 0px 2px 24px rgba(0, 0, 0, 0.2);
+  --SHADOW_0_4_40_004: 0px 4px 40px rgba(0, 0, 0, 0.04);
+  --SHADOW_0_4_40_008: 0px 4px 40px rgba(0, 0, 0, 0.08);
+  --SHADOW_0_4_8_008: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  --SHADOW_255_229_236_000: 0px 0px 8px rgb(225, 229, 236);
+}

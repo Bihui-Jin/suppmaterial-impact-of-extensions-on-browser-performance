@@ -1,0 +1,66 @@
+.tsRichSnippet {
+    /*display: table;*/
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #706f67;
+    /*margin-top: 3px;*/
+    grid-column: 1 / 10;
+}
+
+.tsCertificateLink {
+    height: 44px;
+    width: 44px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    padding: 3px;
+}
+
+.tsCertificateLink.tsLinkMarkup2 {
+    margin-top: -17px;
+}
+
+.tsGHrefHelperMarkup2 {
+    margin-left: 56px;
+}
+
+.tsRichSnippet .tsOverallDescription {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6px;
+    color: #545454;
+}
+
+.tsRichSnippet .tsOverallMark {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6px;
+    color: #000;
+}
+
+.tsRichSnippet .tsOverallMark span {
+    color: #545454;
+}
+
+.tsRichSnippet .tsReviewsLink {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6px;
+}
+
+.tsRichSnippet .tsStarsContainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tsRichSnippet .tsStarsContainer .tsStarsBackground {
+    height: 12px;
+    width: 65px;
+}
+
+.tsRichSnippet .tsStarsContainer .tsStarsBackground .tsStarsImage {
+    height: 12px;
+}

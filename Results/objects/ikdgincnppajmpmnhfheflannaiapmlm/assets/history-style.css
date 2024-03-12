@@ -1,0 +1,7 @@
+.history-container {margin: 0 0 80px -8px; width: 900px;}
+
+.visit-info:hover button.delete {display: inline-block;}
+.visit-info button.delete {display: none;}
+
+.icon {width: 1.2em; height: 1.2em; vertical-align: text-top; display: inline-block;}
+.history-icon {background: no-repeat url("icons/history.svg") center/contain;}

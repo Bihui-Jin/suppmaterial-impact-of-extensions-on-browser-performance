@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  outline: none !important;
+}
+
+img {
+  border: 0 !important;
+}
+
+* {
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+
+input.copyInput {
+  -webkit-touch-callout: text !important; /* iOS Safari */
+  -webkit-user-select: text !important; /* Chrome/Safari/Opera */
+  -khtml-user-select: text !important; /* Konqueror */
+  -moz-user-select: text !important; /* Firefox */
+  -ms-user-select: text !important; /* Internet Explorer/Edge */
+  user-select: text !important; /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100% !important;
+  font-size: 0px;
+}

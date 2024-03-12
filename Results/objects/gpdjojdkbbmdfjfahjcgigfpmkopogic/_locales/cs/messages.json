@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Tlačítko Uložit pro Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Ukládejte své oblíbené nápady online, abyste se k nim mohli později jednoduše vrátit.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Litujeme, připínání z této domény není povoleno. Pokud se chcete na něco zeptat, kontaktujte provozovatele serveru.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Možnosti tlačítka Uložit",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Skrýt tlačítka Uložit s efektem přechodu",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Hledat",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Uložit",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Uložte si nápad na Pinterestu",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Vyberte až dvacet obrázků",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Další",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Vybrat vše",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Uložit na nástěnku",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Uloženo na nástěnku",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Navštívit",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Nápověda",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Vybrat nástěnku",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Nejoblíbenější",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Všechny nástěnky",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Vytvořit nástěnku",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Tajná",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Vybrat část",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Přidat část",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ano",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Ne",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Zrušit",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Vytvořit",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Vytvoření nové nástěnky se nezdařilo.",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Uložení této stránky se nezdařilo.",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Litujeme, něco tady není úplně správně. Ověřte si, že jste připojeni k Pinterestu, a zkuste to znovu.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Ale ne!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Nápověda",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Jejda!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Zdá se, že nejste přihlášeni k Pinterestu. Pojďme to napravit!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Přihlásit se",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

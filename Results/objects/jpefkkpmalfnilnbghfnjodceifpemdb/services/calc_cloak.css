@@ -1,0 +1,30 @@
+body{
+background:#eee
+}
+h2 {
+text-align: center
+}
+.sgreen {
+color:#009900;
+font-weight: bold
+}
+input {
+margin-right:20px;
+width: 100px
+}
+.md {
+border: 1px solid #bbb;
+background-color: #ddd;
+padding: 2px 3px 2px 3px;
+width: 80%
+}
+.textM {
+FONT-SIZE:16px;
+COLOR:#000;
+FONT-FAMILY:Verdana,Arial,Helvetica,Tahoma,Verdana,sans-serif;
+TEXT-DECORATION:none;
+line-height:19px
+}
+a {
+text-decoration:none
+}

@@ -1,0 +1,25 @@
+#dialogData {
+    height: 415px;
+}
+
+#dialogDataContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    height: 415px;
+    width: 100%;
+}
+
+
+ul.CutTeleport li {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    width: 150px;
+    margin: 0 0 15px;
+}
+
+ul.CutTeleport li img {
+    max-width: none;
+    max-height: none;
+}

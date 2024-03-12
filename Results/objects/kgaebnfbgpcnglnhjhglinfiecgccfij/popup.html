@@ -1,0 +1,99 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inforness</title>
+    <link href="res/material-components-web.min.css" rel="stylesheet">
+    <script src="res/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      body {
+        min-width: 330px;
+        font-size: 15px;
+      }
+      input {
+        margin: 5px;
+        outline: none;
+      }
+    </style>
+  </head>
+
+  <body style="background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E0E0E0)) fixed;">
+    
+    <div style="text-align: center; font-size: 16px; font-family:Arial, Helvetica, sans-serif">
+      <img src="img/icon_32.png"/>
+      <br/>
+      Welcome to <span style="font-family:Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bolder;">Inforness</span> extension.
+    </div>
+
+    <table style="width: 100%;" cellspacing="10px">
+      <tr>
+        <td colspan="2"><hr color="#E0E0E0"></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="another-basic-switch">Status:</label>
+        </td>
+        <td style="width: 50px;">
+          <div id="extensionStatusContainer" class="mdc-switch mdc-switch--checked">
+            <div class="mdc-switch__track"></div>
+            <div class="mdc-switch__thumb-underlay">
+              <div class="mdc-switch__thumb"></div>
+              <input type="checkbox" id="extensionStatus" class="mdc-switch__native-control" role="switch" checked>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Settings:</label>
+        </td>
+        <td>
+          <button class="mdc-fab mdc-fab--mini" id="btnOptions">
+            <div class="mdc-fab__ripple"></div>
+            <span class="mdc-fab__icon material-icons md-18">settings</span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><hr color="#E0E0E0"></td>
+      </tr>
+      <tr>
+        <td>
+          <label>Last content refresh:</label>
+          <br/>
+          <i><label id="lblLastContentRefrsh"></label></i>
+        </td>
+        <td>
+          <button class="mdc-fab mdc-fab--mini" id="btnRefresh">
+            <div class="mdc-fab__ripple"></div>
+            <span class="mdc-fab__icon material-icons md-18">autorenew</span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><hr color="#E0E0E0"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+
+          <label>Share your experience with your friends:</label>
+          <!-- AddToAny BEGIN -->
+          <div>
+            <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;title=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/facebook.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/twitter.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/linkedin.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/whatsapp.svg" width="32" height="32" style="background-color:royalblue"></a>
+            <a href="https://www.addtoany.com/add_to/google_gmail?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/gmail.svg" width="32" height="32" style="background-color:royalblue"></a>
+          </div>
+          <!-- AddToAny END -->
+
+        </td>
+      </tr>
+    </table>
+
+  </body>
+  <script src="js/popup.js"></script>
+</html>

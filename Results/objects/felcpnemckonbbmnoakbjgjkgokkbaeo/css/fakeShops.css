@@ -1,0 +1,121 @@
+#ts-fs-modal-overlay {
+    z-index: 2147483646 !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    overflow: hidden !important;
+    line-height: initial !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#ts-fs-modal {
+    z-index: 2147483647 !important;
+    position: fixed !important;
+
+    color: #000 !important;
+    width: 398px !important;
+    margin: 0 !important;
+
+    background-color: #ffffff;
+    background-size: 100% auto !important;
+    align-self: center;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 59px;
+    z-index: -1;
+    background-color: #ffffff;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/modal-wave.png"), url("moz-extension://__MSG_@@extension_id__/images/modal-wave.png");
+    background-repeat: no-repeat;
+    /*background-size: 100% auto !important;*/
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-header {
+    margin-left: 20px !important;
+    margin-top: 16px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-ico {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/modal-exclamation.png"), url("moz-extension://__MSG_@@extension_id__/images/modal-exclamation.png");
+    background-repeat: no-repeat;
+    width: 47px !important;
+    height: 40px !important;
+    background-size: contain !important;
+    position: absolute !important;
+    left: 20px !important;
+    top: 40px !important;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-main {
+    margin: 62px 20px 8px 20px !important;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-section {
+    margin-top: 13px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-section-centered {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-footer {
+    color: #b8b8b8 !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-footer-left, #ts-fs-modal-overlay .ts-fs-modal-footer-right {
+    align-self: center;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-footer-left {
+    width: 48%;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-link {
+    color: #999999 !important;
+    text-decoration: underline !important;
+    font-weight: 400 !important;
+    line-height: 14px !important;
+    font-size: 12px !important;
+}
+
+#ts-fs-modal-overlay .ts-fs-modal-button {
+    display: inline-block !important;
+    background-color: #0dbedc !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 7px 12px !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    border: none !important;
+    text-align: center !important;
+    font-weight: 700 !important;;
+    line-height: 16px !important;;
+}
+#ts-fs-modal-overlay .ts-fs-modal-button:hover {
+    background-color: rgba(13, 190, 220, 0.86) !important;
+}
+
+

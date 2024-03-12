@@ -1,0 +1,19 @@
+iframe.liner-popover.liner-popover-folder-dropdown {
+  position: fixed !important;
+  z-index: 99999999999999999999 !important;
+  width: 248px !important;
+  height: 200px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 20px 0 rgba(39, 43, 49, 0.1) !important;
+  border: solid 1px #eef1f4 !important;
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: initial !important;
+  right: 37px !important;
+  top: 113px;
+}
+
+iframe.liner-popover.liner-popover-folder-dropdown.L-folder-dropdown-hidden {
+  display: none;
+}

@@ -1,0 +1,15 @@
+body, a {
+	color: #fff;
+	transition: all .5s
+}
+
+body {
+	padding: 0 10%;
+	background-color: #333;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px
+}
+
+.spacer {
+	padding-top: 15px
+}

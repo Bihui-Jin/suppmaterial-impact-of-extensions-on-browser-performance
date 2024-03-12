@@ -1,0 +1,134 @@
+{
+  "ExtensionDescription": {
+    "description": "Description of i18n",
+    "message": "Wyszukaj bezpieczne sklepy w Google! Zainstaluj oficjalne rozszerzenie Trusted Shops."
+  },
+  "ExtensionName": {
+    "description": "Name of the extension",
+    "message": "Rozszerzenie Trusted Shops dla Google Chrome"
+  },
+  "customerreviews": {
+    "message": "opinii klientów w serwisie Trusted Shops"
+  },
+  "marka": {
+    "message": "Bardzo dobry"
+  },
+  "markb": {
+    "message": "Dobry"
+  },
+  "markc": {
+    "message": "Dostateczny"
+  },
+  "markd": {
+    "message": "Mierny"
+  },
+  "marke": {
+    "message": "Niedostateczny"
+  },
+  "ratingProfileUrl": {
+    "message": "https://www.trustedshops.pl/opinia/info_$1.html"
+  },
+  "secure": {
+    "message": "Kupuj bezpiecznie z"
+  },
+  "money": {
+    "message": "gwarancją zwrotu pieniędzy"
+  },
+  "tsbar": {
+    "message": "Show Trustbadge"
+  },
+  "googleAnalyticsPropertyId": {
+    "message": "UA-53707107-13"
+  },
+  "p_lastDbUpdText": {
+    "message": "Last TrustedShops DB update:"
+  },
+  "p_dbCheckNever": {
+    "message": "Never"
+  },
+  "p_updDbButtonText": {
+    "message": "Update DB now"
+  },
+  "p_logoText": {
+    "message": "for Chrome"
+  },
+  "p_feedbackTitle": {
+    "message": "Your opinion is important for us!"
+  },
+  "p_feedbackText": {
+    "message": "How do you like the Trusted Shops Browser Extension?"
+  },
+  "p_feedbackButton": {
+    "message": "Rate now"
+  },
+  "p_feedbackDoNotShow": {
+    "message": "Keine Bewertung abgeben"
+  },
+  "p_impressumText": {
+    "message": "Data privacy and Imprint"
+  },
+  "p_impressumHref": {
+    "message": "https://www.trustedshops.pl/dane-firmy-ochrona-danych.html"
+  },
+  "p_showTrustbadgeTooltip": {
+    "message": "The Trustbadge technology at the bottom right will show you how other customers rated this shop"
+  },
+
+  "p_invalidShop_header": {
+    "message": "Nieważny znak jakości"
+  },
+  "p_invalidShop_line1_1": {
+    "message": "Obecnie ten sklep"
+  },
+  "p_invalidShop_line1_2": {
+    "message": "nie ma prawa"
+  },
+  "p_invalidShop_line1_3": {
+    "message": "do korzystania ze znaku jakości Trusted Shops"
+  },
+
+  "p_invalidShop_line2": {
+    "message": "Z tego względu nie możemy zapewnić ochrony kupującego Trusted Shops w odniesieniu do zamówień składanych w tym sklepie"
+  },
+
+  "p_invalidShop_button": {
+    "message": "Znajdź sklep z ochroną kupującego"
+  },
+  "p_invalidShop_button_link": {
+    "message": "https://www.trustedshops.pl/znajdz-sklep/"
+  },
+
+
+  "p_fakeShop_header": {
+    "message": "Uwaga, fałszywy sklep!"
+  },
+  "p_fakeShop_line1": {
+    "message": "Z analizy Trusted Shops wynika, że sklep jest fałszywy."
+  },
+  "p_fakeShop_line2": {
+    "message": "W przypadku „fałszywych” sklepów internetowych mamy do czynienia z naciągaczami i nie należy robić u nich zakupów. Celem takich sprzedawców jest wyłudzanie pieniędzy lub wrażliwych danych osobowych klientów."
+  },
+  "p_fakeShop_button": {
+    "message": "Znajdź bezpieczne sklepy"
+  },
+  "p_fakeShop_footer": {
+    "message": "Surfuj na własną odpowiedzialność"
+  },
+
+
+  "p_header": {
+    "message": "Rozszerzenie Trusted Shops"
+  },
+  "p_ts_text": {
+    "message": "W tych sklepach kupisz bezpiecznie."
+  },
+  "p_regular_text": {
+    "message": "W przypadku wykrycia fałszywego sklepu prosimy o zgłoszenie go tutaj:"
+  },
+  "p_regular_button": {
+    "message": "Zgłoś fałszywy sklep"
+  },
+  "p_reportFakeShop_href": {
+    "message": "https://help.trustedshops.com/hc/pl/requests/new?origin=website"
+  }
+}

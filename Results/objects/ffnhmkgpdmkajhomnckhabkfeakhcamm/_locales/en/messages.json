@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Tumblr – Post to Tumblr",
+    "description": "Full extension title, with platform prefix for SEO. 45 characters maximum."
+  },
+  "extDescription": {
+    "message": "Post to Tumblr right from your browser toolbar!",
+    "description": "Extension description. 132 characters maximum."
+  },
+  "actionTitle": {
+    "message": "Post to Tumblr",
+    "description": "Toolbar icon title. Appears on mouse-over or alongside the icon."
+  }
+}

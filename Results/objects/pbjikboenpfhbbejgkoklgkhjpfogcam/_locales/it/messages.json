@@ -1,0 +1,19 @@
+{
+  "appDesc": {"message": "Estensione browser ufficiale Amazon. Installandolo, dichiari di accettare le Condizioni d'uso riportate qui: amazon.it/aa/TOU"},
+  "appName": {"message": "Amazon Assistant per Chrome"},
+  "appTitle": {"message": "Amazon Assistant"},
+  "sorryString1": {"message": "Mi dispiace per questo,"},
+  "sorryString2": {"message": "sto avendo problemi di carico."},
+  "resetString": {"message": "Chiudere e ripristino"},
+  "noLuckString": {"message": "Ancora niente ?"},
+  "improveString": {"message": "Potreste farmi sapere che cosa sta succedendo , così posso migliorare?"},
+  "resetAgainString": {"message": "Prova a chiudere e ripristinare di nuovo"},
+  "feedbackString": {"message": "retroazione"},
+  "emailSubject": {"message": "Commenti per Amazon Assistant"},
+  "emailBody1": {"message": "Aiutarmi a migliorare! Ti prego, dimmi che cosa è successo in modo da poter risolvere il problema."},
+  "emailBody2": {"message": "Che è successo?"},
+  "emailBody3": {"message": "Qualsiasi altra cosa mi puoi dire sul tuo computer, del browser o di rete?"},
+  "emailBody4": {"message": "ID di riferimento: "},
+  "changeMarketplaceString": {"message": "Prova a selezionare un luogo nelle vicinanze per ricaricare l'estensione."},
+  "feedbackMessage": {"message": "Invia un feedback su Amazon Assistant"}
+}

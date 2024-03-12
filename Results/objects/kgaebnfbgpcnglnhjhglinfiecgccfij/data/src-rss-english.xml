@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>English slang phrases</title>
+        <description>Most Common English Slang Words &amp; Phrases</description>
+        <language>en</language>
+        <lastBuildDate>Thu, 28 Jan 2021 19:15:00 GMT</lastBuildDate>
+
+        <item>
+            <title>I feel you</title>
+            <description> I understand and empathize with you. Eg. “I feel you. That was really unfair.”</description>
+        </item>
+        <item>
+            <title>Same here</title>
+            <description>I agree. Eg. “- I’m having a hard time studying for this exam. - Same here.”</description>
+        </item>
+        <item>
+            <title>My bad</title>
+            <description>My mistake. Eg. “My bad! I didn’t mean to do that.”</description>
+        </item>
+        <item>
+            <title>You bet</title>
+            <description>You’re welcome. Eg. “- Thanks for the jacket, David! - You bet, Sam.”</description>
+        </item>
+        <item>
+            <title>No biggie</title>
+            <description>It’s not a problem. Eg. "- Thanks for tutoring me, Tom! - No biggie, Sally."</description>
+        </item>
+        <item>
+            <title>No sweat</title>
+            <description>If you say that something is no sweat, you mean that it will not be difficult or cause problems. "Can you fix my car for me?" "No sweat!"</description>
+        </item>
+        <item>
+            <title>Laid back</title>
+            <description>Relaxed or calm. Eg. “This weekend was very laid back.”</description>
+        </item>
+        <item>
+            <title>Lame</title>
+            <description>The opposite of cool or fantastic. Eg. “That’s so lame that you can’t go out tonight.”</description>
+        </item>
+        <item>
+            <title>no sooner said than done</title>
+            <description>used to say that you will do something immediately</description>
+        </item>
+    </channel>
+</rss>

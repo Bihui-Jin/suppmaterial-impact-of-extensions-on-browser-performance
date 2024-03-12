@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dynatrace RUM Extension Settings</title>
+    <script src="monitoring.js"></script>
+    <!-- groundhog css -->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body style="width:400px;height:auto">
+<div class="island">
+    <a href="https://www.dynatrace.com" target="_blank"><img style="width: 100px; display: block; margin: 0 auto;" src="../css/Dynatrace_Logo_RGB_CPH_512x92px.png"></a>
+    <br>
+
+    <div id="fetchApps">
+        <h3>Monitoring via browser extension</h3>
+
+        <span>Paste URL used to fetch configuration from Dynatrace.</span><br>
+        <input type="text" class="inputfield" id="fetchUrlField">
+        <div style="color:#f05146;" id="connectStatusBox"></div>
+
+        <br><button id="connectAppsBtn" role="button" type="button" class="btn btn--primary">Connect applications</button>
+
+    </div>
+</div>
+
+<script src="../shared/constants.js"></script>
+<script src="popup.js"></script>
+<script type="text/javascript" src="../css/main.js"></script>
+</body>
+
+</html>

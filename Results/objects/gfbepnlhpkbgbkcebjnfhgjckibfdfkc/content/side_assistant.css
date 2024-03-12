@@ -1,0 +1,171 @@
+
+.body-with-side-assistant .side-assistant{
+	border: none;
+	position:absolute;
+	top: 15px;
+    right: 15px;
+	height: 654px;
+	border-radius: 4px;
+	border-bottom: solid 4px rgb(248, 249, 252);
+}
+
+.body-with-side-assistant .side-assistant.side-assistant-yahoo{
+	top: 100px;
+}
+
+.body-with-side-assistant .side-assistant.side-assistant-sleeper{
+	top: 100px;
+}
+
+.body-with-side-assistant .side-assistant.side-assistant-espn{
+	top: 200px;
+}
+
+.body-with-side-assistant .side-assistant.side-assistant-ndc{
+	top: 48px;
+}
+
+.side-assistant{
+	background:#fff;
+	border: 3px solid #081d3f;
+	border-radius:5px;
+	box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+    z-index: 100001;
+    max-width:100%;
+	width:400px;
+	min-width:400px;
+}
+
+.side-assistant-docked {
+	width: 405px;
+}
+
+.body-with-side-assistant-hidden .side-assistant{
+	display:none;
+}
+
+.side-assistant-btn{
+    right: 195px;
+    height: 35px;
+    width: 35px;
+    top: 5px;
+	position:fixed;
+	background-image:url(https://cdn.fantasypros.com/csw/images/fp_logo_square.png);
+    background-size: cover;
+    border-radius: 5px;
+    border:1px solid white;
+	display:none;
+}
+.side-assistant-btn.side-assistant-btn-yahoo{
+    right: 252px;
+    top: 12px;
+}
+.side-assistant-btn.side-assistant-btn-ndc{
+    top: 47px;
+    right: 22px;
+}
+.side-assistant-btn.side-assistant-btn-sleeper{
+    right: 50px;
+    top: 30px;
+}
+
+.body-with-side-assistant-hidden .side-assistant-btn{
+	display:block;
+}
+
+.side-assistant iframe{
+	width:100%;
+	height:calc(100% - 59px);
+	border: none;
+}
+
+.side-assistant-header{
+	align-items: center;
+	background:#081d3f;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color:white;
+	display: flex;
+	height:59px;
+	justify-content: center;
+	line-height:34px;
+	position: relative;
+}
+
+.side-assistant-docked > .side-assistant-header {
+	border-radius: 0;
+}
+
+.side-assistant-header-logo{
+	width: 156px;
+}
+.side-assistant-header-logo-div{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/dw-logo.svg');
+	width: 170px;
+    height: 14px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.side-assistant-header-close{
+	color:white !important;
+	font-size:18px;
+	font-weight:bold;
+	position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration:none;
+}
+.side-assistant-header a:hover{
+	text-decoration:none;
+	color:#ddd !important;
+}
+
+@media (min-width: 1500px) {
+	/* ESPN */
+	.body-with-side-assistant .body-wrap{
+	    margin-right: 405px;
+		width: auto;
+	}
+	
+	.body-with-side-assistant.body-with-side-assistant-hidden #__next-wrapper{
+	    border-right: 0;
+	    margin-right: 0;
+	}
+
+	.body-with-side-assistant.body-with-side-assistant-hidden .body-wrap{
+	    border-right: 0;
+	    margin-right: 0;
+		width: 100%;
+	}
+	
+	/* Yahoo now controlled via JS */
+	
+	/* NFL.com */
+	
+	.body-with-side-assistant #layout,
+	.body-with-side-assistant #__next{
+	    margin-right: 405px;
+	}
+	
+	.body-with-side-assistant.body-with-side-assistant-hidden #layout,
+	.body-with-side-assistant.body-with-side-assistant-hidden #__next{
+	    margin-right: 0px;
+	}
+	
+	/* All */
+	
+	.body-with-side-assistant .side-assistant{
+    	border-radius: 0;
+		right:0;
+		left:auto;
+		top:0;
+		bottom:0;
+		height:100%;		
+		border: none;	
+		border-left: 3px solid #081d3f;
+    	max-height:100%;
+	}
+	
+}

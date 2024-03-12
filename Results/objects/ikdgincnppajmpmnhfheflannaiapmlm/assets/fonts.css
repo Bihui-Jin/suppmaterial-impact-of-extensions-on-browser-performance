@@ -1,0 +1,31 @@
+/* generated using google webfonts helper: */
+/* https://google-webfonts-helper.herokuapp.com/fonts/source-sans-pro?subsets=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese  */
+/* Plus added font-display: swap; */
+
+/* source-sans-pro-regular - vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro'),
+       url('/assets/fonts/source-sans-pro-v14-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* source-sans-pro-italic - vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro'),
+       url('/assets/fonts/source-sans-pro-v14-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* source-sans-pro-600 - vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro'),
+       url('/assets/fonts/source-sans-pro-v14-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}

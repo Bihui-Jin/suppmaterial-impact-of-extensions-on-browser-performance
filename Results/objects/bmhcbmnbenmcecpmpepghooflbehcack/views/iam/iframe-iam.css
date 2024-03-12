@@ -1,0 +1,19 @@
+iframe.liner-iam {
+  position: fixed !important;
+  z-index: 100000 !important;
+
+  width: 280px !important;
+  box-shadow: 0 4px 8px 0 rgba(39, 43, 49, 0.2) !important;
+  border-radius: 8px !important;
+  border: solid 0px transparent !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: initial !important;
+  right: 20px !important;
+  min-height: initial !important;
+
+  /* Luke - 아래를 display: none으로 처리하면 배너 이미지를 pre-load하지 않아서 배너가 깜빡이는 이슈가 있음 */
+  opacity: 0; /* 0 -> 1 */
+  top: 428px;
+}

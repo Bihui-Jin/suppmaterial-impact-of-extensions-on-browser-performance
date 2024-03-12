@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dynatrace RUM Extension Options</title>
+    <!-- groundhog css -->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+<div class="island">
+    <h1>Settings</h1>
+    <article id="article">
+    <h4>Configuration URL</h4>
+        <span>Configuration URL of your Dynatrace environment to fetch the application configuration</span>
+        <input class="inputfield" id="fetchUrlField">
+        <input type="button" id="fetchUrlBtn" class="btn btn--primary" value="Fetch configuration" style="margin-top: 10px;">
+        <div style="color:#f05146;" id="fetchStatusBox"></div>
+    <br/>
+    <input type="button" id="saveBtn" class="btn btn--primary" value="Save" disabled="true" style="margin-top: 10px;">
+    <input type="button" id="cancelBtn" class="btn btn--primary" value="Cancel" disabled="true" style="margin-top: 10px;">
+    <div style="color:#5ead35;" id="statusBox"></div>
+    <br/>
+    <div class="expandable expandable--separated">
+        <a href="#noop" class="expandable__trigger">Current application configuration</a>
+        <div class="expandable__content">
+            <textarea style="line-height:120%;height: 100px;max-height: 100px;overflow-y: scroll" id="currentAppsConfigText" class="textarea" disabled="true"></textarea>
+            <button id="copyBtn" role="button" class="btn btn--primary" style="margin-top: 10px;">Copy to Clipboard</button>
+            <br/><br/>
+        </div>
+    </div>
+    </article>
+</div>
+<script src="../shared/constants.js"></script>
+<script src="options.js"></script>
+<script type="text/javascript" src="../css/main.js"></script>
+</body>
+
+</html>

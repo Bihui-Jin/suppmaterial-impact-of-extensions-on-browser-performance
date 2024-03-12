@@ -1,0 +1,95 @@
+#simplemodal-container {
+  background: white;
+  /* padding: 25px; */
+  width: 800px;
+  height: 600px;
+  top: 41.5px;
+  left: 268px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -moz-box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+  -o-box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+  box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+  border: 10px solid #ccc;
+}
+
+#dk-premium {
+  color: #0094d9;
+  font-weight: 700;
+}
+
+#ext-options-modal {
+  margin-bottom: -100px;
+}
+
+#ext-options-modal a.modal-button {
+  background: #f98c13;
+  background-size: auto;
+  border-radius: 4px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  padding: 10px 9px 10px 9px;
+  margin-right: 5px;
+  /* text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.45098); */
+  line-height: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  height: 36px;
+  width: 142px;
+}
+
+#ext-options-modal a.modal-button:hover {
+  background: #374044;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0,0,0.45);
+}
+
+#rg-logo img {
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#ext-details {
+  display: block;
+  height: 420px;
+}
+
+#ext-details iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#modal-body { overflow: auto; }
+
+#button-wrap {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#button-wrap p {
+  margin: 20px 0 0 50px;
+}
+
+#modal-body p { font-size: 14px; padding: 20px; margin-bottom: 0px; color: #5f5f5f; }
+
+#contest-details-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contest-details-wrapper h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: black;
+  padding: 10px 20px 0px 20px;
+  margin: 0;
+}

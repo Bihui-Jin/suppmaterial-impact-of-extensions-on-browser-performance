@@ -1,0 +1,777 @@
+{
+   "en": {
+      "lang": "English",
+      "feeds": [
+         {
+            "source": "United States - Headlines",
+            "country": "US",
+            "url": "https://rss.app/feeds/oIflLx4G27cStvCj.xml"
+         },
+         {
+            "source": "United States - ABC News",
+            "country": "US",
+            "url": "https://abcnews.go.com/abcnews/topstories"
+         },
+         {
+            "source": "United States - CBS News",
+            "country": "US",
+            "url": "https://www.cbsnews.com/latest/rss/main"
+         },
+         {
+            "source": "United States - CNN",
+            "country": "US",
+            "url": "http://rss.cnn.com/rss/edition"
+         },
+         {
+            "source": "United States - The Huffington Post",
+            "country": "US",
+            "url": "https://www.huffpost.com/section/front-page/feed"
+         },
+         {
+            "source": "United States - The New York Times",
+            "country": "US",
+            "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+         },
+         {
+            "source": "United Kingdom - Headlines",
+            "country": "GB",
+            "url": "https://rss.app/feeds/5bAyNnqNVOYTfw3O.xml"
+         },
+         {
+            "source": "United Kingdom - BBC",
+            "country": "GB",
+            "url": "https://rss.app/feeds/zjksUcZFiKBysqOU.xml"
+         },
+         {
+            "source": "United Kingdom - Daily Mail",
+            "country": "GB",
+            "url": "https://www.dailymail.co.uk/home/index.rss"
+         },
+         {
+            "source": "United Kingdom - The Guardian",
+            "country": "GB",
+            "url": "https://www.theguardian.com/uk/rss"
+         },
+         {
+            "source": "United Kingdom - The Mirror",
+            "country": "GB",
+            "url": "https://www.mirror.co.uk/?service=rss"
+         },
+         {
+            "source": "Australia - Headlines",
+            "country": "AU",
+            "url": "https://rss.app/feeds/iYFflx0XnqLIYuvO.xml"
+         },
+         {
+            "source": "Botswana - Headlines",
+            "country": "BW",
+            "url": "https://rss.app/feeds/mBn5ErNsuJ27fVR5.xml"
+         },
+         {
+            "source": "Canada - Headlines",
+            "country": "CA",
+            "url": "https://rss.app/feeds/P4pXniwf1Djxq8yR.xml"
+         },
+         {
+            "source": "Ethiopia - Headlines",
+            "country": "ET",
+            "url": "https://rss.app/feeds/MsyRwqsRxZUrziRx.xml"
+         },
+         {
+            "source": "Ghana - Headlines",
+            "country": "GH",
+            "url": "https://rss.app/feeds/35Y4ifspiJV2R20T.xml"
+         },
+         {
+            "source": "India - Headlines",
+            "country": "IN",
+            "url": "https://rss.app/feeds/uZ3mcLubSrFHNEix.xml"
+         },
+         {
+            "source": "India - Local News",
+            "country": "IN",
+            "url": "https://rss.app/feeds/BYkmmV3GseBXJIoA.xml"
+         },
+         {
+            "source": "Indonesia - Headlines",
+            "country": "ID",
+            "url": "https://rss.app/feeds/y76WcDxg3ZgqedOA.xml"
+         },
+         {
+            "source": "Ireland - Headlines",
+            "country": "IE",
+            "url": "https://rss.app/feeds/TULeMVyLE04skUT4.xml"
+         },
+         {
+            "source": "Israel - Headlines",
+            "country": "IL",
+            "url": "https://rss.app/feeds/WqYtCyDnLVRUb7Fd.xml"
+         },
+         {
+            "source": "Kenya - Headlines",
+            "country": "KE",
+            "url": "https://rss.app/feeds/bAUNG6zaJQ3vzUzn.xml"
+         },
+         {
+            "source": "Latvia - Headlines",
+            "country": "LV",
+            "url": "https://rss.app/feeds/Ea6HlIuvLz9dIZOg.xml"
+         },
+         {
+            "source": "Malaysia - Headlines",
+            "country": "MY",
+            "url": "https://rss.app/feeds/L0QvLSIMClRr3W8w.xml"
+         },
+         {
+            "source": "Namibia - Headlines",
+            "country": "NA",
+            "url": "https://rss.app/feeds/RIlkZssZMgx1pa31.xml"
+         },
+         {
+            "source": "New Zealand - Headlines",
+            "country": "NZ",
+            "url": "https://rss.app/feeds/cYpO56YfgZjrTqAy.xml"
+         },
+         {
+            "source": "Nigeria - Headlines",
+            "country": "NG",
+            "url": "https://rss.app/feeds/g13tMWL4neM9JAKs.xml"
+         },
+         {
+            "source": "Pakistan - Headlines",
+            "country": "PK",
+            "url": "https://rss.app/feeds/nl95le3Yj99248dN.xml"
+         },
+         {
+            "source": "Philippines - Headlines",
+            "country": "PH",
+            "url": "https://rss.app/feeds/oHPq4GvMDljEXTvG.xml"
+         },
+         {
+            "source": "Singapore - Headlines",
+            "country": "SG",
+            "url": "https://rss.app/feeds/CBj86GDnTqs6vtIp.xml"
+         },
+         {
+            "source": "South Africa - Headlines",
+            "country": "ZA",
+            "url": "https://rss.app/feeds/d7rPnXgON8heeQtI.xml"
+         },
+         {
+            "source": "Tanzania - Headlines",
+            "country": "TZ",
+            "url": "https://rss.app/feeds/WLpv5dnHTyvG0GqQ.xml"
+         },
+         {
+            "source": "Uganda - Headlines",
+            "country": "UG",
+            "url": "https://rss.app/feeds/n4FcIGaMic95800B.xml"
+         },
+         {
+            "source": "Zimbabwe - Headlines",
+            "country": "ZW",
+            "url": "https://rss.app/feeds/DD2VxkKbUTG8TewD.xml"
+         },
+         {
+            "source": "Brasil - G1",
+            "country": "BR",
+            "url": "https://g1.globo.com/rss/g1/"
+         }
+      ]
+   },
+   "pt": {
+      "lang": "Português",
+      "feeds": [
+         {
+            "source": "Brasil - Principais Notícias",
+            "country": "BR",
+            "url": "https://rss.app/feeds/of6axYUn3eJkKGS3.xml"
+         },
+         {
+            "source": "Brasil - BBC",
+            "country": "BR",
+            "url": "https://feeds.bbci.co.uk/portuguese/rss.xml"
+         },
+         {
+            "source": "Brasil - G1",
+            "country": "BR",
+            "url": "https://g1.globo.com/rss/g1/"
+         },
+         {
+            "source": "Brasil - The Intercept",
+            "country": "BR",
+            "url": "https://theintercept.com/feed/?lang=pt"
+         },
+         {
+            "source": "Brasil - UOL",
+            "country": "BR",
+            "url": "http://rss.uol.com.br/feed/noticias.xml"
+         },
+         {
+            "source": "Compras - Compras Importadas",
+            "country": "BR",
+            "url": "https://rss.app/feeds/hiMN1JAZCLlnPZBz.xml"
+         },
+         {
+            "source": "Portugal - Principais Notícias",
+            "country": "PT",
+            "url": "https://rss.app/feeds/Sr51Gfi0ByNWZutW.xml"
+         },
+         {
+            "source": "Portugal - Observador",
+            "country": "PT",
+            "url": "https://feeds.feedburner.com/obs-ultimas"
+         },
+         {
+            "source": "Portugal - Jornal de Negócios",
+            "country": "PT",
+            "url": "https://www.jornaldenegocios.pt/rss"
+         },
+         {
+            "source": "Angola - Portal de Angola",
+            "country": "AO",
+            "url": "https://www.portaldeangola.com/feed/"
+         },
+         {
+            "source": "Moçambique - MMO",
+            "country": "MZ",
+            "url": "https://noticias.mmo.co.mz/feed"
+         },
+         {
+            "source": "Moçambique - O País",
+            "country": "MZ",
+            "url": "https://www.opais.co.mz/feed/"
+         }
+      ]
+   },
+   "de": {
+      "lang": "Deutsch",
+      "feeds": [
+         {
+            "source": "Deutschland - Top-Meldungen",
+            "country": "DE",
+            "url": "https://rss.app/feeds/IeBKydZSB4J8igWJ.xml"
+         },
+         {
+            "source": "Deutschland - DW.com",
+            "country": "DE",
+            "url": "https://rss.dw.com/xml/rss-de-all"
+         },
+         {
+            "source": "Österreich - Top-Meldungen",
+            "country": "AT",
+            "url": "https://rss.app/feeds/TsZCZzNf2UJkby1O.xml"
+         },
+         {
+            "source": "Schweiz - Top-Meldungen",
+            "country": "CH",
+            "url": "https://rss.app/feeds/UHMCWVLqbA93mxDo.xml"
+         }
+      ]
+   },
+   "es": {
+      "lang": "Español",
+      "feeds": [
+         {
+            "source": "España - El País",
+            "country": "ES",
+            "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"
+         },
+         {
+            "source": "España - El Mundo",
+            "country": "ES",
+            "url": "https://e00-elmundo.uecdn.es/rss/portada.xml"
+         },
+         {
+            "source": "España - La Vanguardia",
+            "country": "ES",
+            "url": "https://www.lavanguardia.com/rss/home.xml"
+         },
+         {
+            "source": "España - El Diario",
+            "country": "ES",
+            "url": "https://www.eldiario.es/rss/"
+         },
+         {
+            "source": "España - 20 Minutos",
+            "country": "ES",
+            "url": "https://www.20minutos.es/rss/"
+         },
+         {
+            "source": "Argentina - Noticias Principales",
+            "country": "AR",
+            "url": "https://rss.app/feeds/LQNNpkwhE0AEL3pC.xml"
+         },
+         {
+            "source": "Chile - Noticias Principales",
+            "country": "CL",
+            "url": "https://rss.app/feeds/JMSEPDT8SKWjz5eA.xml"
+         },
+         {
+            "source": "Colombia - Noticias Principales",
+            "country": "CO",
+            "url": "https://rss.app/feeds/niMyg4U8f098cHY7.xml"
+         },
+         {
+            "source": "Cuba - Noticias Principales",
+            "country": "CU",
+            "url": "https://rss.app/feeds/6Q0y8tjNqS5EnGEL.xml"
+         },
+         {
+            "source": "Estados Unidos - Noticias Principales",
+            "country": "US",
+            "url": "https://rss.app/feeds/Tl81MABdUvKjydIk.xml"
+         },
+         {
+            "source": "México - Noticias Principales",
+            "country": "MX",
+            "url": "https://rss.app/feeds/3xIoy6UjgEdbcFF3.xml"
+         },
+         {
+            "source": "Peru - Noticias Principales",
+            "country": "PE",
+            "url": "https://rss.app/feeds/7nj9QRfJ9ZJ2dApx.xml"
+         },
+         {
+            "source": "Venezuela - Noticias Principales",
+            "country": "VE",
+            "url": "https://rss.app/feeds/0MMh5EYxSsCwmNGq.xml"
+         },
+         {
+            "source": "Uruguay - El País",
+            "country": "UY",
+            "url": "https://www.elpais.com.uy/rss/"
+         }
+      ]
+   },
+   "ca": {
+      "lang": "Català",
+      "feeds": [
+         {
+            "source": "Catalunya - El País",
+            "country": "ES",
+            "url": "http://ep00.epimg.net/rss/cat/portada.xml"
+         },
+         {
+            "source": "Catalunya - El País (en Español)",
+            "country": "ES",
+            "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/subsection/catalunya"
+         }
+      ]
+   },
+   "el": {
+      "lang": "Ελληνικά",
+      "feeds": [
+         {
+            "source": "Ελλάδα - Κυριότερες Ειδήσεις",
+            "country": "GR",
+            "url": "https://rss.app/feeds/FV9AVn8CHgI6kHZz.xml"
+         }
+      ]
+   },
+   "it": {
+      "lang": "Italiano",
+      "feeds": [
+         {
+            "source": "Italia - Notizie principali",
+            "country": "IT",
+            "url": "https://rss.app/feeds/MTiu3V606aU2CiZr.xml"
+         },
+         {
+            "source": "Italia - Il Corriere della Sera",
+            "country": "IT",
+            "url": "http://xml2.corriereobjects.it/rss/homepage.xml"
+         },
+         {
+            "source": "Italia - Il Messaggero",
+            "country": "IT",
+            "url": "https://www.ilmessaggero.it/rss/home.xml"
+         },
+         {
+            "source": "Italia - La Repubblica",
+            "country": "IT",
+            "url": "https://www.repubblica.it/rss/homepage/rss2.0.xml"
+         }
+      ]
+   },
+   "fr": {
+      "lang": "Français",
+      "feeds": [
+         {
+            "source": "France - À la une",
+            "country": "FR",
+            "url": "https://rss.app/feeds/ndhPbP9M07EucN20.xml"
+         },
+         {
+            "source": "Belgique - À la une",
+            "country": "BE",
+            "url": "https://rss.app/feeds/0ioE3x5pPd3J7H7N.xml"
+         },
+         {
+            "source": "Canada - À la une",
+            "country": "CA",
+            "url": "https://rss.app/feeds/mNHK4fMa9I9qzKg5.xml"
+         },
+         {
+            "source": "Maroc - À la une",
+            "country": "MA",
+            "url": "https://rss.app/feeds/kURC15ZxWJw9Rgqk.xml"
+         },
+         {
+            "source": "Sénégal - À la une",
+            "country": "SN",
+            "url": "https://rss.app/feeds/h8pPazlYUJ6uu56p.xml"
+         },
+         {
+            "source": "Suisse - À la une",
+            "country": "CH",
+            "url": "https://rss.app/feeds/SDHBzkjwgnBbBTSf.xml"
+         }
+      ]
+   },
+   "lt": {
+      "lang": "Lietuvių",
+      "feeds": [
+         {
+            "source": "Lietuva - Populiariausios naujienos",
+            "country": "LT",
+            "url": "https://rss.app/feeds/jr1nMV0omQSzp7ef.xml"
+         }
+      ]
+   },
+   "lv": {
+      "lang": "Latviešu",
+      "feeds": [
+         {
+            "source": "Latvija - Populārākās ziņas",
+            "country": "LV",
+            "url": "https://rss.app/feeds/1ieVeIORWZolHIoc.xml"
+         }
+      ]
+   },
+   "hu": {
+      "lang": "Magyar",
+      "feeds": [
+         {
+            "source": "Magyarország - Vezető hírek",
+            "country": "HU",
+            "url": "https://rss.app/feeds/hX7Lp0xrUqquiJTH.xml"
+         }
+      ]
+   },
+   "nl": {
+      "lang": "Nederlands",
+      "feeds": [
+         {
+            "source": "Nederland - Voorpaginanieuws",
+            "country": "NL",
+            "url": "https://rss.app/feeds/XjkZP2WM469ewdcy.xml"
+         },
+         {
+            "source": "België - Voorpaginanieuws",
+            "country": "BE",
+            "url": "https://rss.app/feeds/SpPwKrSxNYIQYMRC.xml"
+         }
+      ]
+   },
+   "no": {
+      "lang": "Norsk",
+      "feeds": [
+         {
+            "source": "Norge - Hovedoppslag",
+            "country": "NO",
+            "url": "https://rss.app/feeds/N6Cfu1MfU3SZzCrn.xml"
+         }
+      ]
+   },
+   "pl": {
+      "lang": "Polski",
+      "feeds": [
+         {
+            "source": "Polska - Najważniejsze artykuły",
+            "country": "PL",
+            "url": "https://rss.app/feeds/v4rVaYpIvWuSg4L0.xml"
+         }
+      ]
+   },
+   "ro": {
+      "lang": "Română",
+      "feeds": [
+         {
+            "source": "România - Cele mai populare subiecte",
+            "country": "RO",
+            "url": "https://rss.app/feeds/ABdApGcsYfBpXUDN.xml"
+         }
+      ]
+   },
+   "sk": {
+      "lang": "Slovenčina",
+      "feeds": [
+         {
+            "source": "Slovensko - Hlavné správy",
+            "country": "SK",
+            "url": "https://rss.app/feeds/ffxYzmBggraZ0KTm.xml"
+         }
+      ]
+   },
+   "sl": {
+      "lang": "Slovenščina",
+      "feeds": [
+         {
+            "source": "Slovenija - Najpomembnejše novice",
+            "country": "SI",
+            "url": "https://rss.app/feeds/mO9JzIMSSIf7houb.xml"
+         }
+      ]
+   },
+   "sv": {
+      "lang": "Svenska",
+      "feeds": [
+         {
+            "source": "Sverige - Najpomembnejše novice",
+            "country": "SE",
+            "url": "https://rss.app/feeds/1ci6CeFLe1ZBhiCy.xml"
+         }
+      ]
+   },
+   "ru": {
+      "lang": "Русский",
+      "feeds": [
+         {
+            "source": "Россия - Главные Новости",
+            "country": "RU",
+            "url": "https://rss.app/feeds/j8gwqR2h7RfOjeTy.xml"
+         },
+         {
+            "source": "Россия - Последние",
+            "country": "RU",
+            "url": "https://rss.app/feeds/xT1WSkGOZjkJXgDg.xml"
+         },
+         {
+            "source": "Украина - Главные Новости",
+            "country": "UA",
+            "url": "https://rss.app/feeds/GF6NIsuvSaxrLt1y.xml"
+         }
+      ]
+   },
+   "bg": {
+      "lang": "Български",
+      "feeds": [
+         {
+            "source": "България - Водещи Заглавия",
+            "country": "BG",
+            "url": "https://rss.app/feeds/iZ6y0TSwaOuhH9NL.xml"
+         }
+      ]
+   },
+   "sr": {
+      "lang": "Српски",
+      "feeds": [
+         {
+            "source": "Србија - Најважније Вести",
+            "country": "RS",
+            "url": "https://rss.app/feeds/ycDJpfHGmBRZGDKc.xml"
+         }
+      ]
+   },
+   "uk": {
+      "lang": "Українська",
+      "feeds": [
+         {
+            "source": "Україна - Головні Hовини",
+            "country": "UA",
+            "url": "https://rss.app/feeds/Wzx8CgLQ45tKkR1p.xml"
+         }
+      ]
+   },
+   "cs": {
+      "lang": "Čeština",
+      "feeds": [
+         {
+            "source": "Česko - Hlavní události",
+            "country": "CZ",
+            "url": "https://rss.app/feeds/XxP6FGP3HXwCjyxg.xml"
+         }
+      ]
+   },
+   "vi": {
+      "lang": "Tiếng Việt",
+      "feeds": [
+         {
+            "source": "Việt Nam - Tin bài hàng đầu",
+            "country": "VN",
+            "url": "https://rss.app/feeds/G7D6NrI0tnBFbY9m.xml"
+         }
+      ]
+   },
+   "tr": {
+      "lang": "Türkçe",
+      "feeds": [
+         {
+            "source": "Türkiye - En çok okunan haberler",
+            "country": "TR",
+            "url": "https://rss.app/feeds/ravfVS9evsubclmM.xml"
+         }
+      ]
+   },
+   "id": {
+      "lang": "Bahasa Indonesia",
+      "feeds": [
+         {
+            "source": "Indonesia - Artikel populer",
+            "country": "ID",
+            "url": "https://rss.app/feeds/ewnIy1xFCSpQtokK.xml"
+         }
+      ]
+   },
+   "zh": {
+      "lang": "中文",
+      "feeds": [
+         {
+            "source": "中国 - 焦点新闻",
+            "country": "CN",
+            "url": "https://rss.app/feeds/QXbTBEd3hVvTMsfL.xml"
+         },
+         {
+            "source": "香港 - 焦點新聞",
+            "country": "HK",
+            "url": "https://rss.app/feeds/rpXom3lJDJkMl2TZ.xml"
+         },
+         {
+            "source": "台灣 - 焦點新聞",
+            "country": "TW",
+            "url": "https://rss.app/feeds/2I8ozktxpQJITlhQ.xml"
+         }
+      ]
+   },
+   "ja": {
+      "lang": "日本語",
+      "feeds": [
+         {
+            "source": "日本 - トップニュース",
+            "country": "JP",
+            "url": "https://rss.app/feeds/joMT8K5wbct279iX.xml"
+         }
+      ]
+   },
+   "ko": {
+      "lang": "한국어",
+      "feeds": [
+         {
+            "source": "대한민국 - 주요 뉴스",
+            "country": "KR",
+            "url": "https://rss.app/feeds/aD9RNNqz2RdMoSrh.xml"
+         }
+      ]
+   },
+   "hi": {
+      "lang": "हिन्दी",
+      "feeds": [
+         {
+            "source": "भारत - खास खबरें",
+            "country": "IN",
+            "url": "https://rss.app/feeds/wWmDd0vhFzmr4vsP.xml"
+         }
+      ]
+   },
+   "ta": {
+      "lang": "தமிழ்",
+      "feeds": [
+         {
+            "source": "இந்தியா - முக்கியச் செய்திகள்",
+            "country": "IN",
+            "url": "https://rss.app/feeds/1UKdWdBKG6dVJkeW.xml"
+         }
+      ]
+   },
+   "te": {
+      "lang": "తెలుగు",
+      "feeds": [
+         {
+            "source": "భారతదేశం - ఉత్తమ కథనాలు",
+            "country": "IN",
+            "url": "https://rss.app/feeds/OqCq1bbtooaTFJDl.xml"
+         }
+      ]
+   },
+   "ml": {
+      "lang": "മലയാളം",
+      "feeds": [
+         {
+            "source": "ഇന്ത്യ - പ്രധാന വാർത്തകൾ",
+            "country": "IN",
+            "url": "https://rss.app/feeds/LKnilWEJIcRTUbfr.xml"
+         }
+      ]
+   },
+   "mr": {
+      "lang": "मराठी",
+      "feeds": [
+         {
+            "source": "भारत - ठळक बातम्या",
+            "country": "IN",
+            "url": "https://news.google.com/rss?hl=mr&gl=IN&ceid=IN:mr&oc=11"
+         }
+      ]
+   },
+   "th": {
+      "lang": "ไทย",
+      "feeds": [
+         {
+            "source": "ไทย - เรื่องเด่น",
+            "country": "TH",
+            "url": "https://rss.app/feeds/jVZKyBGvVJ6PePZW.xml"
+         }
+      ]
+   },
+   "bn": {
+      "lang": "বাংলা",
+      "feeds": [
+         {
+            "source": "বাংলাদেশ - সেরা খবর",
+            "country": "BD",
+            "url": "https://rss.app/feeds/jsTLggIzY3gmlpZv.xml"
+         },
+         {
+            "source": "বাংলা - সেরা খবর",
+            "country": "IN",
+            "url": "https://rss.app/feeds/nCVRIYBlmtsvX0ac.xml"
+         }
+      ]
+   },
+   "he": {
+      "lang": "עברית",
+      "feeds": [
+         {
+            "source": "ישראל - הכתבות המובילות",
+            "country": "IL",
+            "url": "https://rss.app/feeds/4umd9nzAkoWJZr3X.xml"
+         }
+      ]
+   },
+   "ar": {
+      "lang": "العربية",
+      "feeds": [
+         {
+            "source": "الإمارات العربية المتحدة - العناوين الرئيسية",
+            "country": "AE",
+            "url": "https://rss.app/feeds/MXB4dx3q0DF9q8Ct.xml"
+         },
+         {
+            "source": "المملكة العربية السعودية - العناوين الرئيسية",
+            "country": "SA",
+            "url": "https://rss.app/feeds/nBRNsbfsL0PJxMi7.xml"
+         },
+         {
+            "source": "لبنان - العناوين الرئيسية",
+            "country": "LB",
+            "url": "https://rss.app/feeds/FwutEtHN1ReYLL7K.xml"
+         },
+         {
+            "source": "مصر - العناوين الرئيسية",
+            "country": "EG",
+            "url": "https://rss.app/feeds/tGDPD84Thvfamffs.xml"
+         }
+      ]
+   }
+}

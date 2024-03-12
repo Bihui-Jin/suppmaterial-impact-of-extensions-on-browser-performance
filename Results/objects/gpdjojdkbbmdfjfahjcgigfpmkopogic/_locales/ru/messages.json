@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Кнопка «Сохранить в Pinterest»",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Сохраняйте понравившиеся идеи в Интернете, чтобы вернуться к ним в будущем.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Вы не можете сохранять пины из этого домена. Со всеми вопросами обращайтесь к администратору веб-сайта.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Параметры кнопки «Сохранить»",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Скрыть всплывающие кнопки «Сохранить»",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Поиск",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Сохранить",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Сохраните идею в Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Выберите до двадцати изображений",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Далее",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Выбрать все",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Сохранить на доске",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Сохранено на доске:",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Перейти",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Справка",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Выбор доски",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Лучшие варианты",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Все доски",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Создание доски",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Секретная",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Выбрать раздел",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Добавить раздел",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Да",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Нет",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Отмена",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Создать",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Не удалось создать доску",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Не удалось сохранить страницу",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Похоже, произошла ошибка. Убедитесь, что вы вошли в Pinterest, и повторите попытку.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Ой!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Справка",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Ой!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Похоже, вы не вошли в Pinterest. Войдите в систему.",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Войти",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

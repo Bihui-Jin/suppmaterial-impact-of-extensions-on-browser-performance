@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inforness Options</title>
+  <link href="res/material-components-web.min.css" rel="stylesheet">
+  <script src="res/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    table {width: 100%;}
+  </style>
+</head>
+<body>
+
+  <div style="max-width: 1280px; width: 100%; margin:0 auto; border:solid 1px #e0e0e0;">
+
+    <!-- =============== TABs =============== -->
+    <div class="mdc-tab-bar" role="tablist" style="display: none;">
+      <div class="mdc-tab-scroller">
+        <div class="mdc-tab-scroller__scroll-area">
+          <div class="mdc-tab-scroller__scroll-content">
+
+            <button id="tabbtnWhat" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" style="padding-right: 5px;padding-left: 5px;">
+              <span class="mdc-tab__content">
+                <img src="img/tab_what-icon.png" width="16px" height="16px" style="padding-right:5px;" />
+                <span class="mdc-tab__text-label" style="font-size: 10px;">What?</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button id="tabbtnWhere" class="mdc-tab" role="tab" aria-selected="false" tabindex="1" style="padding-right: 5px;padding-left: 5px;">
+              <span class="mdc-tab__content">
+                <img src="img/tab_where_icon.png" width="16px" height="16px" style="padding-right:5px;" />
+                <span class="mdc-tab__text-label" style="font-size: 10px;">Where</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button id="tabbtnOrganization" class="mdc-tab" role="tab" aria-selected="false" tabindex="2" style="padding-right: 5px;padding-left: 5px;">
+              <span class="mdc-tab__content">
+                <img src="img/tab_organization_icon.png" width="16px" height="16px" style="padding-right:5px;" />
+                <span class="mdc-tab__text-label" style="font-size: 10px;">Organization</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =============== WHAT TAB =============== -->
+    <div id="tabContentWhat">
+
+      <div class="mdc-card" style="margin: 5px; padding: 10px; background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E0E0E0)) fixed;">
+        <div style="padding:0px;">
+          <div style="border-bottom: solid 1px #e0e0e0;">
+            <table style="width: 100%;">
+              <tr>
+                <td style="text-align: left;">
+                  <h2><img src="img/icon_16.png"/> &nbsp; <b>Inforness</b> - <span id="TotalSourcesSelected" style="font-size: 14px;"></span></h2>
+                </td>
+                <td style="text-align: right;">
+                  <!-- AddToAny BEGIN -->
+                  <div>
+                    <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;title=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/facebook.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/twitter.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/linkedin.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/whatsapp.svg" width="32" height="32" style="background-color:royalblue"></a>
+                    <a href="https://www.addtoany.com/add_to/google_gmail?linkurl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Finforness%2Fkgaebnfbgpcnglnhjhglinfiecgccfij&amp;linkname=Inforness%20-%20Replace%20Ads%20to%20fun%20%26%20interesting%20content!" target="_blank"><img src="https://static.addtoany.com/buttons/gmail.svg" width="32" height="32" style="background-color:royalblue"></a>
+                  </div>
+                  <!-- AddToAny END -->
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <table style="width: 100%;">
+            <tr>
+              <!-- Categories -->
+              <td style="width: 150px; vertical-align: top;">
+                <h3>Categories:</h3>
+                <div class="mdc-chip-set mdc-chip-set--choice" role="grid" style="border-radius: 10px;"></div>
+                      <div id="chipTemplate" style="display: none;">
+                        <div class="mdc-chip" role="row">
+                          <div class="mdc-chip__ripple"></div>
+                          <span role="gridcell">
+                            <span role="button" tabindex="-1" class="mdc-chip__primary-action">
+                              <span class="mdc-chip__text">%CHIP_TITLE%</span>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+              </td>
+              <!-- Channels -->
+              <td style="width: 650px; vertical-align: top; padding-left: 5px; padding-right: 5px;">
+                <h3>Channels:</h3>
+                <ul class="mdc-list mdc-list--two-line" style="width: 100%;"></ul>
+                      <div id="listItemTemplate" style="display: none;">
+                        <li class="mdc-list-item" aria-selected="false" style="background-color: #FCFCFC; border-radius: 10px; border-bottom: solid 1px #D0D0D0;">
+                          <span class="mdc-list-item__ripple"></span>
+                          <span class="mdc-list-item__text" style="width: 100%;">
+                            <table style="width: 100%;">
+                              <tr>
+                                <td>
+                                  <span class="mdc-list-item__primary-text" style="max-width: 550px;">%TITLE%</span>
+                                  <span class="mdc-list-item__secondary-text" style="max-width: 550px;">%DESCRIPTION%</span>
+                                </td>
+                                <td style="width: 30px;">
+                                  <i class="material-icons" aria-hidden="true" style="padding-top:10px;">check</i>
+                                </td>
+                              </tr>
+                            </table>
+                          </span>
+                        </li>
+                      </div>
+                
+                <br>
+                <div id="channelsAddCard" class="mdc-card" style="width: 95%; padding: 5px; display: none;">
+                  <table cellspacing="10px">
+                    <tr>
+                      <td>
+                        <i>RSS url:</i>
+                      </td>
+                      <td style="width:80%;">
+                        <input id="channelsAddInput" style="width: 95%; height: 20px; padding:5px; margin: 3px; border: solid 1px #A0A0A0; border-radius: 5px 5px;">
+                      </td>
+                      <td>
+                        <button id="channelsAddButton" class="mdc-button mdc-button--raised">
+                          <span class="mdc-button__ripple"></span> ADD
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <!-- Channel details -->
+              <td style="width: 350px; min-width: 400px; vertical-align: top;">
+                <h3>Channel details:</h3>
+                <div id="SourceViewCard" class="mdc-card" style="width: 95%; padding: 10px;">
+                  <table cellspacing="10px">
+                    <tr>
+                      <div id="SourceViewFollowBtn" class="mdc-card__actions" style="width:100%; direction: rtl; display:none;">
+                        <button class="mdc-button mdc-button--raised" id="btnSourceDelete">
+                          <span class="mdc-button__ripple"></span>
+                          <span class="mdc-button__label">delete</span>
+                          <span class="mdc-button__touch"></span>
+                        </button>
+                        &nbsp;
+                        <button class="mdc-button mdc-button--raised" id="btnSourceFollow">
+                          <span class="mdc-button__ripple"></span>
+                          <span class="mdc-button__label">follow</span>
+                          <span class="mdc-button__touch"></span>
+                        </button>
+                      </div>
+                    </tr>
+                    <tr>
+                      <td style="width: 100px;"><i>Title:</i></td>
+                      <td><b id="SourceViewTitle"></b></td>
+                    </tr>
+                    <tr>
+                      <td><i>Link:</i></td>
+                      <td><a id="SourceViewLink" target="_blank"></a></td>
+                    </tr>
+                    <tr>
+                      <td><i>RSS:</i></td>
+                      <td><a id="SourceViewRSSLink" target="_blank"></a></td>
+                    </tr>
+                    <tr>
+                      <td><i>Description:</i></td>
+                      <td id="SourceViewDescription"></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" style="text-align: center;">
+                        <img id="SourceViewImage" src="" width="200px" />
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+    
+      </div>
+      
+    </div>
+    <!-- =============== WHERE TAB =============== -->
+    <div id="tabContentWhere" style="display: none;">
+
+      <div class="mdc-card" style="margin: 5px; padding: 10px;">
+
+        <div style="padding:0px;">
+          <div style="border-bottom: solid 1px #e0e0e0;"><h2>Where?</h2></div>
+    
+          <table>
+            <tr>
+              <td>
+                
+                <table cellspacing="0px">
+                  <tr>
+                    <td colspan="2">
+                      <h3>GMail</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Inbox screen</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isGmailInbox" pubInjectDefId="d14cd696-b064-4098-a566-7ca50c7ee7e0" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="basic-switch">Mail details screen</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isGmailMailDetails" pubInjectDefId="9efbd448-01c7-4ae4-81ea-159e038bd93b" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <h3>YNet</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Home page</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isYnetHomepage" pubInjectDefId="35a75efa-1810-4d83-924e-969d4d83f734" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="basic-switch">Articles</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isYnetArticles" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <h3>Geektime</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Home page</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isGeektimeHomepage" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="basic-switch">Articles</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isGeektimeArticles" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td style="vertical-align: top;">
+
+                <table cellspacing="0px">
+                  <tr>
+                    <td colspan="2">
+                      <h3>Social</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Facebook</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isFacebook" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Twitter</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isTwitter" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Instagram</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isInstagram" pubInjectDefId="" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <br><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <h3>Ads</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 250px;">
+                      <label for="basic-switch">Try replace Google Ads</label>
+                    </td>
+                    <td>
+                      <div class="mdc-checkbox">
+                        <input type="checkbox" class="mdc-checkbox__native-control" id="isReplaceAds" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+              <td style="vertical-align: top;">
+
+                <h3>Frequency</h3>
+                <table>
+                  <tr>
+                    <td><label for="cars">Max imtems on the page:</label></td>
+                    <td>
+                      <select id="maxInjectionsInPage" style="border: solid 1px #e0e0e0;">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="100">MAX</option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+
+        </div>
+    
+        <div class="mdc-card__actions" style="width:100%; direction: rtl;">
+          <button class="mdc-button mdc-button--raised" id="btnWhereSave">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Save</span>
+            <span class="mdc-button__touch"></span>
+        </button>
+        </div>
+    
+      </div>
+
+    </div>
+    <!-- =============== ORGANIZATION TAB =============== -->
+    <div id="tabContentOrganization" style="display: none;">
+
+      <div class="mdc-card" style="margin: 5px; padding: 10px;">
+        <div style="padding:0px;">
+          <div style="border-bottom: solid 1px #e0e0e0;"><h2>Connect to your organization</h2></div>
+        </div>
+    
+        <div id="screenSignin">
+          <div class="center" style="width:150px;">
+            <br><br>
+            <img id="btnSigin" src="img/google_signin.png" width="150px" style="cursor:pointer;">
+            
+          </div>
+          <div class="center" style="width:230px; vertical-align:bottom;">
+            <br>
+            <input id="tracking-permitted" name="tracking-permitted" type="checkbox" checked />
+            <label for="tracking-permitted" style="font-size: 9px;"> Send anonymous usage data to Google Analytics.</label>
+            <br><br>
+          </div>
+        </div>
+
+        <div class="mdc-card__actions" style="width:100%; direction: rtl; display: none">
+          <button class="mdc-button mdc-button--raised" id="btnOrgSave">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Save</span>
+            <span class="mdc-button__touch"></span>
+        </button>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+  <script src="js/options.js"></script>
+</body>
+</html>

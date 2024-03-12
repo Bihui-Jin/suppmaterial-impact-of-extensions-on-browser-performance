@@ -1,0 +1,26 @@
+{
+    "extName": {
+        "message": "Neeva Search + Protect for Chrome ",
+        "description": "The extension name."
+    },
+    "extShortName": {
+        "message": "Neeva Search + Protect",
+        "description": "The extension short_name."
+    },
+    "extDescription": {
+        "message": "Neeva Search + Protect for Chrome",
+        "description": "The extension description."
+    },
+    "trackingPreventionExtName": {
+        "message": "Neeva Tracking Prevention",
+        "description": "The The tracking prevention extension name."
+    },
+    "trackingPreventionExtShortName": {
+        "message": "Neeva Tracking Prevention",
+        "description": "The tracking prevention extension short_name."
+    },
+    "trackingPreventionExtDescription": {
+        "message": "Neeva Tracking Prevention",
+        "description": "The tracking prevention extension description."
+    }
+}

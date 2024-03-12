@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Nút Lưu của Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Lưu trực tuyến ý tưởng bạn yêu thích để có thể dễ dàng quay lại sau này.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Rất tiếc, không được phép ghim từ miền này. Vui lòng liên hệ quản trị viên trang web nếu bạn có thắc mắc.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Các tùy chọn nút Lưu",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Nút Lưu ẩn hiệu ứng di chuột",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Tìm kiếm",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Lưu",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Lưu ý tưởng vào Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Chọn tối đa hai mươi hình ảnh",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Tiếp theo",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Chọn tất cả",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Lưu vào bảng",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Đã lưu vào",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Truy cập",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Trợ giúp",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Chọn bảng",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Các lựa chọn hàng đầu",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Tất cả các bảng",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Tạo bảng",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Bí mật",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Chọn phần bảng",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Thêm phần bảng",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Có",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Không",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Hủy",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Tạo",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Không thể tạo bảng mới",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Không thể lưu trang này",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Rất tiếc, có gì đó không ổn. Vui lòng kiểm tra xem bạn đã đăng nhập vào Pinterest chưa và thử lại.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Rất tiếc!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Nhận trợ giúp",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Khoan đã!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Có vẻ như bạn chưa đăng nhập Pinterest. Để xem nào!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Đăng nhập",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

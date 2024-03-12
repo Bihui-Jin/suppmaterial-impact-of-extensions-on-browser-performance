@@ -1,0 +1,1 @@
+export default(a=>`DESIGN_${a.toLowerCase().replace(/^http(s)*:\/\//g,"").replace(/[^\w.]+/g,"-").replace(/[^\w]+$/g,"")}`);

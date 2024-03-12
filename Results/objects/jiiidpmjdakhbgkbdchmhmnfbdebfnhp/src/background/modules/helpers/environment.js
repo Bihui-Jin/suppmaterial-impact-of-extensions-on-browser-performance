@@ -1,0 +1,1 @@
+const environment=()=>({isDev:!("update_url"in chrome.runtime.getManifest()),isTest:"eghogimobjhjnhenchfhaffkpbohmppf"===chrome.runtime.id,isProd:"jiiidpmjdakhbgkbdchmhmnfbdebfnhp"===chrome.runtime.id});export default environment();

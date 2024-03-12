@@ -1,0 +1,2 @@
+$(document).ready(function(){$('#all_tab').click(function(){chrome.extension.sendMessage({action:'QUERY_ALL_TAB'});});$('#current_tab').click(function(){chrome.extension.sendMessage({action:'QUERY_CURRENT_TAB'});});$('#left_tab').click(function(){chrome.extension.sendMessage({action:'QUERY_LEFT_TAB'});});$('#right_tab').click(function(){chrome.extension.sendMessage({action:'QUERY_RIGHT_TAB'});});});
+

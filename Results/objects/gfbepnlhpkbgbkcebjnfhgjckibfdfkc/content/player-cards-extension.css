@@ -1,0 +1,36 @@
+
+.fpResearchAssistantIcon.fpExtensionIcon .fp-icon__icon,
+.fpResearchAssistantIcon.fpExtensionIcon.gb_loggedout .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_loggedout .fp-icon__icon,
+.fpResearchAssistantIcon.fpExtensionIcon.gb_loggedout_small .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_loggedout_small .fp-icon__icon{
+	background-image: url(https://cdn.fantasypros.com/playercards/skin/F-default.png) !important;
+}
+
+.fpResearchAssistantIcon.fpExtensionIcon.gb_unavailable .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_unavailable .fp-icon__icon,
+.fpResearchAssistantIcon.fpExtensionIcon.gb_unavailable_small .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_unavailable_small .fp-icon__icon{
+	background-image: url(https://cdn.fantasypros.com/playercards/skin/F-taken.png) !important;
+}
+
+.fpResearchAssistantIcon.fpExtensionIcon.gb_inteam .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_inteam .fp-icon__icon,
+.fpResearchAssistantIcon.fpExtensionIcon.gb_inteam_small .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_inteam_small .fp-icon__icon{
+	background-image: url(https://cdn.fantasypros.com/playercards/skin/F-inteam.png) !important;
+}
+
+.fpResearchAssistantIcon.fpExtensionIcon.gb_available .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_available .fp-icon__icon,
+.fpResearchAssistantIcon.fpExtensionIcon.gb_available_small .fp-icon__icon, 
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_available_small .fp-icon__icon{
+	background-image: url(https://cdn.fantasypros.com/playercards/skin/F-avail.png) !important;
+}
+
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_available_unavailable .fp-icon__icon,
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_inteam_unavailable .fp-icon__icon,
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_available_inteam .fp-icon__icon,
+div.fpNewsPlayer .fpResearchAssistantIcon.fpExtensionIcon.gb_available_inteam_unavailable .fp-icon__icon{
+	background-image: url(https://cdn.fantasypros.com/playercards/skin/F-default.png) !important;
+}

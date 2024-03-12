@@ -1,0 +1,506 @@
+{
+  "clear_storage_button_reset": {
+    "description": "Yes, reset",
+    "message": "Si, acepto"
+  },
+  "clear_storage_button_safety": {
+    "description": "Bring me to safety",
+    "message": "No reiniciar"
+  },
+  "clear_storage_description": {
+    "description": "You are about to reset everything in Designer Tools. All settings, custom grids and designs will be deleted.",
+    "message": "Está a punto de restablecer todo en Designer Tools. Se eliminarán todas las configuraciones, plantillas personalizadas y diseños."
+  },
+  "clear_storage_title": {
+    "description": "Are you sure?",
+    "message": "¿Estás seguro?"
+  },
+  "config_shortcut_description": {
+    "description": "You can use the keyboard shortcuts to do everything in Designer Tools.",
+    "message": "Puedes usar estos atajos en Designer Tools."
+  },
+  "config_shortcut_design": {
+    "description": "Open the design panel",
+    "message": "Abre el panel de diseño"
+  },
+  "config_shortcut_extension": {
+    "description": "Open or close the extension",
+    "message": "Abre o cierra la extensión"
+  },
+  "config_shortcut_information_panel": {
+    "description": "Open the information panel",
+    "message": "Abrir el panel de información"
+  },
+  "config_shortcut_settings": {
+    "description": "Open the settings panel",
+    "message": "Abrir el panel de configuración"
+  },
+  "config_shortcut_title": {
+    "description": "Using <strong>shortcuts</strong>",
+    "message": "Usar <strong>atajos</strong>"
+  },
+  "extension_description": {
+    "description": "The description of the extension",
+    "message": "Mide y alinea elementos en Chrome"
+  },
+  "extension_title": {
+    "description": "The title of the extension",
+    "message": "Designer Tools"
+  },
+  "feedback_button_give": {
+    "description": "Button text saying 'Give feedback'",
+    "message": "Dejar realimentación"
+  },
+  "feedback_button_later": {
+    "description": "Button text saying 'Ask again later'",
+    "message": "Preguntar otra vez luego"
+  },
+  "feedback_button_send": {
+    "description": "Button text saying 'Send feedback'",
+    "message": "Enviar realimentación"
+  },
+  "feedback_negative_body": {
+    "description": "Body of the feedback-modal, after a negative feedback has been given.",
+    "message": "Estoy construyendo Designer Tools por mi propia cuenta, así es que tu realimentación en verdad me ayuda a tener una idea sobre que hacer para mejorar esta herramienta."
+  },
+  "feedback_negative_placeholder": {
+    "description": "A placeholder shown in the input field where we ask for suggestions or ideas",
+    "message": "Sugerencias o ideas"
+  },
+  "feedback_negative_title": {
+    "description": "Title of the feedback-modal, after a negative feedback has been given.",
+    "message": "¿Que puedo hacer para obtener 5 estrellas?"
+  },
+  "feedback_positive_body": {
+    "description": "Body of the feedback-modal, after a positive feedback has been given.",
+    "message": "Por favor también deja tu realimentación en la Tienda Virtual. Estoy desarrollando esto por mi cuenta y me ayuda mucho tu realimentación para poder seguir desarrollandolo para ti. "
+  },
+  "feedback_positive_title": {
+    "description": "Title of the feedback-modal, after a positive feedback has been given.",
+    "message": "Por favor corre la voz! "
+  },
+  "feedback_rating_body": {
+    "description": "Title of the welcome-modal.",
+    "message": "Ayudanos a mejorar dando tu opinion sobre Designer Tools!"
+  },
+  "feedback_rating_title": {
+    "description": "Title of the feedback-modal.",
+    "message": "¿Qué piensas?"
+  },
+  "feedback_thanks_body": {
+    "description": "Body of the Thanks-modal.",
+    "message": "Tu opinion me ayuda a mejorar muchísimo Designer Tools. Gracias por ser parte de la familia!"
+  },
+  "feedback_thanks_title": {
+    "description": "Title of the Thanks-modal.",
+    "message": "Muchas gracias!"
+  },
+  "general_alignment": {
+    "description": "The word 'Alignment'",
+    "message": "Alineación"
+  },
+  "general_alignment_center": {
+    "description": "The word 'Center', as in 'align in the center'",
+    "message": "Centrado"
+  },
+  "general_alignment_left": {
+    "description": "The word 'Left', as in 'align to the left'",
+    "message": "Izquierda"
+  },
+  "general_alignment_right": {
+    "description": "The word 'Right', as in 'align to the right'",
+    "message": "Derecha"
+  },
+  "general_color": {
+    "description": "The word 'Color', as in 'The color is blue'",
+    "message": "Color"
+  },
+  "general_font": {
+    "description": "The word 'Font', as in 'The Font is Arial'",
+    "message": "Fuente"
+  },
+  "general_infinite": {
+    "description": "The word 'Infinite', as in 'The number is infinite'",
+    "message": "Infinitas"
+  },
+  "general_off": {
+    "description": "The word 'Off', as in 'The light is off'",
+    "message": "Apagada"
+  },
+  "general_ok": {
+    "description": "The word 'Ok'",
+    "message": "Bueno"
+  },
+  "general_on": {
+    "description": "The word 'On', as in 'The light is on'",
+    "message": "Encendida"
+  },
+  "general_size": {
+    "description": "The word 'Size', as in 'The size is 50 meters'",
+    "message": "Tamaño"
+  },
+  "general_style": {
+    "description": "The word 'Style', as in 'The Font style is Italic'",
+    "message": "Estilo"
+  },
+  "general_try_again": {
+    "description": "Try again, as in 'The action failed. Try again.'",
+    "message": "Inténtalo de nuevo"
+  },
+  "general_weight": {
+    "description": "The word 'Weight', as in 'The font weight is bold'",
+    "message": "Peso"
+  },
+  "infopanel_content": {
+    "description": "The word 'content', as in 'The content is in the box'",
+    "message": "Contenido"
+  },
+  "infopanel_header": {
+    "description": "The word 'Information', as in 'Information about a box'",
+    "message": "Información"
+  },
+  "infopanel_select_element": {
+    "description": "Explain that the user has to select an element",
+    "message": "Haz click en un elemento para seleccionarlo"
+  },
+  "infopanel_title_background": {
+    "description": "The title of the 'Background' section in the infopanel",
+    "message": "Fondo"
+  },
+  "infopanel_title_positioning": {
+    "description": "The title of the 'Positioning' section in the infopanel",
+    "message": "Posicionamiento"
+  },
+  "infopanel_title_typography": {
+    "description": "The title of the 'Typography' section in the infopanel",
+    "message": "Tipografía"
+  },
+  "layoutmodal_design_description": {
+    "description": "Description above the layout modals design section.",
+    "message": "Al superposicionar la página con tu diseño puedes ajustar los los pixeles a la perfección."
+  },
+  "layoutmodal_design_filter_difference": {
+    "description": "The 'difference' option",
+    "message": "Diferencia"
+  },
+  "layoutmodal_design_filter_grayscale": {
+    "description": "The 'Grayscale' option",
+    "message": "Escala de grises"
+  },
+  "layoutmodal_design_filter_label": {
+    "description": "Label above filter field",
+    "message": "Filtro"
+  },
+  "layoutmodal_design_filter_none": {
+    "description": "The 'None' option (no filter)",
+    "message": "Ninguno"
+  },
+  "layoutmodal_design_horizontal_offset": {
+    "description": "Description of the horizontal-offset field",
+    "message": "Desplazamiento Horizontal"
+  },
+  "layoutmodal_design_opacity_label": {
+    "description": "label above opacity field",
+    "message": "Opacidad"
+  },
+  "layoutmodal_design_scale_label": {
+    "description": "Label above scale field",
+    "message": "Escala"
+  },
+  "layoutmodal_design_title": {
+    "description": "The title above the layout modals design section. Use <strong>...</strong> around the most important word",
+    "message": "Compara tu <strong>diseño/strong>"
+  },
+  "layoutmodal_design_upload_label": {
+    "description": "Label above the upload field",
+    "message": "Elige un diseño"
+  },
+  "layoutmodal_design_upload_value": {
+    "description": "Default value of the upload field",
+    "message": "Elige un jpg, png o gif"
+  },
+  "layoutmodal_design_vertical_offset": {
+    "description": "Description of the vertical-offset field",
+    "message": "Desplazamiento superior"
+  },
+  "layoutmodal_grid_column_offset": {
+    "description": "Description of the horizontal-offset field",
+    "message": "Desplazamiento horizantal"
+  },
+  "layoutmodal_grid_columns_count": {
+    "description": "Description of the column-count field",
+    "message": "Contador de columnas"
+  },
+  "layoutmodal_grid_columns_gutter_width": {
+    "description": "Description of the gutter-width field",
+    "message": "Ancho del canal"
+  },
+  "layoutmodal_grid_columns_show": {
+    "description": "Description of the show-columns field",
+    "message": "Mostrar columnas"
+  },
+  "layoutmodal_grid_columns_width": {
+    "description": "Description of the column-width field",
+    "message": "Ancho de la columna"
+  },
+  "layoutmodal_grid_description": {
+    "description": "Description above the layout modals grid section.",
+    "message": "Superposiciona tu sitio web con un sistema de cuadrícula para que puedas alinear los elementos con mayor facilidad."
+  },
+  "layoutmodal_grid_rows_count": {
+    "description": "Description of the row-count field",
+    "message": "Contador de filas"
+  },
+  "layoutmodal_grid_rows_gutter_height": {
+    "description": "Description of the gutter-height field",
+    "message": "Altura del canal"
+  },
+  "layoutmodal_grid_rows_height": {
+    "description": "Description of the row-height field",
+    "message": "Altura de la fila"
+  },
+  "layoutmodal_grid_rows_offset": {
+    "description": "Description of the top-offset field",
+    "message": "Desplazamiento superior"
+  },
+  "layoutmodal_grid_rows_show": {
+    "description": "Description of the show-rows field",
+    "message": "Mostrar filas"
+  },
+  "layoutmodal_grid_title": {
+    "description": "The title above the layout modals grid section. Use <strong>...</strong> around the most important word",
+    "message": "Crear un <strong>sistema de cuadrícula</strong>"
+  },
+  "layoutmodal_save_and_close": {
+    "description": "Description 'Save & close' button",
+    "message": "Guardar & cerrar"
+  },
+  "modal_close": {
+    "description": "The word 'Close', as in 'Close the window'",
+    "message": "Cerrar"
+  },
+  "modal_license_activated_body": {
+    "description": "The title shown above the 'your license is now active' modal",
+    "message": "Designer Tools se ha transformado magicamente en Designer Tools Plus! Gracias! Con tu ayuda podremos seguir el proceso de desarrollo!"
+  },
+  "modal_license_activated_title": {
+    "description": "The title shown above the 'your license is activated' modal",
+    "message": "Muchas gracias!"
+  },
+  "modal_license_invalid_body": {
+    "description": "The title shown above the 'Plus subscription ended' modal",
+    "message": "Desafortunadamente has llegado al final de tu periodo de prueba de Designer Tools Plus! Por supuesto, puedes obtener la versión pro otra vez."
+  },
+  "modal_license_invalid_title": {
+    "description": "The title shown above the 'Plus subscription ended' modal",
+    "message": "Tu Licensia no es valida."
+  },
+  "modal_next": {
+    "description": "The word 'Next', as in 'Next step'",
+    "message": "Siguiente"
+  },
+  "modal_purchase_canceled_body": {
+    "description": "The body text shown in the 'Purchase canceled' modal",
+    "message": "Designer Tools <strong>no</strong> fue ascendido a Designer Tools Plus."
+  },
+  "modal_purchase_canceled_title": {
+    "description": "The title shown above the 'Purchase canceled' modal",
+    "message": "La compra no fue completada"
+  },
+  "modal_skip": {
+    "description": "The word 'Skip', as in 'Skip this step'",
+    "message": "Omitir"
+  },
+  "onboarding_button_buy": {
+    "description": "Text in the button saying 'Yes, I will buy' (in a different way)",
+    "message": "Lo quiero"
+  },
+  "onboarding_button_no": {
+    "description": "Text in the button saying 'No, I don't want to pay' (in a different way)",
+    "message": "Quizás más tarde"
+  },
+  "onboarding_button_skip_all": {
+    "description": "Text in the button saying 'Don't teach me cool stuff'",
+    "message": "No me enseñes cosas geniales"
+  },
+  "onboarding_button_start": {
+    "description": "Text in the button saying 'Let's get started'",
+    "message": "Vamos"
+  },
+  "onboarding_step1_body": {
+    "description": "Text saying that I advice people not to skip the introduction",
+    "message": "¡Aquí tienes algunos consejos! Te recomendaría que no obviaras, te ayudarán a ir más rápido."
+  },
+  "onboarding_step1_title": {
+    "description": "Title saying something like 'Thanks for installing'",
+    "message": "¡Gracias por instalar Designer Tools!"
+  },
+  "onboarding_step2_body": {
+    "description": "Text explaining how to use the guides and temporary guides",
+    "message": "Pasando el cursor sobre la regla, una guía aparecerá. Haz \"click\" sobre la regla para guardar. ¡És muy fácil!"
+  },
+  "onboarding_step2_title": {
+    "description": "Title saying something like 'Use guides to align items'",
+    "message": "Usa guías para alinear elementos"
+  },
+  "onboarding_step3_body": {
+    "description": "Text explaining how to compare elements",
+    "message": "Haz \"click\" sobre el elemento para seleccionarlo. A continuación, pon el cursor sobre otro elemento para comparar la medida y distancia entre ellos."
+  },
+  "onboarding_step3_title": {
+    "description": "Title saying something like 'Select elements to compare them'",
+    "message": "Selecciona elementos para compararlos entre ellos."
+  },
+  "onboarding_step4_body": {
+    "description": "Short introduction to plus",
+    "message": "¡Descubre qué te ofrece <span>Designer Tools Plus</span>!"
+  },
+  "onboarding_step4_title": {
+    "description": "Title saying something like 'Unlock all premium features'",
+    "message": "Desbloquea las características Plus"
+  },
+  "open_extension": {
+    "description": "The description of the button in chrome which opens the extension",
+    "message": "Abrir la extensión"
+  },
+  "plusmodal_button_buy": {
+    "description": "Text in the button saying 'Yes, I will buy' (in a different way)",
+    "message": "Lo quiero"
+  },
+  "plusmodal_button_no": {
+    "description": "Text in the button saying 'No, I don't want to pay' (in a different way)",
+    "message": "No me importa"
+  },
+  "plusmodal_description": {
+    "description": "Promote Designer tools plus. 'only' an X-amount per year. <span>...</span> around plus features",
+    "message": "For only $PRICE$ per year, you will unlock tons of <span>useful new features</span> (and help me out keeping the development process going)",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "description": "$11,50 USD"
+      }
+    }
+  },
+  "plusmodal_slide_design": {
+    "description": "Text about the <span>pixel perfect precision</span>",
+    "message": "Superpociona tu sitio web con el diseño para  <span>preción de pixeles perfecta</span>"
+  },
+  "plusmodal_slide_distance": {
+    "description": "Short text explaining they won't lose any features",
+    "message": "Y por supuesto, disfruta todas las características que ya estas disfrutando"
+  },
+  "plusmodal_slide_grid": {
+    "description": "Text about the <span>grid system</span>",
+    "message": "Apegate (O separate) de la cuadrícula usando el nuevo <span>sistema de cuadrícula</span>"
+  },
+  "plusmodal_slide_infopanel": {
+    "description": "Short text explaining an image showing the <span>Design information panel</span>",
+    "message": "Inspecciona TODAS LAS COSAS con el mejorado <span>Panel de información de diseño</span>"
+  },
+  "plusmodal_title": {
+    "description": "Title of the plus-modal. <strong>...</strong> around first sentence, <span>...</span> around 'Plus!'",
+    "message": "<strong>¿Quieres trabajar aun mas rapido? </strong> Considera mejorar tu plan a la versión <span>Plus!</span>"
+  },
+  "settings_big_line": {
+    "description": "Big line",
+    "message": "Linea grande"
+  },
+  "settings_clear_storage": {
+    "description": "Reset settings",
+    "message": "Reiniciar ajustes"
+  },
+  "settings_font_size": {
+    "description": "Font size",
+    "message": "Tamaño de fuente"
+  },
+  "settings_header": {
+    "description": "Title above the settings panel",
+    "message": "Ajustar la <strong>configuración</strong>"
+  },
+  "settings_line_gap": {
+    "description": "Line spacing",
+    "message": "Interlineado"
+  },
+  "settings_lines": {
+    "description": "Lines (without a capital)",
+    "message": "líneas"
+  },
+  "settings_only_block_level": {
+    "description": "Ignore inline elements",
+    "message": "Ignora elementos inline"
+  },
+  "settings_ruler_width": {
+    "description": "Ruler width",
+    "message": "Ancho de regla"
+  },
+  "settings_theme": {
+    "description": "Theme",
+    "message": "Fondo"
+  },
+  "settings_theme_automatic": {
+    "description": "Automatic",
+    "message": "Automático"
+  },
+  "settings_theme_dark": {
+    "description": "Dark",
+    "message": "Oscuro"
+  },
+  "settings_theme_light": {
+    "description": "Light",
+    "message": "Brillo"
+  },
+  "welcomemodal_button_moreinfo": {
+    "description": "Text in the button saying 'More info' (in a different way)",
+    "message": "Mas información"
+  },
+  "welcomemodal_description": {
+    "description": "Promote Designer tools plus. 'only' an X-amount per year. <span>...</span> around plus features",
+    "message": "Introduciendo Designer tools Plus! Desbloquea toneladas de características. El $PRICE$ me permitará aliviarte de tu estrés laboral.",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "description": "$11,50 USD"
+      }
+    }
+  },
+  "welcomemodal_slide_darkmode": {
+    "description": "Short text explaining an image showing the <span>Dark mode</span>",
+    "message": "Porque tu lo pediste. Ahora tenemos soporte de <span>modo-nocturno!</span>"
+  },
+  "welcomemodal_slide_design": {
+    "description": "Text about the <span>pixel perfect precision</span>",
+    "message": "Cubre tu sitio web con el diseño de <span>precisión perfecta de pixeles </span>."
+  },
+  "welcomemodal_slide_distance": {
+    "description": "Short text about the newly refined design and bugfixes",
+    "message": "La Version 2 tiene un <span>Diseño Refinado</span> de las reglas y guias. Ademas, todos los error finalmente han sido arreglados!"
+  },
+  "welcomemodal_slide_grid": {
+    "description": "Text about the <span>grid system</span>",
+    "message": "Apégate a (o separate) de la cuadrícula usando el nuevo <span>sistema de cuadrícula</span>."
+  },
+  "welcomemodal_title": {
+    "description": "Title of the welcome-modal.",
+    "message": "Bienvenido a las nuevas y mejoradas <strong>Designer Tools!</strong>"
+  },
+  "config_show_design_on_top": {
+    "description": "Show design on top",
+    "message": "placer le motif sur le dessus"
+  },
+  "general_continue": {
+    "description": "The word 'Continue'",
+    "message": "Seguir"
+  },
+  "storagefull_modal_body": {
+    "description": "Text explaining why 'Storage is full'",
+    "message": "Debido a las limitaciones de Chrome, solo puede almacenar 5 MB. Buscamos solucionar este problema."
+  },
+  "storagefull_modal_title": {
+    "description": "Title above the 'Storage is full'",
+    "message": "Tu almacenamiento está lleno."
+  },
+  "modal_ignore": {
+    "description": "The word 'Ignore', as in 'Ignore the warning'",
+    "message": "Ignorar"
+  }
+}

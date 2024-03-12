@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 241 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logos/sc/favicon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14-Copy" transform="translate(0.500000, 0.000000)">
+            <path class="logo-circle" d="M240,120 C240,186.27417 186.27417,240 120,240 C53.72583,240 0,186.27417 0,120 C0,53.72583 53.72583,0 120,0 C124.611149,0 129.161553,0.260083556 133.637341,0.766381369 L133.637201,59.6910059 C129.249794,58.703161 124.68578,58.1818182 120,58.1818182 C85.8587609,58.1818182 58.1818182,85.8587609 58.1818182,120 C58.1818182,154.141239 85.8587609,181.818182 120,181.818182 C153.799827,181.818182 181.263997,154.69201 181.8099,121.022277 L181.818182,120 L240,120 Z" id="Path" fill="#3F35F2" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#1ED760" cx="203.636364" cy="36.3636364" r="36.3636364"></circle>
+        </g>
+    </g>
+</svg>

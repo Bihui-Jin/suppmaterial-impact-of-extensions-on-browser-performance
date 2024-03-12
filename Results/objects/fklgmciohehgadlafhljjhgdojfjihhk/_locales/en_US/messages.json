@@ -1,0 +1,14 @@
+{
+  "appNameDev": {
+	"message": "Dynatrace Real User Monitoring (Dev)"
+  },
+  "appNameSprint": {
+	"message": "Dynatrace Real User Monitoring (Sprint)"
+  },
+  "appName": {
+	"message": "Dynatrace Real User Monitoring"
+  },
+  "appDesc": {
+	"message": "This extension allows you to monitor (SaaS) applications where installation of Dynatrace OneAgent is not possible."
+  }
+}

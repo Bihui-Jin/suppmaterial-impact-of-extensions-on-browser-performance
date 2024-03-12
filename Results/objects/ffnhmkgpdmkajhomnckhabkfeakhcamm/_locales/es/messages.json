@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Tumblr: Publicar en Tumblr"
+  },
+  "extDescription": {
+    "message": "¡Publica contenido en Tumblr desde la barra de herramientas de tu navegador!"
+  },
+  "actionTitle": {
+    "message": "Publicar en Tumblr"
+  }
+}

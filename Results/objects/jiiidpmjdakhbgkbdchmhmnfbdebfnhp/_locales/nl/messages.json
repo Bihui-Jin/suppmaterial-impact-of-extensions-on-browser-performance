@@ -1,0 +1,506 @@
+{
+  "clear_storage_button_reset": {
+    "description": "Yes, reset",
+    "message": "Ja, alles wissen"
+  },
+  "clear_storage_button_safety": {
+    "description": "Bring me to safety",
+    "message": "Niet resetten"
+  },
+  "clear_storage_description": {
+    "description": "You are about to reset everything in Designer Tools. All settings, custom grids and designs will be deleted.",
+    "message": "Je staat op het punt om al je instellingen, rasters en designs te verwijderen."
+  },
+  "clear_storage_title": {
+    "description": "Are you sure?",
+    "message": "Weet je het zeker?"
+  },
+  "config_shortcut_description": {
+    "description": "You can use the keyboard shortcuts to do everything in Designer Tools.",
+    "message": "Je kunt sneltoetsen gebruiken voor bijna alles in Designer Tools."
+  },
+  "config_shortcut_design": {
+    "description": "Open the design panel",
+    "message": "Open het designpaneel"
+  },
+  "config_shortcut_extension": {
+    "description": "Open or close the extension",
+    "message": "Open of sluit de extensie"
+  },
+  "config_shortcut_information_panel": {
+    "description": "Open the informatie panel",
+    "message": "Open het informatiescherm"
+  },
+  "config_shortcut_settings": {
+    "description": "Open the settings panel",
+    "message": "Open dit scherm"
+  },
+  "config_shortcut_title": {
+    "description": "Using <strong>shortcuts</strong>",
+    "message": "<strong>Sneltoetsen</strong> gebruiken"
+  },
+  "config_show_design_on_top": {
+    "description": "Show design on top",
+    "message": "Toon ontwerp bovenop"
+  },
+  "extension_description": {
+    "description": "The description of the extension",
+    "message": "Meet elementen en zorg voor perfecte uitlijning met linialen en hulplijnen."
+  },
+  "extension_title": {
+    "description": "The title of the extension",
+    "message": "Designer Tools"
+  },
+  "feedback_button_give": {
+    "description": "Button text saying 'Give feedback'",
+    "message": "Geef feedback"
+  },
+  "feedback_button_later": {
+    "description": "Button text saying 'Ask again later'",
+    "message": "Herinner me later"
+  },
+  "feedback_button_send": {
+    "description": "Button text saying 'Send feedback'",
+    "message": "Verstuur feedback"
+  },
+  "feedback_negative_body": {
+    "description": "Body of the feedback-modal, after a negative feedback has been given.",
+    "message": "Het ontwikkelen van Designer Tools doe ik alleen. Daarom ben ik afhankelijk van de input van gebruikers. Jouw mening zou daarom enorm helpen bij het verbeteren van de plugin!"
+  },
+  "feedback_negative_placeholder": {
+    "description": "A placeholder shown in the input field where we ask for suggestions or ideas",
+    "message": "Suggesties of ideeën"
+  },
+  "feedback_negative_title": {
+    "description": "Title of the feedback-modal, after a negative feedback has been given.",
+    "message": "Wat kan ik doen om 5 sterren te krijgen?"
+  },
+  "feedback_positive_body": {
+    "description": "Body of the feedback-modal, after a positive feedback has been given.",
+    "message": "Wil je je mening ook achterlaten in de Webstore? Dit helpt me enorm, waardoor ik voor je kan blijven ontwikkelen!"
+  },
+  "feedback_positive_title": {
+    "description": "Title of the feedback-modal, after a positive feedback has been given.",
+    "message": "Please spread the word!"
+  },
+  "feedback_rating_body": {
+    "description": "Title of the welcome-modal.",
+    "message": "Ik kan je mening hard gebruiken voor het verbeteren van Designer Tools!"
+  },
+  "feedback_rating_title": {
+    "description": "Title of the feedback-modal.",
+    "message": "Wat vind je ervan?"
+  },
+  "feedback_thanks_body": {
+    "description": "Body of the Thanks-modal.",
+    "message": "Jouw mening helpt enorm met het verbeteren van Designer Tools. Bedankt voor je hulp!"
+  },
+  "feedback_thanks_title": {
+    "description": "Title of the Thanks-modal.",
+    "message": "Enorm bedankt!"
+  },
+  "general_alignment": {
+    "description": "The word 'Alignment'",
+    "message": "Uitlijning"
+  },
+  "general_alignment_center": {
+    "description": "The word 'Center', as in 'align in the center'",
+    "message": "Midden"
+  },
+  "general_alignment_left": {
+    "description": "The word 'Left', as in 'align to the left'",
+    "message": "Links"
+  },
+  "general_alignment_right": {
+    "description": "The word 'Right', as in 'align to the right'",
+    "message": "Rechts"
+  },
+  "general_color": {
+    "description": "The word 'Color' for the 'Background' section in the infopanel",
+    "message": "Kleur"
+  },
+  "general_font": {
+    "description": "The word 'Font', as in 'The Font is Arial'",
+    "message": "Lettertype"
+  },
+  "general_infinite": {
+    "description": "The word 'Infinite', as in 'The number is infinite'",
+    "message": "Oneindig"
+  },
+  "general_off": {
+    "description": "The word 'Off', as in 'The light is off'",
+    "message": "Uit"
+  },
+  "general_ok": {
+    "description": "The word 'Ok'",
+    "message": "Oké"
+  },
+  "general_on": {
+    "description": "The word 'On', as in 'The light is on'",
+    "message": "Aan"
+  },
+  "general_size": {
+    "description": "The word 'Size', as in 'The size is 50 meters'",
+    "message": "Grootte"
+  },
+  "general_style": {
+    "description": "The word 'Style', as in 'The Font style is Italic'",
+    "message": "Stijl"
+  },
+  "general_try_again": {
+    "description": "Try again, as in 'The action failed. Try again.'",
+    "message": "Opnieuw proberen"
+  },
+  "general_weight": {
+    "description": "The word 'Weight', as in 'The font weight is bold'",
+    "message": "Gewicht"
+  },
+  "infopanel_content": {
+    "description": "The word 'content', as in 'The content is in the box'",
+    "message": "Inhoud"
+  },
+  "infopanel_header": {
+    "description": "The word 'Information', as in 'Information about a box'",
+    "message": "Informatie"
+  },
+  "infopanel_select_element": {
+    "description": "Explain that the user has to select an element",
+    "message": "Klik op een element om het te selecteren"
+  },
+  "infopanel_title_background": {
+    "description": "The title of the 'Background' section in the infopanel",
+    "message": "Achtergrond"
+  },
+  "infopanel_title_positioning": {
+    "description": "The title of the 'Positioning' section in the infopanel",
+    "message": "Positionering"
+  },
+  "infopanel_title_typography": {
+    "description": "The title of the 'Typography' section in the infopanel",
+    "message": "Typografie"
+  },
+  "layoutmodal_design_description": {
+    "description": "Description above the layout modals design section.",
+    "message": "Door je design over de pagina heen te leggen kan je tweaken tot in pixel-precisie."
+  },
+  "layoutmodal_design_filter_difference": {
+    "description": "The 'difference' option",
+    "message": "Verschil"
+  },
+  "layoutmodal_design_filter_grayscale": {
+    "description": "The 'Grayscale' option",
+    "message": "Grijstinten"
+  },
+  "layoutmodal_design_filter_label": {
+    "description": "Label above filter field",
+    "message": "Filter"
+  },
+  "layoutmodal_design_filter_none": {
+    "description": "The 'None' option (no filter)",
+    "message": "Geen"
+  },
+  "layoutmodal_design_horizontal_offset": {
+    "description": "Description of the horizontal-offset field",
+    "message": "Horizontaal verschuiven"
+  },
+  "layoutmodal_design_opacity_label": {
+    "description": "label above opacity field",
+    "message": "Transparantie"
+  },
+  "layoutmodal_design_scale_label": {
+    "description": "Label above scale field",
+    "message": "Schaal"
+  },
+  "layoutmodal_design_title": {
+    "description": "The title above the layout modals design section. Use <strong>...</strong> around the most important word",
+    "message": "Vergelijk je <strong>design</strong>"
+  },
+  "layoutmodal_design_upload_label": {
+    "description": "Label above the upload field",
+    "message": "Kies een design"
+  },
+  "layoutmodal_design_upload_value": {
+    "description": "Default value of the upload field",
+    "message": "Selecteer een jpg, png of gif"
+  },
+  "layoutmodal_design_vertical_offset": {
+    "description": "Description of the vertical-offset field",
+    "message": "Verticaal verschuiven"
+  },
+  "layoutmodal_grid_column_offset": {
+    "description": "Description of the horizontal-offset field",
+    "message": "Horizontaal verschuiven"
+  },
+  "layoutmodal_grid_columns_count": {
+    "description": "Description of the column-count field",
+    "message": "Aantal kolommen"
+  },
+  "layoutmodal_grid_columns_gutter_width": {
+    "description": "Description of the gutter-width field",
+    "message": "Gutter breedte"
+  },
+  "layoutmodal_grid_columns_show": {
+    "description": "Description of the show-columns field",
+    "message": "Toon kolommen"
+  },
+  "layoutmodal_grid_columns_width": {
+    "description": "Description of the column-width field",
+    "message": "Kolom breedte"
+  },
+  "layoutmodal_grid_description": {
+    "description": "Description above the layout modals grid section.",
+    "message": "Leg een grid over je pagina heen zodat je gemakkelijk elementen kan uitlijnen."
+  },
+  "layoutmodal_grid_rows_count": {
+    "description": "Description of the row-count field",
+    "message": "Aantal rijen"
+  },
+  "layoutmodal_grid_rows_gutter_height": {
+    "description": "Description of the gutter-height field",
+    "message": "Gutter hoogte"
+  },
+  "layoutmodal_grid_rows_height": {
+    "description": "Description of the row-height field",
+    "message": "Rij hoogte"
+  },
+  "layoutmodal_grid_rows_offset": {
+    "description": "Description of the top-offset field",
+    "message": "Verticaal verschuiven"
+  },
+  "layoutmodal_grid_rows_show": {
+    "description": "Description of the show-rows field",
+    "message": "Toon rijen"
+  },
+  "layoutmodal_grid_title": {
+    "description": "The title above the layout modals grid section. Use <strong>...</strong> around the most important word",
+    "message": "Maak een <strong>grid system</strong>"
+  },
+  "layoutmodal_save_and_close": {
+    "description": "Description 'Save & close' button",
+    "message": "Opslaan & sluiten"
+  },
+  "modal_close": {
+    "description": "The word 'Close', as in 'Close the window'",
+    "message": "Sluiten"
+  },
+  "modal_license_activated_body": {
+    "description": "The title shown above the 'your license is now active' modal",
+    "message": "Je Designer Tools is op magische wijze veranderd in Designer Tools Plus! Met jouw hulp kan ik het ontwikkelen volhouden!"
+  },
+  "modal_license_activated_title": {
+    "description": "The title shown above the 'your license is activated' modal",
+    "message": "Enorm bedankt!"
+  },
+  "modal_license_invalid_body": {
+    "description": "The title shown above the 'Plus subscription ended' modal",
+    "message": "Helaas! Je hebt het einde van jouw lidmaatschap van Designer Tools Plus bereikt. Je kan natuurlijk zo weer opnieuw lid worden."
+  },
+  "modal_license_invalid_title": {
+    "description": "The title shown above the 'Plus subscription ended' modal",
+    "message": "Je licensie is ongeldig."
+  },
+  "modal_next": {
+    "description": "The word 'Next', as in 'Next step'",
+    "message": "Volgende"
+  },
+  "modal_purchase_canceled_body": {
+    "description": "The body text shown in the 'Purchase canceled' modal",
+    "message": "Designer Tools is <strong>niet</strong> geüpgrade naar Designer Tools Plus."
+  },
+  "modal_purchase_canceled_title": {
+    "description": "The title shown above the 'Purchase canceled' modal",
+    "message": "De aankoop is afgebroken"
+  },
+  "modal_skip": {
+    "description": "The word 'Skip', as in 'Skip this step'",
+    "message": "Overslaan"
+  },
+  "onboarding_button_buy": {
+    "description": "Text in the button saying 'Yes, I will buy' (in a different way)",
+    "message": "Ik wil het"
+  },
+  "onboarding_button_no": {
+    "description": "Text in the button saying 'No, I don't want to pay' (in a different way)",
+    "message": "Misschien later"
+  },
+  "onboarding_button_skip_all": {
+    "description": "Text in the button saying 'Don't teach me cool stuff'",
+    "message": "Leer me niks, ga weg."
+  },
+  "onboarding_button_start": {
+    "description": "Text in the button saying 'Let's get started'",
+    "message": "Laten we beginnen"
+  },
+  "onboarding_step1_body": {
+    "description": "Text saying that I advice people not to skip the introduction",
+    "message": "Hier zijn nog wat tips die ik niet zou overslaan. Daarna kan je nog sneller aan de gang!"
+  },
+  "onboarding_step1_title": {
+    "description": "Title saying something like 'Thanks for installing'",
+    "message": "Bedankt voor het installeren van Designer Tools!"
+  },
+  "onboarding_step2_body": {
+    "description": "Text explaining how to use the guides and temporary guides",
+    "message": "Als je je muis over de lineaal houdt, verschijnt er een tijdelijke hulplijn. Klik om de hulplijn op te slaan. Zo makkelijk is het!"
+  },
+  "onboarding_step2_title": {
+    "description": "Title saying something like 'Use guides to align items'",
+    "message": "Gebruik de hulplijnen om elementen uit te lijnen"
+  },
+  "onboarding_step3_body": {
+    "description": "Text explaining how to compare elements",
+    "message": "Klik op een element om het te selecteren. Daarna kan je met je muis over ander elementen heen om ze te vergelijken en de afstand te zien."
+  },
+  "onboarding_step3_title": {
+    "description": "Title saying something like 'Select elements to compare them'",
+    "message": "Selecteer elementen om ze te vergelijken"
+  },
+  "onboarding_step4_body": {
+    "description": "Short introduction to plus",
+    "message": "Ontdek wat Designer Tools Plus heeft te bieden!"
+  },
+  "onboarding_step4_title": {
+    "description": "Title saying something like 'Unlock all premium features'",
+    "message": "Ontgrendel alle plusfuncties"
+  },
+  "open_extension": {
+    "description": "The description of the button in chrome which opens the extension",
+    "message": "Open Designer Tools"
+  },
+  "plusmodal_button_buy": {
+    "description": "Text in the button saying 'Yes, I will buy' (in a different way)",
+    "message": "Ik wil het"
+  },
+  "plusmodal_button_no": {
+    "description": "Text in the button saying 'No, I don't want to pay' (in a different way)",
+    "message": "Volgende keer"
+  },
+  "plusmodal_description": {
+    "description": "Promote Designer tools plus. 'only' an X-amount per year. <span>...</span> around plus features",
+    "message": "Voor maar $PRICE$ per jaar, ontgrendel je tientallen <span>handige functies</span> (en help je mij om deze tool te kunnen blijven ontwikkelen)",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "description": "$11,50 USD"
+      }
+    }
+  },
+  "plusmodal_slide_design": {
+    "description": "Text about the <span>pixel perfect precision</span>",
+    "message": "Vergelijk je website met het design voor <span>ultieme perfectie</span>"
+  },
+  "plusmodal_slide_distance": {
+    "description": "Short text explaining they won't lose any features",
+    "message": "En natuurlijk kan je alle huidige features ook gebruiken"
+  },
+  "plusmodal_slide_grid": {
+    "description": "Text about the <span>grid system</span>",
+    "message": "Gebruik (of breek) de grid met het <span>grid system</span>"
+  },
+  "plusmodal_slide_infopanel": {
+    "description": "Short text explaining an image showing the <span>Design information panel</span>",
+    "message": "Inspecteer alles met de verbeterde <span>Design information panel</span>"
+  },
+  "plusmodal_title": {
+    "description": "Title of the plus-modal. <strong>...</strong> around first sentence, <span>...</span> around 'Plus!'",
+    "message": "<strong>Wil je nog sneller werken?</strong> Kijk eens naar <span>Plus!</span>"
+  },
+  "settings_big_line": {
+    "description": "Big L",
+    "message": "Grote lijn"
+  },
+  "settings_clear_storage": {
+    "description": "Reset settings",
+    "message": "Reset instellingen"
+  },
+  "settings_font_size": {
+    "description": "Font size",
+    "message": "Lettergrootte"
+  },
+  "settings_header": {
+    "description": "Title above the settings panel",
+    "message": "<strong>Instellingen</strong> aanpassen"
+  },
+  "settings_line_gap": {
+    "description": "Line spacing",
+    "message": "Lijnafstand"
+  },
+  "settings_lines": {
+    "description": "Lines (without a capital)",
+    "message": "lijnen"
+  },
+  "settings_only_block_level": {
+    "description": "Ignore inline elements",
+    "message": "Negeer inline-elementen"
+  },
+  "settings_ruler_width": {
+    "description": "Ruler width",
+    "message": "Liniaalbreedte"
+  },
+  "settings_theme": {
+    "description": "Theme",
+    "message": "Thema"
+  },
+  "settings_theme_automatic": {
+    "description": "Automatic",
+    "message": "Automatisch"
+  },
+  "settings_theme_dark": {
+    "description": "Dark",
+    "message": "Donker"
+  },
+  "settings_theme_light": {
+    "description": "Light",
+    "message": "Licht"
+  },
+  "welcomemodal_button_moreinfo": {
+    "description": "Text in the button saying 'More info' (in a different way)",
+    "message": "Meer info"
+  },
+  "welcomemodal_description": {
+    "description": "Promote Designer tools plus. 'only' an X-amount per year. <span>...</span> around plus features",
+    "message": "Maak je workflow nog efficienter met <span>Designer tools Plus!</span> Slechts $PRICE$ per jaar! Daarmee kan ik je werkstress blijven verlichten.",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "description": "$11,50 USD"
+      }
+    }
+  },
+  "welcomemodal_slide_darkmode": {
+    "description": "Short text explaining an image showing the <span>Dark mode</span>",
+    "message": "Jij vraagt wij leveren. Vanaf nu is er volledige <span>dark-mode support!</span>"
+  },
+  "welcomemodal_slide_design": {
+    "description": "Text about the <span>pixel perfect precision</span>",
+    "message": "Vergelijk je website met het design voor <span>ultieme perfectie</span>"
+  },
+  "welcomemodal_slide_distance": {
+    "description": "Short text about the newly refined design and bugfixes",
+    "message": "<span>Verbeterd design</span> van de linialen en hulplijnen. Ook zijn de bugs (eindelijk) gefixt!"
+  },
+  "welcomemodal_slide_grid": {
+    "description": "Text about the <span>grid system</span>",
+    "message": "Gebruik het grid en lijn elementen perfect uit, (of juist niet) met het nieuwe <span>grid system</span>. "
+  },
+  "welcomemodal_title": {
+    "description": "Title of the welcome-modal. ",
+    "message": "Welkom bij de nieuwe en verbeterde <strong>Designer Tools!</strong>"
+  },
+  "general_continue": {
+    "description": "The word 'Continue'",
+    "message": "Verder"
+  },
+  "storagefull_modal_body": {
+    "description": "Text explaining why 'Storage is full'",
+    "message": "Vanwege beperkingen in Chrome kan je maar 5 MB opslaan. Ik ben bezig om dit probleem op te lossen."
+  },
+  "storagefull_modal_title": {
+    "description": "Title above the 'Storage is full'",
+    "message": "Je opslag is vol."
+  },
+  "modal_ignore": {
+    "description": "The word 'Ignore', as in 'Ignore the warning'",
+    "message": "Negeren"
+  }
+}

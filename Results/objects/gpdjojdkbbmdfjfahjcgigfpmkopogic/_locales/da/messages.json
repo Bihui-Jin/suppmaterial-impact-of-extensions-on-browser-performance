@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterests Gem-knap",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Gem dine yndlingsidéer online, så du let kan vende tilbage til dem senere.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Det er ikke muligt at tilføje pins fra domænet. Kontakt websitets ejer, hvis du har spørgsmål.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Indstillinger for Gem-knappen",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Skjul svævende Gem-knapper",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Søg",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Gem",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Gem en idé på Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Vælg op til tyve billeder",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Næste",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Vælg alle",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Gem på opslagstavle",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Gemt på",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Gå til",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Hjælp",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Vælg opslagstavle",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Topvalg",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Alle opslagstavler",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Opret opslagstavle",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Hemmelig",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Vælg sektion",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Tilføj sektion",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ja",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Nej",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Annuller",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Opret",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Opslagstavlen kunne ikke oprettes",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Siden kunne ikke gemmes",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Der er noget galt her. Tjek, at du er logget på Pinterest, og prøv igen.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Ups!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Hjælp",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Du er ikke logget på Pinterest. Det kan vi gøre noget ved!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Log på",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

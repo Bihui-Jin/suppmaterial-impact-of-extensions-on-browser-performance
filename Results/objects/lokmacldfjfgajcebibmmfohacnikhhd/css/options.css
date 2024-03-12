@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-size: 100%;
+}
+
+img.resize {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+#save {
+  background-color: #f98c13;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 10em;
+  height: 4em;
+  font-size: 14px;
+}

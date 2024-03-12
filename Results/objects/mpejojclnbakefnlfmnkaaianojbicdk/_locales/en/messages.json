@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "WAM: WordSeeker"
+  },
+  "appDescription": {
+    "message": "Word, Picture, Record, Look for inspiration."
+  },
+  "autosaved": {
+    "message": "autosaved"
+  },
+  "loading": {
+    "message": "loading"
+  },
+  "more": {
+    "message": "more"
+  },
+  "copy": {
+    "message": "copy"
+  },
+  "copied": {
+    "message": "copied"
+  },
+  "next": {
+    "message": "next"
+  },
+  "weibo": {
+    "message": "weibo"
+  },
+  "twitter": {
+    "message": "tweet"
+  },
+  "note": {
+    "message": "note"
+  },
+  "photoBy": {
+    "message": "photo by"
+  },
+  "history": {
+    "message": "History"
+  },
+  "timer": {
+    "message": "Timer"
+  },
+  "fullscreen": {
+    "message": "Fullscreen"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "inputSth": {
+    "message": "input sth..."
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "copynclear": {
+    "message": "copy&clear"
+  }
+}

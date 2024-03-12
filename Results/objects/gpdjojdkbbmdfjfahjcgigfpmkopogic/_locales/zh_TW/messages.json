@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterest 儲存按鈕",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "線上儲存你喜愛的點子以便日後輕鬆使用。",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "很抱歉，我們並未開放從該網域收藏 Pin。若有疑問，請聯絡網站操作人員。",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "儲存按鈕選項",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "隱藏暫留儲存按鈕",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "搜尋",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "儲存",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "儲存點子到 Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "選擇最多二十張圖片",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "下一步",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "全部選取",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "儲存至圖版",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "已儲存至",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "造訪",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "協助",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "選擇圖版",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "熱門選擇",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "所有圖版",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "建立圖版",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "不公開",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "選擇圖版版面",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "新增圖版版面",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "是",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "否",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "取消",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "建立",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "無法建立新圖版",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "無法儲存此頁面",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "很抱歉！發生了一點問題。請確認你已登入 Pinterest，然後再試一次。",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "糟糕！",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "取得說明",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "嘿！",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "看來你尚未登入 Pinterest。讓我們先解決這個問題！",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "登入",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

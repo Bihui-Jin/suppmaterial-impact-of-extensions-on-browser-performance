@@ -1,0 +1,44 @@
+#powerTip {
+  position: absolute;
+  display: none;
+  height: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.rg-tag-header {
+  margin-left: 4px;
+}
+
+.RG_tag {
+  background-color: #f98c13;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px;
+  margin-right: 4px;
+}
+
+.RG_writeup {
+  display: inline-block;
+  max-width: 300px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.rg-author {
+  font-style: italic;
+  color: #f98c13;
+}
+
+.RG_shade-pos {
+  background-color: #f98c13 !important;
+}
+
+.RG_weather {
+  padding: 2px 3px;
+}

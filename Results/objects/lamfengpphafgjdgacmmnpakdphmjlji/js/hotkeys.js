@@ -1,0 +1,2 @@
+chrome.extension.sendMessage({action:"IS_HOTKEY_ENABLED"},function(result){console.log(result);if(result.isHotKeyEnabled){document.addEventListener("keydown",function(code){if(!code.ctrlKey&&code.altKey){switch(code.keyCode){case 67:chrome.extension.sendMessage({action:"QUERY_CURRENT_TAB"});break;case 65:chrome.extension.sendMessage({action:"QUERY_ALL_TAB"});break;case 76:chrome.extension.sendMessage({action:"QUERY_LEFT_TAB"});break;case 82:chrome.extension.sendMessage({action:"QUERY_RIGHT_TAB"});break;}}},false);}});
+

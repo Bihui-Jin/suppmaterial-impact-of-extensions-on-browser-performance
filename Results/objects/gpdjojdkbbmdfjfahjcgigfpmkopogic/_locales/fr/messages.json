@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Bouton Enregistrer Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Enregistrez vos idées préférées en ligne pour les retrouver facilement plus tard.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Désolé, mais vous ne pouvez pas épingler les contenus de ce domaine. Pour toute question, veuillez contacter l'administrateur du site Web.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Options du bouton Enregistrer",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Masquer les boutons Enregistrer flottants",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Rechercher",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Enregistrer",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Enregistrez une idée sur Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Sélectionnez jusqu'à vingt images",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Suivant",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Tout sélectionner",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Enregistrer dans le tableau",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Enregistrée dans",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Visiter",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Aide",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Sélectionnez un tableau",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Les plus populaires",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Tous les tableaux",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Créer un tableau",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Secret",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Sélectionnez un sous-tableau",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Ajoutez un sous-tableau",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Oui",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Non",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Annuler",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Créer",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "La création du nouveau tableau a échoué",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "L'enregistrement de la page a échoué",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Désolé, une erreur est survenue. Vérifiez que vous êtes connecté(e) à Pinterest et réessayez.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Oups !",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Obtenir de l'aide",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Psst !",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Il semblerait que vous ne soyez pas connecté à Pinterest. Remédions à cela !",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Se connecter",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

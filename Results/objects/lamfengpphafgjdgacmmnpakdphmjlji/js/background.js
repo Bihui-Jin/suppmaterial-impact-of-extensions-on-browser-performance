@@ -1,0 +1,6 @@
+var theApp={init:function(){MyLibs.trace('theApp.init');this.initContextMenus();chrome.extension.onMessage.addListener(theApp._queryCommand);},initContextMenus:function(){var t=this;chrome.contextMenus.create({"title":"Save Image to Downloads…","contexts":["image"],"onclick":t.downloadImages});},getFileNameWithUrl:function(url){var pos=url.lastIndexOf('/');var out=url.substr(pos+1,url.length);pos=out.lastIndexOf('?');if(pos>=0)
+out=out.substr(0,pos);if(out.lastIndexOf('.')<0)
+out+='.jpg';return out;},downloadImages:function(img,tab){var url=img['srcUrl'];var filename=theApp.getFileNameWithUrl(url);MyLibs.trace("downloadImages.url= "+url);if(chrome.downloads){chrome.downloads.download({url:url,filename:filename,saveAs:false,conflictAction:"uniquify"});}},_queryCommand:function(request,sender,sendResponse){MyLibs.trace(request.action);switch(request.action){case"QUERY_ALL_TAB":TabQuery.queryAllTabs();break;case"QUERY_CURRENT_TAB":TabQuery.queryCurrentTab();break;case"QUERY_LEFT_TAB":TabQuery.queryLeftTab();break;case"QUERY_RIGHT_TAB":TabQuery.queryRightTab();break;case"IS_HOTKEY_ENABLED":if(localStorage.isHotKeyEnabled==undefined)
+localStorage.isHotKeyEnabled="1"
+sendResponse({isHotKeyEnabled:localStorage.isHotKeyEnabled=="1"});break;}}};theApp.init();
+

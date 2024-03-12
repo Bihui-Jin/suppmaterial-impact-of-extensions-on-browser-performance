@@ -1,0 +1,278 @@
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <title>Статистика ДП</title>
+<link href="../favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="dp_stats.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="../tools/jquery.js"></script>
+    <script type="text/javascript" src="dp_stats.js"></script>
+  </head>
+  <body>
+<table width="70%" align="center">
+<tr><td>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="5" rules="all" class="zebra">
+  <tbody><tr>
+    <th colspan="7">Текущая активность фракций</th>
+  </tr>
+  <tr>
+    <th>Место</th>
+    <th>Фракция</th> 
+    <th>Активность</th>   
+   <tr>
+       <td>1</td>
+       <td id="f_1"></td>
+       <td id="a_1"></td>
+  </tr>
+  <tr>
+        <td>2</td>
+       <td id="f_2"></td>
+       <td id="a_2"></td>
+  </tr>
+    <tr>
+        <td>3</td>
+       <td id="f_3"></td>
+       <td id="a_3"></td>
+  </tr>
+    <tr>
+        <td>4</td>
+       <td id="f_4"></td>
+       <td id="a_4"></td>
+  </tr>
+     <tr>
+       <td>5</td>
+       <td id="f_5"></td>
+       <td id="a_5"></td>
+  </tr>
+ 
+  </tbody></table>
+ </div>
+ </td><td>
+ <div align="center">  
+  <table  border="1"  cellspacing="0" cellpadding="5" rules="all" class="zebra">
+  <tbody><tr>
+    <th colspan="7">Сила фракций</th>
+  </tr>
+  <tr>
+    <th>Сила</th>
+    <th>Количество</th> 
+    <th>Глава</th>   
+    <th>Активность</th>
+    <th><img src="../res/Home-icon.png" title="Возможность вступления"></th>       
+   <tr>
+       <td id="sila_0"></td>
+       <td id="count_0"></td>
+       <td id="glava_0"></td>
+       <td id="aktivka_0"></td>
+       <td id="vstup_0"></td>
+  </tr>
+  <tr>
+       <td id="sila_1"></td>
+       <td id="count_1"></td>
+       <td id="glava_1"></td>
+       <td id="aktivka_1"></td>
+       <td id="vstup_1"></td>
+  </tr>
+    <tr>
+        <td id="sila_2"></td>
+       <td id="count_2"></td>
+       <td id="glava_2"></td>
+       <td id="aktivka_2"></td>
+       <td id="vstup_2"></td>
+  </tr>
+    <tr>
+       <td id="sila_3"></td>
+       <td id="count_3"></td>
+       <td id="glava_3"></td>
+       <td id="aktivka_3"></td>
+       <td id="vstup_3"></td>
+  </tr>
+     <tr>
+        <td id="sila_4"></td>
+       <td id="count_4"></td>
+       <td id="glava_4"></td>
+       <td id="aktivka_4"></td>
+       <td id="vstup_4"></td>
+  </tr>   
+  </tbody></table>   
+  </div> 
+  </td> </tr>   
+ </table> 
+
+<div align="center">Допустимая сила фракции
+    <b id="sila_max"></b>
+</div>
+
+<table width="70%" border="1" align="center" cellspacing="0" cellpadding="5" rules="all" class="zebra">
+  <tbody><tr>
+    <th colspan="7">Количество персонажей во фракциях</th>
+
+  </tr>
+  <tr>
+    <th>Уровень</th>
+    <td><img title="Игнесс" src="https://img.ereality.ru/a/2.gif"></td>
+    <td><img title="Раанор" src="https://img.ereality.ru/a/3.gif"></td>
+    <td><img title="Тарбис" src="https://img.ereality.ru/a/4.gif"></td>
+    <td><img title="Витарра" src="https://img.ereality.ru/a/5.gif"></td>
+    <td><img title="Дримнир" src="https://img.ereality.ru/a/6.gif"></td>
+    <th align="center"><b>Всего</b></th>
+  </tr>
+    <tr>
+        <td><b>25</b></td>
+        <td><a id="25_2"></a></td>
+        <td><a id="25_3"></a></td>
+        <td><a id="25_4"></a></td>
+        <td><a id="25_5"></a></td>
+        <td><a id="25_6"></a></td>
+        <td><b id="25_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>24</b></td>
+        <td><a id="24_2"></a></td>
+        <td><a id="24_3"></a></td>
+        <td><a id="24_4"></a></td>
+        <td><a id="24_5"></a></td>
+        <td><a id="24_6"></a></td>
+        <td><b id="24_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>23</b></td>
+        <td><a id="23_2"></a></td>
+        <td><a id="23_3"></a></td>
+        <td><a id="23_4"></a></td>
+        <td><a id="23_5"></a></td>
+        <td><a id="23_6"></a></td>
+        <td><b id="23_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>22</b></td>
+        <td><a id="22_2"></a></td>
+        <td><a id="22_3"></a></td>
+        <td><a id="22_4"></a></td>
+        <td><a id="22_5"></a></td>
+        <td><a id="22_6"></a></td>
+        <td><b id="22_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>21</b></td>
+        <td><a id="21_2"></a></td>
+        <td><a id="21_3"></a></td>
+        <td><a id="21_4"></a></td>
+        <td><a id="21_5"></a></td>
+        <td><a id="21_6"></a></td>
+        <td><b id="21_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>20</b></td>
+        <td><a id="20_2"></a></td>
+        <td><a id="20_3"></a></td>
+        <td><a id="20_4"></a></td>
+        <td><a id="20_5"></a></td>
+        <td><a id="20_6"></a></td>
+        <td><b  id="20_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>19</b></td>
+        <td><a id="19_2"></a></td>
+        <td><a id="19_3"></a></td>
+        <td><a id="19_4"></a></td>
+        <td><a id="19_5"></a></td>
+        <td><a id="19_6"></a></td>
+        <td><b id="19_all"></b></td>
+  </tr>
+    <tr>
+         <td><b>18</b></td>
+        <td><a id="18_2"></a></td>
+        <td><a id="18_3"></a></td>
+        <td><a id="18_4"></a></td>
+        <td><a id="18_5"></a></td>
+        <td><a id="18_6"></a></td>
+        <td><b id="18_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>17</b></td>
+        <td><a id="17_2"></a></td>
+        <td><a id="17_3"></a></td>
+        <td><a id="17_4"></a></td>
+        <td><a id="17_5"></a></td>
+        <td><a id="17_6"></a></td>
+        <td><b id="17_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>16</b></td>
+        <td><a id="16_2"></a></td>
+        <td><a id="16_3"></a></td>
+        <td><a id="16_4"></a></td>
+        <td><a id="16_5"></a></td>
+        <td><a id="16_6"></a></td>
+        <td><b id="16_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>15</b></td>
+        <td><a id="15_2"></a></td>
+        <td><a id="15_3"></a></td>
+        <td><a id="15_4"></a></td>
+        <td><a id="15_5"></a></td>
+        <td><a id="15_6"></a></td>
+        <td><b id="15_all"></b></td>
+  </tr>
+    <tr>
+         <td><b>14</b></td>
+        <td><a id="14_2"></a></td>
+        <td><a id="14_3"></a></td>
+        <td><a id="14_4"></a></td>
+        <td><a id="14_5"></a></td>
+        <td><a id="14_6"></a></td>
+        <td><b id="14_all"></b></td>
+  </tr>
+    <tr>
+         <td><b>13</b></td>
+        <td><a id="13_2"></a></td>
+        <td><a id="13_3"></a></td>
+        <td><a id="13_4"></a></td>
+        <td><a id="13_5"></a></td>
+        <td><a id="13_6"></a></td>
+        <td><b id="13_all"></b></td>
+  </tr>
+    <tr>
+         <td><b>12</b></td>
+        <td><a id="12_2"></a></td>
+        <td><a id="12_3"></a></td>
+        <td><a id="12_4"></a></td>
+        <td><a id="12_5"></a></td>
+        <td><a id="12_6"></a></td>
+        <td><b id="12_all"></b></td>
+  </tr>
+    <tr>
+         <td><b>11</b></td>
+        <td><a id="11_2"></a></td>
+        <td><a id="11_3"></a></td>
+        <td><a id="11_4"></a></td>
+        <td><a id="11_5"></a></td>
+        <td><a id="11_6"></a></td>
+        <td><b id="11_all"></b></td>
+  </tr>
+    <tr>
+        <td><b>10</b></td>
+        <td><a id="10_2"></a></td>
+        <td><a id="10_3"></a></td>
+        <td><a id="10_4"></a></td>
+        <td><a id="10_5"></a></td>
+        <td><a id="10_6"></a></td>
+        <td><b id="10_all"></b></td>
+  </tr>
+    
+  <tr>
+  	<td><b>Итого</b></td>
+    <td><b id="2_all"></b></td>
+    <td><b id="3_all"></b></td>
+    <td><b id="4_all"></b></td>
+    <td><b id="5_all"></b></td>
+    <td><b id="6_all"></b></td>
+    <td><b id="all_all"></b></td>
+  </tr>
+</tbody></table>
+
+<div align="center" id="result"></div>          
+</body>
+</html>     

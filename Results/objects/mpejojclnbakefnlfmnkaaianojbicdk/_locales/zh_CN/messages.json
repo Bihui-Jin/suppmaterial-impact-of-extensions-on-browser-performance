@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "文案门 · 小插件"
+  },
+  "appDescription": {
+    "message": "邂逅文案，浏览美图，快速记录，灵感一触即发。文案人必备的工具。"
+  },
+  "autosaved": {
+    "message": "自动保存"
+  },
+  "loading": {
+    "message": "加载中"
+  },
+  "more": {
+    "message": "更多"
+  },
+  "copy": {
+    "message": "复制"
+  },
+  "copied": {
+    "message": "已复制"
+  },
+  "next": {
+    "message": "下一条"
+  },
+  "weibo": {
+    "message": "微博"
+  },
+  "twitter": {
+    "message": "推特"
+  },
+  "note": {
+    "message": "记录"
+  },
+  "photoBy": {
+    "message": "摄影师"
+  },
+  "history": {
+    "message": "历史记录"
+  },
+  "timer": {
+    "message": "图片切换"
+  },
+  "fullscreen": {
+    "message": "全屏"
+  },
+  "confirm": {
+    "message": "确定"
+  },
+  "inputSth": {
+    "message": "输入灵感..."
+  },
+  "copynclear": {
+    "message": "复制并清除"
+  },
+  "settings": {
+    "message": "设置"
+  }
+}

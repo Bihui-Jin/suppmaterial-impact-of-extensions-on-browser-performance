@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Tombol Simpan Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Simpan ide favorit secara online agar memudahkan Anda membukanya lagi nanti.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "Maaf, Anda tidak diizinkan menyimpan Pin dari domain ini. Hubungi operator situs jika punya pertanyaan.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "Opsi tombol Simpan",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Sembunyikan tombol Simpan mengambang",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "Cari",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "Simpan",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Simpan ide ke Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "Pilih hingga 20 gambar",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "Berikutnya",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "Pilih semua",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "Simpan ke papan",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "Disimpan ke",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "Kunjungi",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "Bantuan",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "Pilih papan",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "Pilihan teratas",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "Semua papan",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "Buat papan",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "Rahasia",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "Pilih bagian",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "Tambahkan Bagian",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "Ya",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "Tidak",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "Batal",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "Buat",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "Tidak bisa membuat papan baru",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "Tidak bisa menyimpan halaman ini",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "Maaf, ada masalah. Pastikan Anda masuk ke Pinterest dan coba lagi.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "Ups!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "Dapatkan bantuan",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "Ssst!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "Tampaknya Anda belum masuk ke Pinterest. Ayo perbaiki!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "Masuk",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

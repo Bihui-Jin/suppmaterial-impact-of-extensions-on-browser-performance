@@ -1,0 +1,174 @@
+.LNewTabInterest {
+  padding: 24px 0 !important;
+  margin: 0 20px !important;
+  border-top: 1px solid var(--gray25) !important;
+  position: relative;
+}
+
+.LNewTabInterest__moreBtn {
+  width: 84px !important;
+  height: 54px !important;
+  position: absolute;
+  right: -20px;
+  top: 16px;
+  background: var(--GRADATION_LIGHT_INTEREST_BTN) !important;
+}
+
+.LNewTabInterest__list {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.LNewTabInterest__list::-webkit-scrollbar {
+  display: none;
+}
+
+.LNewTabInterest__item {
+  border: 1px solid var(--gray30);
+  height: 38px !important;
+  padding: 10px 14px !important;
+  margin-right: 8px !important;
+  background-color: var(--white00);
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: var(--gray35);
+}
+
+.LNewTabInterest__item:hover {
+  background-color: var(--gray20);
+}
+
+.LNewTabInterest__item.select {
+  background-color: var(--gray50);
+  color: var(--white00);
+  border: 1px solid var(--gray50);
+}
+
+.LNewTabInterest__emoji {
+  margin-right: 2px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.LNewTabInterest__moreBtnIcon {
+  width: 16px !important;
+  height: 16px !important;
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*
+  open, close에 따라 관리
+*/
+
+.LNewTabInterest.open .LNewTabInterest__moreBtnIcon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjAwNjUgMTEuMDc5OUMxNC4zMzMxIDEwLjc1MzIgMTQuMzMzMSAxMC4yMjY2IDE0LjAwNjUgOS44OTk5Mkw4LjQ2NjQ3IDQuMzU5OTJDOC4yMDY0NiA0LjA5OTkyIDcuNzg2NDYgNC4wOTk5MiA3LjUyNjQ2IDQuMzU5OTJMMS45ODY0NiA5Ljg5OTkyQzEuNjU5OCAxMC4yMjY2IDEuNjU5OCAxMC43NTMyIDEuOTg2NDYgMTEuMDc5OUMyLjMxMzEzIDExLjQwNjYgMi44Mzk4IDExLjQwNjYgMy4xNjY0NiAxMS4wNzk5TDcuOTk5OCA2LjI1MzI1TDEyLjgzMzEgMTEuMDg2NkMxMy4xNTMxIDExLjQwNjYgMTMuNjg2NSAxMS40MDY2IDE0LjAwNjUgMTEuMDc5OVoiIGZpbGw9IiM5NTlDQTYiLz4KPC9zdmc+Cg==');
+}
+
+.LNewTabInterest.close .LNewTabInterest__moreBtnIcon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuOTkzNTMgNC45MjAwOEMxLjY2Njg3IDUuMjQ2NzUgMS42NjY4NyA1Ljc3MzQyIDEuOTkzNTMgNi4xMDAwOEw3LjUzMzUzIDExLjY0MDFDNy43OTM1NCAxMS45MDAxIDguMjEzNTQgMTEuOTAwMSA4LjQ3MzU0IDExLjY0MDFMMTQuMDEzNSA2LjEwMDA4QzE0LjM0MDIgNS43NzM0MiAxNC4zNDAyIDUuMjQ2NzUgMTQuMDEzNSA0LjkyMDA4QzEzLjY4NjkgNC41OTM0MiAxMy4xNjAyIDQuNTkzNDIgMTIuODMzNSA0LjkyMDA4TDguMDAwMiA5Ljc0Njc1TDMuMTY2ODcgNC45MTM0MkMyLjg0Njg3IDQuNTkzNDIgMi4zMTM1MyA0LjU5MzQyIDEuOTkzNTMgNC45MjAwOFoiIGZpbGw9IiM5NTlDQTYiLz4KPC9zdmc+Cg==');
+}
+
+.LNewTabInterest.open {
+  border-bottom: 1px solid var(--gray25) !important;
+  margin-bottom: 24px !important;
+  padding: 12px 0 24px !important;
+}
+
+.LNewTabInterest.open .LNewTabInterest__list {
+  flex-wrap: wrap;
+}
+
+.LNewTabInterest.open .LNewTabInterest__item {
+  margin: 12px 8px 0 0 !important;
+}
+
+/*
+  미디어쿼리
+*/
+
+@media (min-width: 664px) {
+  .LNewTabInterest {
+    margin: 0 40px !important;
+    padding: 24px 0 !important;
+  }
+}
+
+/* 2개 - 콘텐츠 고정X */
+@media (min-width: 869px) and (max-width: 1358px) {
+  .LNewTabInterest {
+    width: 789px;
+    margin: 0 auto !important;
+  }
+}
+
+/*3개*/
+@media (min-width: 1523px) {
+  .LNewTabHeader__nav {
+    width: 1488px !important;
+  }
+
+  .LNewTabArticle {
+    display: flex;
+    padding-top: 60px !important;
+    margin: 0 auto !important;
+    width: fit-content !important;
+
+    border-top: 1px solid var(--gray25) !important;
+  }
+
+  .LNewTabInterest {
+    width: 228px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 60px !important;
+    border: none !important;
+    height: fit-content;
+    position: sticky;
+    top: 132px;
+  }
+
+  .LNewTabInterest.open {
+    border-bottom: none !important;
+  }
+
+  .LNewTabRecommended {
+    margin: 0 !important;
+  }
+
+  .LNewTabInterest__moreBtn {
+    display: none;
+  }
+
+  .LNewTabInterest__list {
+    flex-wrap: wrap;
+  }
+
+  .LNewTabInterest__item {
+    margin: 0 8px 12px 0 !important;
+  }
+}
+
+/* 3개 고정 */
+@media (min-width: 1359px) and (max-width: 1522px) {
+  .LNewTabInterest {
+    width: 1200px !important;
+    margin: 0 auto !important;
+  }
+}

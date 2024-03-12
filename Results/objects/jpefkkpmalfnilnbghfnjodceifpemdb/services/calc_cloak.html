@@ -1,0 +1,139 @@
+﻿<html>
+<head>
+<meta charset="utf-8" />
+<title>Калькулятор Плаща Господства</title>
+<link href="../favicon.ico" rel="shortcut icon">
+<link rel="stylesheet" href="calc_cloak.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../tools/jquery.js"></script>
+<script type="text/javascript" src="calc_cloak.js"></script>
+</head>
+<body>
+<h2>Калькулятор Плаща Господства<br></h2>
+<table align="center" width="650" border="0" class="textM">
+<tbody>
+<tr><td align="center">
+Уровень игрока :
+<input id="lvl" type="number" title="Введите число от 5 до 25" min="5" max="25" maxlength="2" value="20">
+</td>
+</tr>
+</tbody>
+</table>
+<table id="main" align="center" width="650" border="0" class="textM">
+<tbody>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Сила: <span id="s_sila" class="sgreen"></span></div>
+<div style="float: right;"><input id="sila" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Ловкость: <span id="s_lovka" class="sgreen"></span></div>
+<div style="float: right;"><input id="lovka" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Интуиция: <span id="s_inta" class="sgreen"></span></div>
+<div style="float: right;"><input id="inta" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Мудрость: <span id="s_mudra" class="sgreen"></span></div>
+<div style="float: right;"><input id="mudra" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Интеллект: <span id="s_intell" class="sgreen"></span></div>
+<div style="float: right;"><input id="intell" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Здоровье: <span id="s_zdorovka" class="sgreen"></span></div>
+<div style="float: right;"><input id="zdorovka" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Сокрушение: <span id="s_sokra" class="sgreen"></span></div>
+<div style="float: right;"><input id="sokra" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"></div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Стойкость: <span id="s_stoika" class="sgreen"></span></div>
+<div style="float: right;"><input id="stoika" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"> </div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Точность: <span id="s_tochka" class="sgreen"></span></div>
+<div style="float: right;"><input id="tochka" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"> </div></div></td><td></td>
+</tr>
+<tr><td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Уворот: <span id="s_uvert" class="sgreen"></span></div>
+<div style="float: right;"><input id="uvert" type="number" title="Введите число от 1 до 200" min="0" max="200" maxlength="3"><a href="#">X </a></div>
+<div style="clear: both;"> </div></div></td><td></td>
+</tr>
+<tr>
+<td align="center">
+<div class="md">
+<div style="float: left; width: 200px;">Рост умений:<span id="s_umelka" class="sgreen"></span></div>
+<div style="float: right;">Всего улучшений: <span id="s_vsego"></span></div>
+<div style="clear: both;"></div></div></td><td>
+</td>
+</tr>
+</tbody>
+</table>
+<br><br>
+<table id="cloak_info" align="center" cellspacing="1" cellpadding="1" border="0" width="700" style="margin-bottom:7px;border:solid 1px #BBB">
+<tbody>
+<tr>
+<td bgcolor="#CCCCCC" align="left" colspan="4">
+&nbsp;<b>Плащ Господства <span id="cl_lvl"></span></b><br>
+&nbsp;Вес: 1 | Не улучшается | Артефакт
+</td>
+</tr>
+<tr>
+<td bgcolor="#DDDDDD" width="84" valign="center">
+<div align="center" style="margin-left:15px;width:82px">
+<img id="clo_img" border="0" src="https://img.ereality.ru/w/cloak/01.png" alt="">
+</div>
+<div align="left" style="margin-left:15px;width:80px;height:4px;border:1px solid #AAAAAA">
+<img width="80" height="4" src="https://img.ereality.ru/nline.png" style="display:block;" title="Прочность: 1000/1000">
+</div>
+<div align="center" class="textS">
+1000/1000
+</div>
+</td>
+<td bgcolor="#DDDDDD" align="center" width="140" valign="center">
+<b>Требования</b><br>
+Уровень:<b> 5</b><br>
+</td>
+<td bgcolor="#DDDDDD" align="left" width="170" valign="top">
+<b>Описание</b><br>
+<span id="p_sokra">Сокрушение:<span id="c_sokra" class="sgreen"></span><br></span>
+<span id="p_stoika">Стойкость:<span id="c_stoika" class="sgreen"></span><br></span>
+<span id="p_tochka">Точность:<span id="c_tochka" class="sgreen"></span><br></span>
+<span id="p_uvert">Уворот:<span id="c_uvert" class="sgreen"></span><br></span>
+<span id="p_sila">Сила:<span id="c_sila" class="sgreen"></span><br></span>
+<span id="p_lovka">Ловкость:<span id="c_lovka" class="sgreen"></span><br></span>
+<span id="p_inta">Интуиция:<span id="c_inta" class="sgreen"></span><br></span>
+<span id="p_mudra">Мудрость:<span id="c_mudra" class="sgreen"></span><br></span>
+<span id="p_intell">Интеллект:<span id="c_intell" class="sgreen"></span><br></span>
+<span id="p_zdorovka">Здоровье:<span id="c_zdorovka" class="sgreen"></span><br></span>
+<span id="p_umelka">Рост боев. умений:<span id="c_umelka" class="sgreen"></span><br></span>
+</td>
+<td bgcolor="#DDDDDD" align="center" width="110" >
+<div><b><span id="summa"></span></b> сер.<br></div>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html> 

@@ -1,0 +1,219 @@
+<!-- 
+Code for star rating from: https://jsfiddle.net/leaverou/CGP87/?utm_source=website&utm_medium=embed&utm_campaign=CGP87
+Available as MIT licensed: https://lea.verou.me/2011/08/accessible-star-rating-widget-with-pure-css/ 
+-->
+
+<!DOCTYPE html>
+<html style="min-width:215px;">
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    div {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    button {
+      display: inline-block;
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #2e6da4;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+    }
+    button:disabled {
+      cursor: not-allowed;
+      filter: alpha(opacity=65);
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      opacity: .65;
+    }
+    control {
+      margin-bottom: 3px;
+    }
+    .err {
+      color: red;
+      font-weight: bold;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 26px;
+    }
+
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #337ab7;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #337ab7;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(34px);
+      -ms-transform: translateX(34px);
+      transform: translateX(34px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 26px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    /* .rating {
+        float:left;
+    } */
+
+    /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+      follow these rules. Every browser that supports :checked also supports :not(), so
+      it doesn’t make the test unnecessarily selective */
+    .rating:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+        clip:rect(0,0,0,0);
+    }
+
+    .rating:not(:checked) > label {
+        float:right;
+        width:1em;
+        padding:0 .1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:200%;
+        line-height:1.2;
+        color:#ddd;
+        text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+    }
+
+    .rating:not(:checked) > label:before {
+        content: '★ ';
+    }
+
+    .rating > input:checked ~ label {
+        color: #f70;
+        text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+    }
+
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: gold;
+        text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+    }
+
+    .rating > input:checked + label:hover,
+    .rating > input:checked + label:hover ~ label,
+    .rating > input:checked ~ label:hover,
+    .rating > input:checked ~ label:hover ~ label,
+    .rating > label:hover ~ input:checked ~ label {
+        color: #ea0;
+        text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+    }
+
+    .rating > label:active {
+        position:relative;
+        top:2px;
+        left:2px;
+    }
+  </style>
+  <script src="utils.js" type="text/javascript"></script>
+  <script src="popup.js" type="text/javascript"></script>
+</head>
+<body>
+  <img src="aerobi.png" alt="Workout with Aerobi">
+  <div>
+    <div id="signInBlock">
+      <div>
+        <span id="welcome" style="color:#337ab7;font-size:14px;font-weight: bold; display:none; padding-top: 0px; padding-bottom: 0px;">Welcome</span>
+        <a id="signIn" href="http://www.google.com" style="color:#337ab7;font-size:14px;font-weight: bold; display:none; padding-top: 0px; padding-bottom: 0px; ">Sign In with Google</a>
+      </div>
+      <div>
+        <span id="wrongPerson" style="color:#337ab7;font-size:8px;font-weight: bold; display:none; padding-top: 0px; padding-bottom: 0px;">Not</span>
+        <a id="signInAlt" href="http://www.google.com" style="color:#337ab7;font-size:8px;font-weight: bold; display:none; padding-top: 0px; padding-bottom: 0px;">Click Here</a>
+      </div>
+    </div>
+    <br/>
+    <div id="mainBlock" class="control" style="display:none;">
+      <span id="thanksMessage" style="color:#337ab7;font-size:14px;font-weight: bold; padding-top: 0px; padding-bottom: 0px; display: none;">
+        Thank you for the feedback!
+      </span>
+      <button id="startAndStop" disabled>Start</button><br/><br/>
+      <span style="color:#337ab7;font-size:14px;font-weight: bold;">Display Landscape</span>
+      <label class="switch">
+        <input id="showEntireBkg" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div id="ratingBlock" style="display:none;">
+      <span id="ratingMessage" style="color:#337ab7;font-size:14px;font-weight: bold; padding-top: 0px; padding-bottom: 0px;">
+        Can you spare a second for me?
+      </span>
+      <fieldset style="color:#337ab7;font-size:14px;font-weight: bold;" class="rating">
+        <legend>Please rate us:</legend>
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+        <br/>
+        <br/>
+        <button id="ratingDone" >Done</button>
+        <button id="ratingLater" style="background-color: #559ce9;">Later</button>
+        </fieldset>
+    </div>
+    <p class="err" id="errorMessage"></p>
+  </div>
+</body>
+</html>

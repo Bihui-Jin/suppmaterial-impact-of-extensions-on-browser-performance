@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/options.css">
+  </head>
+  <body>
+    <div>
+      <div class="options-container">
+        <div class="header">
+          ESPN Fantasy Football League Note Generator Options
+        </div>
+        <div id="container-body">
+          <div class="sub-header" style="text-align: right;">
+            League: <select id="league-selector"></select>
+          </div>
+          <div class="container category">
+            <div class="sub-header">
+              <span class="accordian-icon" /> Manager Options
+            </div>
+            <div class="container-row manager-options" id="manager-options">
+              <table id="manager-override"></table>
+            </div>
+          </div>
+          <div class="container category inactive">
+            <div class="sub-header">
+              <span class="accordian-icon" /> Leader Board Options
+            </div>
+            <div class="container-row leader-board-options" id="leader-board-options">
+              <table>
+                <tr><td>Track Losers' Bracket Games: </td><td><input type="checkbox" id="losers-show"></td></tr>
+                <tr><td>Track 3rd Place Game: </td><td><input type="checkbox" id="3rd-show"></td></tr>
+                <tr><td>Collapse Icons: </td><td><input type="checkbox" id="collapse-icons"></td></tr>
+                <tr><td>Hide Average Line: </td><td><input type="checkbox" id="acuna-show"></td></tr>
+                <tr><td>Average Line Title: </td><td><input type="text" id="acuna-name" placeholder="The Threshold of Mediocrity" /></td></tr>
+                <tr><td style="width:200px;">Last Place Column Header: </td><td><input type="text" id="sacko-name" placeholder="Sackos" /></td></tr>
+                <tr><td>Manually Override Last Place: </td><td><table id="sacko-override"><thead><tr><th>Year</th><th>Manager</th></tr></thead><tbody></tbody></table></td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="container category inactive">
+            <div class="sub-header">
+              <span class="accordian-icon" /> Record Book Options
+            </div>
+            <div class="container-row" id="record-book-options" style="max-height:385px;">
+              <table>
+                <tr><td style="width: 42%;">Hide Player Records: </td><td><input type="checkbox" id="player-record-hide" /></td></tr>
+                <tr><td>Manually Override Player Records: </td><td></td></tr>
+              </table>
+              <table>
+                <tr>
+                  <th class="label-header">Position Record</th>
+                  <th>Player Name</th>
+                  <th style="width: 50px;">Score</th>
+                  <th style="width: 50px;">Date</th>
+                </tr>
+                <tr><td>Quarter Back - Game: </td><td><input type="text" id="QBG-Name" /></td><td><input type="number" step="0.1" id="QBG" /></td><td><input type="number" id="QBG-Date" /></td></tr>
+                <tr><td>Quarter Back - Season: </td><td><input type="text" id="QBS-Name" /></td><td><input type="number" step="0.1" id="QBS" /></td><td><input type="number" id="QBS-Date" /></td></tr>
+                <tr><td>Running Back - Game: </td><td><input type="text" id="RBG-Name" /></td><td><input type="number" step="0.1" id="RBG" /></td><td><input type="number" id="RBG-Date" /></td></tr>
+                <tr><td>Running Back - Season: </td><td><input type="text" id="RBS-Name" /></td><td><input type="number" step="0.1" id="RBS" /></td><td><input type="number" id="RBS-Date" /></td></tr>
+                <tr><td>Wide Reciever - Game: </td><td><input type="text" id="WRG-Name" /></td><td><input type="number" step="0.1" id="WRG" /></td><td><input type="number" id="WRG-Date" /></td></tr>
+                <tr><td>Wide Reciever - Season: </td><td><input type="text" id="WRS-Name" /></td><td><input type="number" step="0.1" id="WRS" /></td><td><input type="number" id="WRS-Date" /></td></tr>
+                <tr><td>Tight End - Game: </td><td><input type="text" id="TEG-Name" /></td><td><input type="number" step="0.1" id="TEG" /></td><td><input type="number" id="TEG-Date" /></td></tr>
+                <tr><td>Tight End - Season: </td><td><input type="text" id="TES-Name" /></td><td><input type="number" step="0.1" id="TES" /></td><td><input type="number" id="TES-Date" /></td></tr>
+                <tr><td>D/ST - Game: </td><td><input type="text" id="DSTG-Name" /></td><td><input type="number" step="0.1" id="DSTG" /></td><td><input type="number" id="DSTG-Date" /></td></tr>
+                <tr><td>D/ST - Season: </td><td><input type="text" id="DSTS-Name" /></td><td><input type="number" step="0.1" id="DSTS" /></td><td><input type="number" id="DSTS-Date" /></td></tr>
+                <tr><td>Kicker - Game: </td><td><input type="text" id="KG-Name" /></td><td><input type="number" step="0.1" id="KG" /></td><td><input type="number" id="KG-Date" /></td></tr>
+                <tr><td>Kicker - Season: </td><td><input type="text" id="KS-Name" /></td><td><input type="number" step="0.1" id="KS" /></td><td><input type="number" id="KS-Date" /></td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="container category inactive">
+            <div class="sub-header">
+              <span class="accordian-icon" /> Power Ranking Options
+            </div>
+            <div class="container-row" id="power-ranking-options">
+              <table>
+                <tr><td style="width: 42%;">Hide Team Names: </td><td><input type="checkbox" id="team-name-show" /></td></tr>
+                <tr><td>Show Team Pictures: </td><td><input type="checkbox" id="pictures-show" /></td></tr>
+                <tr><td>Manually Override Pictures: </td><td></td></tr>
+              </table>
+              <table id="pictures-override" style="padding-top: 0;"><thead><tr><th style="text-align:right;">Manager</th><th>Image URL</th></tr></thead></table>
+            </div>
+          </div>
+          <div class="container category inactive">
+            <div class="sub-header">
+              <span class="accordian-icon" /> Advanced Options
+            </div>
+            <div class="container-row" id="advanced-options" style="max-height:175px;">
+              <table>
+                <tr><td style="text-align:left;">Data Manipulation: </td><td></td></tr>
+              </table>
+              <textarea id="custom-script" rows="6" style="margin-left:8px;width:95%;" placeholder="Are you sure you want to do this? Database manipulation is only for advanced user. Please make sure you know what you are doing before continuing."></textarea>
+              <button id="script" style="float:right;margin-top:5px;margin-right:8px;">Exectute SQL</button>
+            </div>
+          </div>
+          </div>
+          <div class="button-container">
+            <button id="reset">Reset</button>
+            <button id="save">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/options.js"></script>
+</html>

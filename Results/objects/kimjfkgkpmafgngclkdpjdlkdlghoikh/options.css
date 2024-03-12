@@ -1,0 +1,41 @@
+body {
+	width: 404px;
+	margin: 0;
+	padding: 0 10px;
+	font-family: arial, helvetica, sans-serif
+}
+
+h1, select, .infoBox {
+	width: 170px
+}
+
+h1, a {
+	color: #fff;
+	text-decoration: none;
+	transition: all .5s;
+	font-size: 16px
+}
+
+a, select {
+	cursor: pointer
+}
+
+h1, [class^="infoBox"] {
+	padding: 0 15px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+a {
+	margin: 0 13px
+}
+
+[class^="infoBox"] {
+	text-align: center
+}
+
+#teamBanner {
+	height: 93px;
+	margin: 15px auto;
+	display: block
+}

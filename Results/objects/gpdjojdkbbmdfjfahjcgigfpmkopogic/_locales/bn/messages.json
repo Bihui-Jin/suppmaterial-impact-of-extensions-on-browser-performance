@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "Pinterest-এর সংরক্ষণের বোতাম",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "অনলাইনে আপনার পছন্দের ধারণাগুলি সংরক্ষণ করুন যাতে আপনি সহজেই পরে সেগুলি দেখতে পান।",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "দুঃখিত, এই ডোমেন থেকে পিন করা অনুমোদিত নয়। আপনার কোনও প্রশ্ন থাকলে, অনুগ্রহ করে সাইট অপারেটরের সাথে যোগাযোগ করুন।",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "সংরক্ষণের বোতামের বিকল্পগুলি",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "হোভারিং সংরক্ষণের বোতাম লুকিয়ে রাখুন",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "অনুসন্ধান করুন",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "সংরক্ষণ করুন",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "Pinterest-এ কোনো ধারণা সংরক্ষণ করুন",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "কুড়িটি পর্যন্ত ছবি বেছে নিন",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "পরবর্তী",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "সবকটি বেছে নিন",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "বোর্ডে সংরক্ষণ করুন",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "উল্লেখ করা জায়গায় সংরক্ষণ করা হয়েছে",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "দেখুন",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "সাহায্য নিন",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "বোর্ড বেছে নিন",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "সেরা পছন্দ",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "সমস্ত বোর্ড",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "বোর্ড তৈরি করুন",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "গোপন",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "বিভাগ বেছে নিন",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "বিভাগ যোগ করুন",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "হ্যাঁ",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "না",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "বাতিল করুন",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "তৈরি করুন",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "নতুন বোর্ড তৈরি করা যায়নি",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "এই পৃষ্ঠাটি সংরক্ষণ করা যায়নি",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "দুঃখিত, এখানে কিছু একটা একেবারেই ঠিক নেই। আপনি Pinterest-এ লগ ইন করেছেন কিনা, অনুগ্রহ করে তা দেখে নিয়ে আবার চেষ্টা করুন।",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "ওহো!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "সাহায্য নিন",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "চুপ করুন!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "আপনি Pinterest-এ সাইন ইন করেননি বলে মনে হচ্ছে। আসুন ওটা ঠিক করা যাক!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "সাইন ইন করুন",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

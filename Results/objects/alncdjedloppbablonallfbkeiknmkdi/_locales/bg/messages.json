@@ -1,0 +1,538 @@
+{
+    "extName": {
+        "message": "Night Eye - Нощен режим за всеки сайт"
+    },
+    "extDescription": {
+        "message": "Night Eye включва нощен режим на всeки сайт, използвайки нов алгоритъм за анализ и конвертиране на цветовете."
+    },
+    "extToggleButton": {
+        "message": "Сменя между нощен и светъл режим на сайта"
+    },
+    "okButton": {
+        "message": "OK"
+    },
+    "labelPleaseWait": {
+        "message": "Моля изчакайте"
+    },
+    "labelWebsiteStatusDark": {
+        "message": "Тъмна версия"
+    },
+    "labelWebsiteStatusFiltered": {
+        "message": "Филтрирана версия"
+    },
+    "labelWebsiteStatusNormal": {
+        "message": "Нормална версия"
+    },
+    "labelWebsiteStatusNotSupported": {
+        "message": "Не се поддържа"
+    },
+    "messageWebsiteNotSupported": {
+        "message": "Този уебсайт не се поддържа"
+    },
+    "labelContinue": {
+        "message": "Продължи"
+    },
+    "filterModeNameDark": {
+        "message": "Тъмен"
+    },
+    "filterModeNameFiltered": {
+        "message": "Филтриран"
+    },
+    "filterModeNameNormal": {
+        "message": "Светъл"
+    },
+    "labelCurrent": {
+        "message": "Текущ",
+        "description": "Current website"
+    },
+    "labelWebsite": {
+        "message": "уебсайт",
+        "description": "Current website"
+    },
+    "labelColors": {
+        "message": "цветове"
+    },
+    "labelImages": {
+        "message": "снимки"
+    },
+    "labelBrightness": {
+        "message": "яркост"
+    },
+    "labelContrast": {
+        "message": "контраст"
+    },
+    "labelSaturation": {
+        "message": "наситеност"
+    },
+    "labelBlueLight": {
+        "message": "синя светлина"
+    },
+    "labelDim": {
+        "message": "затъмненост"
+    },
+    "labelCustomCode": {
+        "message": "custom code"
+    },
+    "labelWebsiteDarkModeListDescr": {
+        "message": "Този уебсайт не е добавен в списъка с тъмни режими."
+    },
+    "labelManageDarkModeListTitle": {
+        "message": "Управление на списъка"
+    },
+    "extTurnOnButton": {
+        "message": "Включи"
+    },
+    "extDisabledStatus": {
+        "message": "Night Eye е изключен",
+        "description": "Night Eye - do not translate Night Eye - this is app name"
+    },
+    "labelExperimentalFeature": {
+        "message": "Експериментална функционалност"
+    },
+    "colorViewTitle": {
+        "message": "Избор на цвят"
+    },
+    "colorViewDescription": {
+        "message": "Изберете цвят от уебсайт и го променете според вашите желания."
+    },
+    "colorViewReplacedColor": {
+        "message": "Заменен",
+        "description": " replaced color"
+    },
+    "colorViewOriginalColor": {
+        "message": "Оригинален",
+        "description": "original color"
+    },
+    "imageViewTitle": {
+        "message": "Снимки"
+    },
+    "imageViewDescription": {
+        "message": "Night Eye обработва снимките, за да ги направи по-тъмни.Тази промяна изисква повече изчистлителна мощ, затова може да усещате забавяне на компютъра.",
+        "description": "Night Eye - do not translate Night Eye - this is app name"
+    },
+    "switchLabelOn": {
+        "message": "Включено",
+        "description": "Switch is On"
+    },
+    "switchLabelOff": {
+        "message": "Изключено",
+        "description": "Switch is Off"
+    },
+    "brightnessViewTitle": {
+        "message": "Яркост"
+    },
+    "brightnessViewDescription": {
+        "message": "Настройките яркостта чрез премстване на плъжгача по долу."
+    },
+    "contrastViewTitle": {
+        "message": "Контраст"
+    },
+    "contrastViewDescription": {
+        "message": "Настройките контраста чрез премстване на плъжгача по долу."
+    },
+    "saturationViewTitle": {
+        "message": "Наситеност"
+    },
+    "saturationViewDescription": {
+        "message": "Настройките наситеността чрез премстване на плъжгача по долу."
+    },
+    "temperatureViewTitle": {
+        "message": "Синя светлина"
+    },
+    "temperatureViewDescription": {
+        "message": "Настройте нивото на синия свят посредство плъзгача по долу."
+    },
+    "temperatureViewOption1": {
+        "message": "С синьо"
+    },
+    "temperatureViewOption2": {
+        "message": "Без синьо"
+    },
+    "dimViewTitle": {
+        "message": "Затъмненост"
+    },
+    "dimViewDescription": {
+        "message": "Настройте нивото на затъмненост на сайта."
+    },
+    "refreshViewTitle": {
+        "message": "Моля, презаредете страницата."
+    },
+    "refreshViewDescription": {
+        "message": "Трябва да презаредите страницата, за да може да се видят последните промени."
+    },
+    "refreshButton": {
+        "message": "Презареди",
+        "description": "Refresh current page - this is button"
+    },
+    "supportViewInfo1": {
+        "message": "Ние сме тук, за да ви помогнем, ако имате някакви проблеми или въпроси с Night Eye."
+    },
+    "supportViewInfo2": {
+        "message": "За да използвате нашата система за комуникация е необходимо да предоставите информация за връзка."
+    },
+    "supportViewInfo3": {
+        "message": "Пишете само на английски."
+    },
+    "supportViewInputName": {
+        "message": "Име"
+    },
+    "supportViewInputEmail": {
+        "message": "Имейл"
+    },
+    "helpViewHelpButton": {
+        "message": "Помощ"
+    },
+    "helpViewShortcutTitle": {
+        "message": "Включено/Изключено клавишна комбинация"
+    },
+    "helpViewShortcutDescription": {
+        "message": "Разберете как да си настроите собствена клавишна комбинация."
+    },
+    "helpViewUninstallTitle": {
+        "message": "Премахване на приложението"
+    },
+    "helpViewUninstallDescription": {
+        "message": "Намерете Night Eye в списъка с приставки и натиснете изтрий."
+    },
+    "helpViewDefaultModeTitle": {
+        "message": "Режим по подразбиране"
+    },
+    "helpViewDefaultModeDescription": {
+        "message": "Изберете режим за отваряне на нов таб."
+    },
+    "helpViewExportData": {
+        "message": "Експорт на данни"
+    },
+    "helpViewImportData": {
+        "message": "Импортиране на данни"
+    },
+    "helpViewLanguage": {
+        "message": "Език"
+    },
+    "helpViewDarkScroll": {
+        "message": "Тъмен плъзгач"
+    },
+    "helpViewDarkScrollDescr": {
+        "message": "Night Eye ще превърне всеки плъзгач в тъмна тема."
+    },
+    "helpViewEnabled": {
+        "message": "Активиран"
+    },
+    "helpViewDisabled": {
+        "message": "Деактивиран"
+    },
+    "helpViewOSColorScheme": {
+        "message": "Интеграция на цветовата схема на ОС"
+    },
+    "helpViewOSColorSchemeDescr": {
+        "message": "Синхронизирайте Night Eye с вашата активна цветова схема на операционната система."
+    },
+    "helpOSIntegrationLink": {
+        "message": "Повече детайли."
+    },
+    "helpViewTimerOn": {
+        "message": "Вкл"
+    },
+    "helpViewTimerOff": {
+        "message": "Изкл"
+    },
+    "helpViewTimerTitle": {
+        "message": "Разписание"
+    },
+    "helpViewTimerDescr": {
+        "message": "Как работи."
+    },
+    "helpViewWhiteListButton": {
+        "message": "Разрешен списък"
+    },
+    "helpViewGoProTitle": {
+        "message": "Стани \"Pro\" потребител"
+    },
+    "helpViewManageDarkModeListTitle": {
+        "message": "Управление на списъка с тъмни страници"
+    },
+    "helpViewClientAreaTitle": {
+        "message": "Клиентска зона"
+    },
+    "helpViewSignInSignUp": {
+        "message": "Вход / Регистрация"
+    },
+    "helpViewActivateNow": {
+        "message": "Активирай сега"
+    },
+    "helpViewExpires": {
+        "message": "Лицензът e изтекъл на $1"
+    },
+    "helpViewSignOut": {
+        "message": "Изход"
+    },
+    "helpViewActivated": {
+        "message": "Активиран"
+    },
+    "helpViewByExpires": {
+        "message": "от $1 </br>Лицензът изтича на $2"
+    },
+    "helpViewExpiredNever": {
+        "message": "никога"
+    },
+    "firstRunViewTitle": {
+        "message": "Какво трябва да знаете"
+    },
+    "firstRunViewFeature1": {
+        "message": "Повлиява на скоростта на зареждане на страниците"
+    },
+    "firstRunViewFeature2": {
+        "message": "Използвай 3 месеца БЕЗПЛАТНО<br>След това по $$9/годишно"
+    },
+    "firstRunViewFeature3": {
+        "message": "Не събираме никаква информация"
+    },
+    "firstRunViewFeature4": {
+        "message": "Свържете се с нас, чрез вградения ни чат"
+    },
+    "controlsPanelButtonCancel": {
+        "message": "Отмени"
+    },
+    "controlsPanelButtonDefault": {
+        "message": "Възстанови"
+    },
+    "controlsPanelButtonApply": {
+        "message": "Приложи"
+    },
+    "controlsPanelButtonApplyTo": {
+        "message": "Приложи за",
+        "description": "Apply to all websites"
+    },
+    "controlsPanelAllWebsites": {
+        "message": "всички сайтове"
+    },
+    "controlsPanelCurrentWebsite": {
+        "message": "текущия сайт"
+    },
+    "controlsPanelButtonRestoreTo": {
+        "message": "Възстанови",
+        "description": "Restore defaults for all websites"
+    },
+    "controlsPanelForAllWebsites": {
+        "message": "за всички сайтове"
+    },
+    "controlsPanelForCurrentWebsite": {
+        "message": "за текущия сайт"
+    },
+    "trialLiteViewLiteTitle": {
+        "message": "Версия \"Lite\""
+    },
+    "trialLiteViewLiteDescr": {
+        "message": "Тъмният режим може да бъде активиран на до 5 уебсайта. Можете да управлявате списъка и да го променяте по всяко време."
+    },
+    "trialLiteViewReadAbout": {
+        "message": "Прочете повече за Версия \"Lite\""
+    },
+    "trialLiteViewSave": {
+        "message": "Запази"
+    },
+    "trialLiteViewGoPro": {
+        "message": "Стани Pro потребител (Премахни лимита)"
+    },
+    "trialLiteViewCancel": {
+        "message": "Отказ"
+    },
+    "trialProViewTitle": {
+        "message": "Версия Pro"
+    },
+    "trialProViewDescrPart1": {
+        "message": "Надяваме се, че Night Eye доказа своята полезност през изминалите месеци!"
+    },
+    "trialProViewDescrPart2": {
+        "message": "Ако искате да продължите да го използвате, разгледайте нашите планове и всички предимства, които идват заедно с тях."
+    },
+    "trialProViewPricing": {
+        "message": "Планове"
+    },
+    "trialProViewActivateDescr": {
+        "message": "Ако вече имате акаунт, </br> моля активирайте го!"
+    },
+    "trialProViewActivateBtn": {
+        "message": "Активирай"
+    },
+    "trialProViewCancelBtn": {
+        "message": "Отказ"
+    },
+    "trialAlreadyActViewTitle": {
+        "message": "Версия Pro"
+    },
+    "trialAlreadyActViewDescrPart1": {
+        "message": "Надяваме се, че Night Eye доказа своята полезност през изминалите месеци!"
+    },
+    "trialAlreadyActViewDescrPart2": {
+        "message": "Ако искате да продължите да го използвате, разгледайте нашите планове и всички предимства, които идват заедно с тях."
+    },
+    "trialAlreadyActViewEmailDescr": {
+        "message": "Night Eye е свързан с вашия имейл <b class=\"AccountEmail\">$1</b><br> използвайте го, ако решите да закупите един от нашите планове."
+    },
+    "trialAlreadyActViewCancelBtn": {
+        "message": "Отказ"
+    },
+    "trailActivationViewTitle": {
+        "message": "Aктивиране"
+    },
+    "trailActivationViewDescr": {
+        "message": "Моля, добавете имейла, който сте използвали за създаване на акаунт."
+    },
+    "trailActivationViewActiveteBtn": {
+        "message": "Активиране"
+    },
+    "trailActivationViewClientArea": {
+        "message": "Клиентска зона"
+    },
+    "trailActivationViewCancelBtn": {
+        "message": "Отказ"
+    },
+    "trailSuccessActViewTitle": {
+        "message": "Успешно активиране"
+    },
+    "trailSuccessActViewDescrPart1": {
+        "message": "Успешно сте активирали разширението."
+    },
+    "trailSuccessActViewDescrPart2": {
+        "message": "Можете да използвате Night Eye на 3 браузъра едновременно."
+    },
+    "trailSuccessActViewDescrPart3": {
+        "message": "Можете да управлявате активните браузъри в клиентската зона."
+    },
+    "trailSuccessActViewDescrPart4": {
+        "message": "За достъп до клиентската зона, моля, отидете на"
+    },
+    "trailSuccessActViewContinueBtn": {
+        "message": "Продължи"
+    },
+    "trailSuccessActViewDescrBrowserFree": {
+        "message": "Можете да се наслаждавате на Night Eye до 3 браузъра наведнъж, докато изтече вашият безплатен пробен период на $1"
+    },
+    "trailSuccessActViewDescrBrowserPro": {
+        "message": "Можете да се насладите на Night Eye до $1 браузъри наведнъж."
+    },
+    "trailLogoutViewTitle": {
+        "message": "Активиран"
+    },
+    "trailLogoutViewDescrPart1": {
+        "message": "Night Eye е свързан с вашата електронна поща <b class=\"ActivatedEmail\">$1</b>"
+    },
+    "trailLogoutViewDescrPart2": {
+        "message": "За повече подробности посетете"
+    },
+    "trailLogoutViewControlPanel": {
+        "message": "Контролен панел"
+    },
+    "trailLogoutViewDescrPart3": {
+        "message": "Можете за постоянно да деактивирате <br> Night Eye за този браузър."
+    },
+    "trailLogoutViewDeactivateBtn": {
+        "message": "Деактивиране"
+    },
+    "trailLogoutViewCancelBtn": {
+        "message": "Отказ"
+    },
+    "supportViewContinueBtn": {
+        "message": "Продължи"
+    },
+    "supportViewPleaseWaitLbl": {
+        "message": "Моля изчакайте..."
+    },
+    "trialExpiredViewTitle": {
+        "message": "Вашият безплатен пробен период изтече."
+    },
+    "trialExpiredViewDescrPart1": {
+        "message": "Надяваме се, че Night Eye доказа своята полезност през изминалите месеци."
+    },
+    "trialExpiredViewDescrPart2": {
+        "message": "Можете да използвате безплатната версия \"Lite\" завинаги или да станете \"Pro\" потребител. Вижте нашите планове и всички предимства, които идват заедно с тях."
+    },
+    "trialExpiredViewDescrPart3": {
+        "message": "Версия \"Lite\""
+    },
+    "trialExpiredViewDescrPart4": {
+        "message": "Тъмен режим до 5 уебсайта"
+    },
+    "trialExpiredViewDescrPart5": {
+        "message": "Версия \"Pro\""
+    },
+    "trialExpiredViewDescrPart6": {
+        "message": "Без ограничение"
+    },
+    "paymentRemiderViewDescrP1": {
+        "message": "Вие използвате Night Eye вече 30 дни. "
+    },
+    "paymentRemiderViewDescrP2": {
+        "message": "Като благодарност имаме специална отстъпка от 20%. Моля, използвайте кода за отстъпка: <div class=\"DiscountCode\">-</div> Тази оферта е валидна за 48 часа."
+    },
+    "paymentRemiderViewDescrP3": {
+        "message": "Вземете вашата \"PRO\" версия сега"
+    },
+    "paymentRemiderViewDescrP4": {
+        "message": "Ако не се интересувате от офертата<br> имате още 2 месеца <br> от безплатната \"Pro\" версия. Насладете се!"
+    },
+    "paymentRemiderViewCancelBtn": {
+        "message": "Затвори"
+    },
+    "labelBuiltInDarkTheme": {
+        "message": "вградена <br>тъмна тема"
+    },
+    "labelTurboCache": {
+        "message": "локален <br> кеш"
+    },
+    "labelImageIconConversion": {
+        "message": "Преобразуване на икони"
+    },
+    "labelImageBackgroundConversion": {
+        "message": "Преобразуване на фонове"
+    },
+    "labelImageHighCPU": {
+        "message": "Висока консумация на процесор"
+    },
+    "labelDisabled": {
+        "message": "Изключен"
+    },
+    "labelEnabled": {
+        "message": "Включен"
+    },
+    "settingsImageViewDescrP1": {
+        "message": "Night Eye преобразува изображения като икони и фонове, за да ви осигури гладък и постоянен тъмен режим."
+    },
+    "settingsImageViewDescrP2": {
+        "message": "Преобразуването на икони и фонове идва с висока консумация на процесор."
+    },
+    "settingsImageViewDescrP3": {
+        "message": "Включете за най-добро тъмно изживяване."
+    },
+    "settingsImageViewDescrP4": {
+        "message": "Изключете, за да намалите консумацията на процесора."
+    },
+    "settingsBuiltInDarkViewDescrP1": {
+        "message": "Дълбоката интеграция ви позволява да контролирате вградените тъмни теми на уебсайтовете, които вече са внедрили тъмен потребителски интерфейс."
+    },
+    "settingsBuiltInDarkViewDescrP2": {
+        "message": "Вижте как работи дълбоката интеграция"
+    },
+    "settingsBuiltInDarkViewDescrP3": {
+        "message": "тук"
+    },
+    "settingsBuiltInDarkViewOptionDisabled": {
+        "message": "Изключен"
+    },
+    "settingsBuiltInDarkViewOptionNightEyeDark": {
+        "message": "Night Eye Режим"
+    },
+    "settingsBuiltInDarkViewOptionDeepIntegration": {
+        "message": "Дълбока интеграция"
+    },
+    "settingsTurboCacheViewDescrP1": {
+        "message": "Кешът ускорява преобразуването на уебсайта от нормален в тъмен режим (скоростта на зареждане на страницата не се влияе). Той може да намали първоначалните ярки проблясъци, в зависимост от уебсайта."
+    },
+    "settingsTurboCacheViewDescrP2": {
+        "message": "Функцията кеш работи на около 80% от уебсайтовете, така че ако уебсайтът не се държи правилно, моля, изключете го за него!"
+    },
+    "settingsTurboCacheViewDescrP3": {
+        "message": "Може да се приложи към конкретен уебсайт или към всички, които посещавате."
+    }
+}

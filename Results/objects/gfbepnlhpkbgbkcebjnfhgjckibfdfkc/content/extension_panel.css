@@ -1,0 +1,786 @@
+#fpExtensionPanelContainer{
+	z-index: 10000000;
+	position:fixed;
+	top:15px;
+	right:15px;
+	background:#f7f7ff;
+	box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+	border: none;
+	border-radius:5px;
+	width:360px;
+	height:597px;
+	max-height:calc(100% - 65px);
+	color:#505050;
+	font-family: "Open Sans",Arial,sans-serif !important;
+	font-size: 14px;
+	line-height:1.5;	
+	text-align:left;
+	overflow: hidden;
+    padding-bottom: 5px;
+}
+#fpExtensionPanelContainer a{
+	font-family: "Open Sans",Arial,sans-serif !important;
+	font-weight:normal;
+    color: inherit !important;
+}
+#fpExtensionPanelContainer a:hover{
+    color: inherit !important;
+}
+#fpExtensionPanelContainer div{
+	box-sizing: content-box;
+}
+#fpExtensionPanelContainer .fp-extension-panel{
+	height:100%;
+}
+#fpExtensionPanelContainer .fp-extension-body{
+	overflow-y: auto;	
+	max-height:calc(100% - 65px);
+	padding-top:5px;
+}
+#fpExtensionPanelContainer .fp-extension-body.fp-extension-body-with-cta{
+	max-height:calc(100% - 145px);
+}
+#fpExtensionPanelContainer .fp-extension-header{
+	padding:10px;
+	border-bottom:1px solid lightgray;
+	text-align:center;
+	background:white;
+    height:38px;
+}
+
+#fpExtensionPanelContainer .fp-extension-logo{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/FP-logo-rounded.png');
+	margin:10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:left;
+	width: 24px;
+	height: 24px;
+}
+#fpExtensionPanelContainer .fp-extension-back{
+	width:16px;
+	height:16px;
+	margin:13px;
+	float:left;	    
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/back-arrow.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#fpExtensionPanelContainer .fp-extension-menu{
+	margin-top:5px;
+	float:right;	
+}
+
+#fpExtensionPanelContainer .fp-extension-close{
+	width:12px;
+	height:12px;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/close.png');
+	background-size: contain;
+	display:inline-block;
+	margin: 0 5px;
+	background-repeat: no-repeat;
+	vertical-align:1px;
+}    
+#fpExtensionPanelContainer .fp-extension-settings{
+	width:14px;
+	height:14px;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/settings.png');
+	background-size: contain;
+	display:inline-block;
+	margin-right:5px;
+	background-repeat: no-repeat;
+}    
+#fpExtensionPanelContainer .fp-extension-heading{
+	font-weight:bold;
+	font-size: 16px;
+	height: 22px;
+	color: #333;
+}
+#fpExtensionPanelContainer .fp-extension-sub-heading{
+	font-size: 12px;
+	color: #999;
+}
+#fpExtensionPanelContainer #fpPanelSettings .fp-extension-heading,
+#fpExtensionPanelContainer #fpPanelSettings .fp-extension-sub-heading,
+#fpExtensionPanelContainer #fpPanelExclude .fp-extension-heading,
+#fpExtensionPanelContainer #fpPanelExclude .fp-extension-sub-heading,
+#fpExtensionPanelContainer .fp-extension-premium-advice .fp-extension-heading,
+#fpExtensionPanelContainer .fp-extension-premium-advice .fp-extension-sub-heading{
+	text-align:left;
+    margin-left: 50px;
+}
+#fpExtensionPanelContainer .fp-extension-section{
+	padding:10px 15px;
+}
+#fpArticleSection{
+	height:168px;
+}
+#fpExtensionPanelContainer .fp-extension-section-heading{
+	font-weight:bold;
+	font-size: 12px;
+	margin-bottom: 4px;
+	color: #212121;
+}
+#fpExtensionPanelContainer .fp-extension-section-heading-big{
+	font-size: 14px;
+}
+#fpExtensionPanelContainer .fp-extension-section-subheading{
+	font-size: 12px;
+    margin-top: -5px;
+	margin-bottom: 10px;
+	color: rgb(153, 153, 153);
+}
+#fpExtensionPanelContainer .fp-item-quicks-links {
+    float: right;
+    margin-top: -7px;
+    font-size: 12px;
+    width: 80px;
+    margin-right: -5px;
+    text-align: center;
+    white-space:nowrap;
+}
+#fpExtensionPanelContainer .fp-item-quicks-links a{
+	color: #1370EF !important;
+}
+#fpExtensionPanelContainer .fp-item-quicks-links a:hover{
+	text-decoration:underline;
+}
+#fpExtensionPanelContainer .fp-sync-another-site{
+	display:block;
+    text-align: center;
+    padding:10px;
+    font-size: 12px;
+}
+#fpExtensionPanelContainer .fp-sync-another-site a{
+	color: #1370EF !important;
+}
+#fpExtensionPanelContainer .fp-sync-another-site a:hover{
+	text-decoration:underline;
+}
+
+#fpExtensionPanelContainer .fp-extension-section-list{
+	background:white;
+	border:1px solid lightgray;
+	border-radius: 4px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
+}
+#fpExtensionPanelContainer .fp-extension-section-list-header-left{
+	float:left;
+	padding:5px 15px 0;
+	color: #828282;
+	font-size: 11px;
+	font-weight:bold;
+}
+#fpExtensionPanelContainer .fp-extension-section-list-header-right{
+	float:right;
+	padding:5px 15px 0;
+	color: #828282;
+	font-size: 11px;
+	font-weight:bold;
+}
+#fpExtensionPanelContainer .fp-extension-section-list-scroll{
+	max-height:220px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#fpExtensionPanelContainer .fp-extension-section-list-item{
+	padding: 10px 15px;
+	clear:both;
+	line-height: 15px;
+}
+#fpExtensionPanelContainer .fp-extension-league{
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+#fpExtensionPanelContainer .fp-item-icon{	
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:left;
+	width: 15px;
+	height: 15px;
+	margin-right: 12px;
+}
+#fpExtensionPanelContainer .fp-item-icon-nfl{	
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/nfl_icon.png');
+}
+#fpExtensionPanelContainer .fp-item-icon-mlb{	
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/mlb_icon.png');
+}
+#fpExtensionPanelContainer .fp-item-icon-nba{	
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/nba_icon.png');
+}
+#fpExtensionPanelContainer .fp-item-sport{
+	font-weight:bold;
+	float:left;
+	width:35px;
+	font-size: 13px;
+	color: #212121
+}
+#fpExtensionPanelContainer .fp-item-username{
+	font-weight:bold;
+	float:left;
+	font-size: 13px;
+	color: #212121
+}
+#fpExtensionPanelContainer .fp-item-shortcut{
+	color: #999;
+	float:left;
+	font-size: 11px;
+}
+#fpExtensionPanelContainer a.fp-item-link{	
+	float:right;
+	font-weight:bold;
+	text-decoration:none !important;
+	font-size: 11px;
+	color: #5A99CE !important;
+}
+#fpExtensionPanelContainer .fp-subscription-level{	
+	float:right;
+	font-size: 13px;
+	color: #212121;
+}
+#fpExtensionPanelContainer a.fp-item-link:hover{
+	text-decoration:underline !important;
+}
+
+#fpExtensionPanelContainer .fp-extension-section-list-divider{
+	clear:both;
+	height:1px;
+	border-top: 1px solid #f3f3f3;
+}
+
+#fpUserSection .fp-extension-section-list-item{
+    padding-left: 40px;
+    background-size: 16px 16px;
+    background-position-x: 12px;
+    background-position-y: 9px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/user-icon.png');
+}
+
+#fpAdviceSection .fp-extension-section-list-item{
+    padding-left: 40px;
+    background-size: 16px 16px;
+    background-position-x: 12px;
+    background-position-y: 9px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/premium-advice.png');
+}
+
+#fpPreferenceSection .fp-extension-section-list-item{
+    padding-left: 40px;
+    background-size: 16px 16px;
+    background-position-x: 12px;
+    background-position-y: 9px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/clipboard-icon.svg');
+}
+#fpPreferenceSection .fp-extension-section-list-item.fp-extension-section-flag-item{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/flag-icon.svg');
+}
+
+#fpPreferenceSection .fp-angle-right{
+	float:right;
+    width:10px;
+    height:10px;
+    background-size: 10px 10px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/angle-right.svg');
+	margin-top:2px;
+}
+#fpPreferenceSection .fp-extension-section-link{
+	display:block;
+	text-decoration:none;
+}
+#fpPreferenceSection .fp-extension-section-link:hover{
+	background-color:#f5f5f5;
+	text-decoration:none;
+}
+
+#fpPanelExclude .fp-extension-instructions{
+	font-size: 12px;
+	line-height: 16px;
+	padding:10px 15px;
+}
+
+#fpPanelExclude form{
+	padding:10px 15px;
+	position:relative;
+}
+
+#fpPanelExclude input{
+	height:30px;
+	width:100%;
+    box-sizing: border-box;
+    padding: 3px 10px;
+    font-size:12px;
+}
+
+#fpPanelExclude .fp-extension-add-button{
+	position:absolute;
+    top: 18px;
+    right: 22px;
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/add-icon-disabled.svg');
+}
+
+#fpPanelExclude .fp-valid .fp-extension-add-button{
+	cursor:pointer;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/add-icon.svg');
+}
+
+#fpPanelExclude ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #767676 !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #767676 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #767676 !important;
+}
+
+#fpPanelExclude .fp-extension-section-list{
+    min-height: 200px;
+    max-height: 340px;
+    overflow-y: auto;
+    padding: 5px 10px;
+}
+#fpPanelExclude .fp-extension-excluded-site{
+    padding: 5px 0px;
+    font-size:12px;
+    position:relative;
+}
+
+#fpPanelExclude .fp-extension-trash-button{
+	cursor:pointer;
+	position:absolute;
+    top: 6px;
+    right: 8px;
+    width: 13px;
+    height: 13px;
+    background-size: 13px 13px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/trash-icon.svg');
+	display:none;
+}
+#fpPanelExclude .fp-extension-excluded-site:hover  .fp-extension-trash-button{
+	display:block;
+}
+
+#fpExtensionPanelContainer .fp-item-icon-star{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/stargold.png');
+}
+#fpExtensionPanelContainer .fp-item-icon-starvoid{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/starvoid.png');
+}
+#fpExtensionPanelContainer #fpPanelSettings .fp-item-icon-star{
+	cursor:pointer;
+}
+#fpExtensionPanelContainer #fpPanelSettings .fp-item-icon-star:hover{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/starvoid.png');
+}
+#fpExtensionPanelContainer #fpPanelSettings .fp-item-icon-starvoid:hover{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/stargold.png');
+}
+
+#fpExtensionPanelContainer .fp-item-league{	
+	font-size: 13px;
+	font-weight:bold;
+    margin-top: -5px;
+    white-space: nowrap;
+    width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    color: #212121;
+}
+
+#fpExtensionPanelContainer .fp-item-team{	
+	font-size: 11px;
+	font-weight: 600;
+    white-space: nowrap;
+    width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:  #999999;
+}
+
+#fpExtensionPanelContainer .fp-item-league-summary{	
+	font-size: 13px; 
+	font-weight: normal;
+}
+
+#fpExtensionPanelContainer .fp-extension-article{
+	position:relative;
+	display:block;
+}
+#fpExtensionPanelContainer .fp-extension-article img{
+	width:100%;
+	border-radius: 4px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
+}
+#fpExtensionPanelContainer .fp-extension-article-title{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background:black;
+	color:white !important;
+	height:26px;
+	line-height:26px;
+    padding-left: 10px;
+	text-decoration:none !important;
+	white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	opacity: 0.9;
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
+}
+#fpExtensionPanelContainer .fp-extension-article:hover  .fp-extension-article-title{
+	text-decoration:underline  !important;	
+	color:white !important;
+}
+#fpExtensionPanelContainer .fp-extension-read-more{
+	float:right;
+	color:#5A99CE !important;
+	text-decoration:none !important;
+	font-size: 11px;
+	font-weight: 600;    
+	padding-top: 1px;
+}
+#fpExtensionPanelContainer .fp-extension-read-more:hover{
+	text-decoration:underline !important;
+}
+#fpExtensionPanelContainer .fp-extension-section-list-item.import-item{
+	padding:5px;
+}
+#fpExtensionPanelContainer .import-item-divider{
+	border-top: 1px solid #dedede;
+}
+
+#fpExtensionPanelContainer .fp-extension-section-list-item.import-item a{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+    display: block;
+	text-decoration:none !important;
+	color: #666;
+}
+#fpExtensionPanelContainer .fp-extension-section-list-item.import-item a:hover{
+	text-decoration:underline !important;
+}
+
+#fpExtensionPanelContainer .fp-extension-trophy{
+	text-align:center;
+	width:80px;
+	height:80px;
+	margin: 15px auto 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/trophy-orange.png');
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-header{
+	text-align:center;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-desc{
+	text-align:center;  
+	font-size: 12px;
+	padding: 0 15px;
+}
+
+#fpExtensionPanelContainer .fp-extension-upgrade-desc b{
+	white-space:nowrap;
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-desc a{
+	text-decoration:underline !important;
+	font-size:11px;
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-desc a:hover{
+	text-decoration:none !important;
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-list{
+	text-align:left;  
+	font-size: 12px;
+	width:78%;
+	margin:0 auto;
+	padding: 10px 0;
+}
+#fpExtensionPanelContainer .fp-extension-register-list{
+	width:85%;	
+}
+#fpExtensionPanelContainer .fp-extension-upgrade-list .fp-extension-bullet{
+	padding-left:20px;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/skin/check-circle.png');
+    background-size: 13px 14px;
+    background-position-y: 2px;
+	background-repeat: no-repeat;
+	margin:3px 0;
+	white-space:nowrap;
+}
+#fpExtensionPanelContainer .fp-btn-container{
+	padding: 10px 0 15px;	
+}
+#fpExtensionPanelContainer .fp-btn-primary{
+	padding: 8px 10px;	
+	color:white !important;
+	border-radius: 4px;
+  	background-color: #207eee;
+  	text-align:center;
+  	width:170px;
+  	display:block;
+  	text-transform:uppercase;
+  	text-decoration:none !important;
+  	margin:0 auto;  	
+    font-size: 11px;
+    font-weight: 700;
+}
+#fpExtensionPanelContainer .fp-btn-primary:hover{
+	background-color: #03a9f4;	
+	color:white !important;
+}
+#fpExtensionPanelContainer .fp-btn-mini{
+    padding: 2px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 10px;
+}
+#fpExtensionPanelContainer .fp-btn-sub{	
+  	font-size: 11px;
+  	text-align:center;
+  	margin-top:5px;
+}
+#fpExtensionPanelContainer .fp-btn-sub a{	
+  	text-decoration:none !important;
+	color: #5A99CE !important;
+}
+#fpExtensionPanelContainer .fp-btn-sub a:hover{	
+  	text-decoration:underline !important;
+}
+#fpExtensionPanelContainer .fp-item-checkbox-label{
+	font-size:12px;
+	font-weight:600;
+	color:#212121
+}
+#fpExtensionPanelContainer .fp-item-toggle{
+	float:right;
+	width:50px;
+	height:20px;
+	background-size: contain;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/toggle-off.png');	
+	cursor:pointer;
+	background-repeat:no-repeat;
+    margin-top: -2px;
+}
+
+#fpExtensionPanelContainer .fp-item-toggle.toggle-on{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/toggle-on.png');	
+}
+#fpExtensionPanelContainer .fp-extension-summary{
+	background:white;
+	padding:12px 15px;
+	color:#5a5a5a;
+    margin: -5px 0 5px 0;
+    border-bottom: 1px solid lightgrey;
+    font-size: 13px;
+    line-height: 18px;
+}
+#fpExtensionPanelContainer .fp-extension-error{
+	background:#D04735;
+	color:white;
+	text-align:center;
+}
+
+#fpExtensionPanelContainer .fp-item-player{	
+    padding: 10px 15px;
+}
+
+#fpExtensionPanelContainer .fp-item-impact{	
+    padding: 11px 15px;
+}
+
+#fpExtensionPanelContainer .fp-item-impact .fp-item-league{	
+    margin-top: 0px;
+}
+
+#fpExtensionPanelContainer .fp-item-impact .fp-item-player-percent{
+	padding-top:9px;
+	font-size:15px;
+    width: 65px;
+}
+
+#fpExtensionPanelContainer .fp-item-player-picture{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	float:left;
+	margin-right:15px;
+}
+
+#fpExtensionPanelContainer .fp-item-player-name{
+	font-size:14px;
+	font-weight:bold;
+	padding:3px 0;
+}
+#fpExtensionPanelContainer .fp-item-player-name a{
+	color:#2283f6 !important;
+	font-weight:bold;
+	text-decoration:none !important;	
+}
+#fpExtensionPanelContainer .fp-item-player-name a:hover{
+	color:#88b4f7;
+}
+
+#fpExtensionPanelContainer .fp-item-player-desc{
+	font-size:12px;
+	color:#5e5e53;
+}
+
+#fpExtensionPanelContainer .fp-item-player-percent{
+	float:right;
+	padding-top:10px;
+	font-size:18px;
+    width: 45px;
+    text-align: center;
+}
+
+#fpExtensionPanelContainer .fp-item-player-percent.fp-green-col {
+    color: #017C3F;
+    font-weight: bold;
+}
+#fpExtensionPanelContainer .fp-item-player-percent.fp-red-col {
+    color: #AD1F1A;
+    font-weight: bold;
+}
+
+#fpExtensionPanelContainer .fp-extension-section-list-header-right-small{
+	float:right;
+	padding:5px 0px 0;
+	width:55px;
+	color: #828282;
+	font-size: 11px;
+	font-weight:bold;
+	text-align:center;
+}
+#fpExtensionPanelContainer .fp-item-player-add{
+	float:right;
+	padding-top:8px;
+    width: 40px;
+    text-align: center;
+    margin-right: -8px;
+    margin-left: 8px;
+}
+#fpExtensionPanelContainer .fp-item-player-add a{
+	text-decoration:none;
+	width:18px;
+	height:18px;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/add.png');
+	background-size: contain;
+	display:inline-block;
+	background-repeat: no-repeat;
+} 
+#fpExtensionPanelContainer .fp-item-player-add a:hover{
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/add_hover.png');
+}
+#fpExtensionPanelContainer .fp-item-player-ecr{
+	float:right;
+	padding-top:10px;
+	font-size:14px;
+    width: 55px;
+    text-align: center;
+}
+#fpExtensionPanelContainer .fp-extension-check-circle{
+	text-align:center;
+	width:80px;
+	height:80px;
+	margin: 15px auto 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/SSA-check-circle-o.png');
+}
+#fpExtensionPanelContainer .fp-extension-failure{
+	text-align:center;
+	width:80px;
+	height:80px;
+	margin: 15px auto 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/SSA-failure.png');
+}
+#fpExtensionPanelContainer .fp-extension-btn-div{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:64px;
+	background:white;
+	border-top:1px solid lightgrey;	
+	padding:8px 10px;
+}
+#fpExtensionPanelContainer .fp-btn-x-large{
+    width: 320px;
+    height: 40px;
+    font-size: 13px;
+    padding: 24px 10px 0;
+    box-sizing: content-box;
+}
+#fpExtensionPanelContainer .fp-extension-loading{
+	width:80px;
+	height:80px;
+	margin: 100px auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/loading-fp.gif');
+}
+#fpExtensionPanelContainer .fp-extension-auto-pilot{
+	padding-top:30px;
+}
+#fpExtensionPanelContainer .fp-extension-auto-pilot-icon{
+	width:50px;
+	height:50px;
+	margin: 20px auto 5px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/skin/autopilot-plane.png');
+}
+#fpExtensionPanelContainer .fp-extension-auto-pilot .fp-btn-primary{
+	font-size: 10px; 
+	width: 150px;
+	margin-top: 5px;
+}
+#fpExtensionPanelContainer .fp-extension-selector {
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    height: 20px;
+    font-size: 11px;
+    background-color:white;
+    margin-top:5px;
+}
+
+#fpExtensionPanelContainer .fp-extension-section-promo{
+	font-weight:bold;
+	font-size: 14px;
+	color: #212121;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+#fpExtensionPanelContainer .fp-extension-section-promo .promo-logo{
+	display:block;
+	margin:10px auto;
+	width:150px;
+}
+#fpExtensionPanelContainer .fp-extension-section-promo .promo-logo img{
+	width:150px;
+}

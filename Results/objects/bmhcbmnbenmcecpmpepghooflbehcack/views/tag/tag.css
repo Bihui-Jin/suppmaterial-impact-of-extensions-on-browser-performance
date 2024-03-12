@@ -1,0 +1,76 @@
+html body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: auto !important;
+}
+
+.titleLabel {
+  font-family: system-ui !important;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #b0b4bd;
+  padding: 8px 20px 8px 20px;
+}
+
+.tags .tag {
+  font-family: system-ui !important;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #52565d;
+  padding: 7px 19px;
+  cursor: pointer;
+  max-width: 222px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tags .tag:hover {
+  background-color: #f6f8fa;
+}
+
+.createTagContainer .createTagBtn {
+  display: block;
+  cursor: pointer;
+  padding: 7px 19px;
+  font-family: system-ui !important;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #00bdb8;
+}
+
+.createTagContainer .createTagBtn:hover {
+  background-color: #f6f8fa;
+}
+
+.createTagContainer .createTagBtn span {
+  font-weight: bold;
+}
+
+.errorContainer {
+  display: none;
+  padding: 7px 19px;
+  background-color: rgba(243, 87, 80, 0.1);
+}
+
+.errorContainer .errorLabel {
+  font-family: system-ui !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #f35750;
+}

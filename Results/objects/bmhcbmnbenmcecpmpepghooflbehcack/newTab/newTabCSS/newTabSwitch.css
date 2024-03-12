@@ -1,0 +1,108 @@
+.LNewTabSwitch {
+  white-space: nowrap !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 40px !important;
+  padding: 0 16px !important;
+  background-color: var(--white50) !important;
+  border-radius: 12px !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04) !important;
+  z-index: 60 !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 72px !important;
+}
+
+.LNewTabSwitch.LinerBelt {
+  top: 120px !important;
+}
+
+.LNewTabSwitch:hover {
+  background-color: #fff !important;
+}
+
+.LNewTabSwitch__title {
+  color: var(--gray40) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 16.7px !important;
+  margin-right: 24px !important;
+}
+
+.LNewTabSwitch__toggle {
+  position: relative !important;
+  width: 36px !important;
+  height: 20px !important;
+  background-color: var(--gray30);
+  border-radius: 20px !important;
+}
+
+.LNewTabSwitch__toggleCircle {
+  position: absolute !important;
+  bottom: 2px !important;
+  left: 2px;
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #fff;
+  border-radius: 100px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s;
+}
+
+.toggleOnBg {
+  background-color: var(--liner50);
+}
+
+.toggleOnDot {
+  right: 2px;
+  left: inherit;
+}
+
+.toggleOffBg {
+  background-color: var(--gray30);
+}
+
+.toggleOffDot {
+  right: inherit;
+  left: 2px;
+}
+
+.LNewTabSwitch__bubble {
+  display: none;
+  position: absolute !important;
+  top: 48px !important;
+  left: 0 !important;
+  /* opacity: 0 !important; */
+  transition: opacity 0.3s !important;
+}
+
+.LNewTabSwitch__bubbleArrow {
+  width: 0 !important;
+  height: 0 !important;
+  margin-left: 20px !important;
+  border-left: 6px solid transparent !important;
+  border-right: 6px solid transparent !important;
+  border-bottom: 6px solid var(--gray40) !important;
+  border-radius: 1px !important;
+}
+
+.LNewTabSwitch__bubbleBody {
+  color: var(--white00) !important;
+  font-size: 14px !important;
+  line-height: 16.7px !important;
+  padding: 8px 12px !important;
+  white-space: normal !important;
+  background-color: var(--gray40) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  word-break: break-word !important;
+}
+
+@media (max-width: 664px) {
+  .LNewTabSwitch {
+    display: none !important;
+  }
+}

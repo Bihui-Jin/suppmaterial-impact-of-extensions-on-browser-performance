@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>OkTools UserScript editor</title>
+	<script src="js/options.js" defer></script>
+	<link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+<div id="wrapper">
+	<div class="screen settings_screen d-flex flex-column active" id="script_edit">
+		<header class="d-flex justify-center align-center">
+			<span id="header_title"></span>
+            <span class="icon close_btn"></span>
+        </header>
+		 <main class="text-left d-flex flex-column justify-between" style="padding:10px;">
+			<div style="padding:6px;">
+				<input type="button" id="OkTools_Script_Save" class="ok_button btn_green btn_h2" value="Сохранить">
+				<span id="OkTools_Script_SaveRes"></span>				
+				<span style="float:right;"><a href="" id="func_info_open">Информация по функциям</a>  <input type="button" id="OkTools_Script_Delete" class="ok_button btn_red btn_h2" value="Удалить"></span>
+			</div>
+			<div style="width:100%;margin-top:10px;height:100%;">
+				<textarea placeholder=""  data-id="0" id="OkTools_Script_Text"></textarea>
+			</div>
+		</main>
+    </div>
+	<div class="screen settings_screen d-flex flex-column active" id="func_info">
+		<header class="d-flex align-center">
+			<span class="button_back">
+				<span class="icon icon_back"></span>
+				<span>Назад</span>
+			</span>
+			<span id="header_title" style="width: 90%;text-align: center;">Информация по встроенным функциям</span>
+            <span class="icon close_btn"></span>
+        </header>
+		<main class="text-left d-flex flex-column justify-between" style="padding:25px;overflow-y: auto;">
+			<div>
+				<p><h3>Информация по заполнению блока <b>==UserScript==</b></h3></p>
+				<p><b>@name</b> - <i>Обязательно</i><br>Название вашего скрипта, иземените на своё.</p>
+				<p><b>@namespace</b> - <i>не обязательно</i><br>Домашняя страница вашего скрипта.</p>
+				<p><b>@version</b> - <i>Обязательно</i><br>Версия скрипта.</p>
+				<p><b>@description</b> - <i>не обязательно</i><br>Описание функций скрипта</p>
+				<p><b>@author</b> - <i>не обязательно</i><br>Автор скрипта.</p>
+				<p><b>@match или @include</b> - <i>Обязательно</i><br>Части URL на которых будет запускаться ваш скрипт.  Пример: <i><b>*://ok.ru*</b></i> будет работать на всех страницах сайта ok.ru<br><b>*</b> - любой символ в url</p>
+				<p><b>@exclude</b> - <i>не обязательно</i><br>Части URL на которых не будет запускаться ваш скрипт. Пример: <i><b>*cache.html$</b></i> На странице <i><b>http://ok.ru/web/sfdg.cache.html</b></i> скрипт не будет запускаться<br><b>*</b> - любой символ в url</p>
+				<p><b>@run-at</b> - <i>Обязательно</i><br>Момент запуска вашего скрипта Пример: <i><b>document-end</b></i> или <i><b>document-start</b></i></p>
+				<p><b>@grant</b> - <i>не обязательно</i><br>Разрешения на выполнение встроенных функций. Пример: <i><b>GM_setValue</b></i> или <i><b>none</b></i></p><br><br>
+				
+				<p><h3>Функции и переменные отображенные на этой странице вы можете использовать в своих скриптах.</h3></p>
+				<p><b>const scriptId;</b><br>Переменная ID вашего скрипта;</p>
+				<p><b>GM_userInfo();</b><br>Возвращает информацию о текущем пользователе OkTools в формате JSON; Пример: <i> var User=GM_userinfo();</i></p>
+				<p><b>GM_setValue(name,data);</b><br>Сохраняет переменную <i><b>name</b></i> со значением <i><b>data</b></i> в хранилище.  Пример: <i>let result=GM_setValue('My_Name','Вася');</i></p>
+				<p><b>GM_getValue(name);</b><br>Возвращает переменную <i><b>name</b></i> из хранилища. Пример: <i>let value=GM_getValue('My_Name');</i></p>
+				<p><b>GM_deleteValue(name);</b><br>Удаляет переменную из хранилища.  Пример: <i> let result=GM_deleteValue('My_Name');</i></p>
+				<p><b>GM_listValues();</b><br>Возвращает все сохраненные переменные вашего скрипта. Пример: <i> let listValue=GM_listValues();</i></p>
+				<p><b>GM_openInTab(url,data)</b><br>Открывает вкладку с <i><b>url</b></i> и параметрами <i><b>data</b></i> Пример: <i> GM_openInTab('https://ya.ru', {'active':true});</i></p>
+				<p><b>GM_addStyle(css)</b><br>Добавляет <i><b>css</b></i>стиль к странице.   Пример: <i> GM_addStyle('body{background-color:green;');</i></p>
+				<p><b>GM_download(data,name)</b><br>Скачивает файл с параметрами<i><b>data</b></i> задает ему имя <i><b>name</b></i>,<i><b>id</b></i> любое число.  Пример: <br> <b>GM_download({<br>
+						id:"1", <br>
+						url:"http://download.ru/video.mp4",<br>
+						name:"Моё видео.mp4",<br>
+						saveAs:false,<br>
+						onloadstart:function(req){console.log('Download file START|'+req.fileId+'|'+req.did+'');},<br>
+						onerror:function(req){console.log('Download file ERROR');},<br>
+						onprocess:function(req){console.log('Download file PROCESS|'+req.fileId+'|'+req.did+'|'+req.percent+'');}<br>
+						onload:function(req){console.log('Download file OK|'+req.fileId+'|'+req.did+'');},<br>						
+					});</b></p>
+			</div>
+		</main>
+    </div>
+</div>
+</body>
+</html>

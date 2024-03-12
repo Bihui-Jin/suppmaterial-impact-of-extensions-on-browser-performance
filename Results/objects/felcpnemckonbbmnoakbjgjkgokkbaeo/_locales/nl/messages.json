@@ -1,0 +1,134 @@
+{
+  "ExtensionDescription": {
+    "description": "Description of i18n",
+    "message": "Ga op zoek naar veilige en betrouwbare winkels met Google: Installeer nu de officiële extensie van Trusted Shops"
+  },
+  "ExtensionName": {
+    "description": "Name of the extension",
+    "message": "Trusted Shops-extensie voor Google Chrome"
+  },
+  "customerreviews": {
+    "message": "Trusted Shops klantbeoordeling"
+  },
+  "marka": {
+    "message": "Uitstekend"
+  },
+  "markb": {
+    "message": "Goed"
+  },
+  "markc": {
+    "message": "Redelijk"
+  },
+  "markd": {
+    "message": "Matig"
+  },
+  "marke": {
+    "message": "Slecht"
+  },
+  "ratingProfileUrl": {
+    "message": "https://www.trustedshops.nl/verkopersbeoordeling/info_$1.html"
+  },
+  "secure": {
+    "message": "Veilig aankopen met"
+  },
+  "money": {
+    "message": "geld-terug-garantie"
+  },
+  "tsbar": {
+    "message": "Show Trustbadge"
+  },
+  "googleAnalyticsPropertyId": {
+    "message": "UA-53707107-11"
+  },
+  "p_lastDbUpdText": {
+    "message": "Last TrustedShops DB update:"
+  },
+  "p_dbCheckNever": {
+    "message": "Never"
+  },
+  "p_updDbButtonText": {
+    "message": "Update DB now"
+  },
+  "p_logoText": {
+    "message": "for Chrome"
+  },
+  "p_feedbackTitle": {
+    "message": "Your opinion is important for us!"
+  },
+  "p_feedbackText": {
+    "message": "How do you like the Trusted Shops Browser Extension?"
+  },
+  "p_feedbackButton": {
+    "message": "Rate now"
+  },
+  "p_feedbackDoNotShow": {
+    "message": "Keine Bewertung abgeben"
+  },
+  "p_impressumText": {
+    "message": "Data privacy and Imprint"
+  },
+  "p_impressumHref": {
+    "message": "https://www.trustedshops.nl/juridische-kennisgeving.html"
+  },
+  "p_showTrustbadgeTooltip": {
+    "message": "The Trustbadge technology at the bottom right will show you how other customers rated this shop"
+  },
+
+  "p_invalidShop_header": {
+    "message": "Ongeldig keurmerk"
+  },
+  "p_invalidShop_line1_1": {
+    "message": "Momenteel heeft deze winkel"
+  },
+  "p_invalidShop_line1_2": {
+    "message": "geen recht"
+  },
+  "p_invalidShop_line1_3": {
+    "message": "om het keurmerk van Trusted Shops te gebruiken"
+  },
+
+  "p_invalidShop_line2": {
+    "message": "Daarom kan je in deze winkel je bestelling niet verzekeren met de Trusted Shops Kopersbescherming"
+  },
+
+  "p_invalidShop_button": {
+    "message": "Shop met kopersbescherming vinden"
+  },
+  "p_invalidShop_button_link": {
+    "message": "https://www.trustedshops.nl/vinden/"
+  },
+
+
+  "p_fakeShop_header": {
+    "message": "Opgelet, nepwinkel!"
+  },
+  "p_fakeShop_line1": {
+    "message": "Deze website wordt door Trusted Shops beoordeeld als nepwinkel."
+  },
+  "p_fakeShop_line2": {
+    "message": "Nepwinkels zijn frauduleuze websites waar je niets moet bestellen. Deze shops zijn gemaakt om je financiële schade aan te doen of om toegang te krijgen tot gevoelige persoonsgegevens."
+  },
+  "p_fakeShop_button": {
+    "message": "Veilige shops vinden"
+  },
+  "p_fakeShop_footer": {
+    "message": "Op eigen verantwoordelijkheid verder surfen"
+  },
+
+
+  "p_header": {
+    "message": "Trusted Shops-extensie"
+  },
+  "p_ts_text": {
+    "message": "Hier kun je veilig kopen. "
+  },
+  "p_regular_text": {
+    "message": "Als je een nepwinkel hebt ontdekt, kun je deze hier bij ons melden:"
+  },
+  "p_regular_button": {
+    "message": "Nepwinkel melden "
+  },
+  "p_reportFakeShop_href": {
+    "message": "https://help.trustedshops.com/hc/nl/requests/new?origin=website"
+  }
+}

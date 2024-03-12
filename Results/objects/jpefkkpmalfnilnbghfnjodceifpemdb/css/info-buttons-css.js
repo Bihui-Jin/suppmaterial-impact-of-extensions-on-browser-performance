@@ -1,0 +1,1 @@
+var infoButtonsCss = {"border": "1px solid #AAAAAA", "cursor": "pointer", "height": "13px", "margin-left": "3px", "padding": "5px"}

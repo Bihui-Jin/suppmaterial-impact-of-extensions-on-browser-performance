@@ -1,0 +1,20 @@
+iframe.liner-popover.liner-popover-main {
+  position: fixed !important;
+  z-index: 99999999999999 !important;
+
+  width: 280px !important;
+  box-shadow: 0 4px 8px 0 rgba(39, 43, 49, 0.2) !important;
+  border-radius: 12px !important;
+  border: solid 0px transparent !important;
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: initial !important;
+  right: 20px !important;
+  min-height: initial !important;
+
+  /* Luke - 바뀌는 어트리뷰트 */
+  opacity: 0; /* 0 -> 1 */
+  top: -130px; /* -130px -> 20px  */
+  height: 130px;
+}

@@ -1,0 +1,20 @@
+#tsInjector-container {
+    display: block !important;
+    background-color: #FFDC0F !important;
+    height: 50px !important;
+    margin: 15px 50px !important;
+    padding: 0 0 0 95px !important;
+    /*border: 1px solid transparent;*/
+    border-radius: 5px !important;
+    line-height: 50px !important;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+#tsInjector-container a {
+    outline: none !important;
+}
+
+#tsInjector-container a:visited {
+    outline: none !important;
+}

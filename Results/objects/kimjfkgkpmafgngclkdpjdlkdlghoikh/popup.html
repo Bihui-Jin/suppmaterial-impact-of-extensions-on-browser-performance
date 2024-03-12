@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Extension Title -->
+	<title>NFL Live Scores</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="popup.css">
+</head>
+
+<body tabindex="1">
+	<!-- Header Module -->
+	<div id="headerTop">
+		<!-- Icon Container -->
+		<img class="flex-header" src="/images/NFL/No Selection.svg">
+
+		<!-- Detail Container -->
+		<p class="flex-detail" id="seasonDetail"></p>
+
+		<!-- Options Container -->
+		<div tabindex="0" class="flex-header onclick-menu" title="Menu">
+			<span class="onclick-menu-content">
+				<a id="optionsSearch" title="Search"><img src="/images/FA/search-solid.svg"></a>
+				<a id="optionsFullscreen" title="Fullscreen"><img src="/images/FA/external-link-alt-solid.svg"></a>
+				<a id="optionsMenu" title="Options"><img id="iconSpin" src="/images/FA/cog-solid.svg"></a>
+			</span>
+			<a id="optionSelect"><img src="/images/FA/bars-solid.svg"></a>
+		</div>
+	</div>
+
+	<!-- Search Bar Container -->
+	<div id="searchBar"></div>
+
+	<!-- Game Data Container -->
+	<div id="gameData"></div>
+
+	<!-- Network Error Container -->
+	<div id="networkError">No Network Connection Detected</div>
+
+	<!-- Search Error Container -->
+	<div id="searchError">Unfortunately this data isn't available</div>
+
+	<!-- Scripts -->
+	<script src="jquery.js"></script>
+	<script src="background.js"></script>
+	<script src="popup.js"></script>
+</body>
+
+</html>

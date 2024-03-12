@@ -1,0 +1,58 @@
+{
+    "title": "JobsAlert Notification",
+    "site_url": "https://jobsalert.pk",
+    "badge_color": "#ff0000",
+    "settings_button": "show",
+    "notification_title": "feed_title",
+    "show_extended_options": "yes",
+    "feeds": [
+        {
+            "feed_title": "Jobs",
+            "feed_url": "https://jobsalert.pk/?cat=35,33,32,34,434,1,38,39&feed=rss2",
+            "feed_type": "rss",
+            "feed_view": "default",
+            "feed_image": "show",
+            "feed_image_type": "description",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "yes"
+        },
+        {
+            "feed_title": "Education",
+            "feed_url": "https://jobsalert.pk/?cat=55,45,1203,56,397&feed=rss2",
+            "feed_type": "rss",
+            "feed_view": "small",
+            "feed_image": "show",
+            "feed_image_type": "description",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "no"
+        },
+        {
+            "feed_title": "Blog",
+            "feed_url": "https://jobsalert.pk/?cat=95&feed=rss2",
+            "feed_type": "rss",
+            "feed_view": "small",
+            "feed_image": "show",
+            "feed_image_type": "description",
+            "feed_description": "hide",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "no"
+        },
+        {
+            "feed_title": "Comments",
+            "feed_url": "https://jobsalert.pk/comments/feed",
+            "feed_type": "rss",
+            "feed_view": "small",
+            "feed_image": "hide",
+            "feed_image_type": "enclosure",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "no"
+        }
+    ]
+}

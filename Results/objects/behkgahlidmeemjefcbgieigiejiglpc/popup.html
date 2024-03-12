@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" layout-dir="ltr">
+
+<head>
+	<title>Better Tab</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="shortcut icon" href="/icons/32-new_tab.png" />
+
+	<script src="scripts/base.js"></script>
+	<script src="assets/translations.js"></script>
+
+	<script defer src="scripts/jquery.js"></script>
+	<script defer src="scripts/main.js"></script>
+
+	<script defer src="scripts/mod_calendar.js"></script>
+
+	<script defer src="scripts/jquery-sortable.js"></script>
+	<script defer src="scripts/mod_todo.js"></script>
+	
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root" class="popup">
+		<!-- TOP CONTENT -->
+		<div id="top">
+
+			<!-- clock -->
+			<div id="clock">
+				<div class="clock" style="position:relative">
+					<strong><b>00:00</b><i class="AM">AM</i><i class="PM">PM</i></strong>
+					<span>--/--/----</span>
+				</div>
+			</div>
+
+
+			<!-- weather -->
+			<div id="weather">
+				<div class="lds-ripple">
+					<div></div>
+					<div></div>
+				</div>
+				<a target="_blank" href="https://www.google.com/search?client=bettertab.app&q=weather">
+					<span class="ic"><img src="" style="visibility:hidden" /></span>
+					<span class="cond">
+						<strong class="temp"></strong>
+						<span class="desc"></span>
+					</span>
+				</a>
+				<div class="forecast_days"></div>
+			</div>
+		</div>
+
+
+
+		<!-- LEFT CONTENT -->
+		<div id="left">
+			<h2 data-key="ttl_events">Events</h2>
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
+			</div>
+			<ul id="events" class="modList listEvents"></ul>
+		</div>
+
+
+
+		<!-- RIGHT CONTENT -->
+		<div id="right">
+			<div id="todo">
+				<h2 data-key="ttl_todo">To do</h2>
+				<input type="checkbox" id="check_sidebar" name="check_sidebar">
+				<label for="check_sidebar" data-key="txt_show_sidebar">Show sidebar</label>
+
+				<div class="userAdd addTask">
+					<input class="custom_input" name="newTask" type="text" data-key="placeholder_add_task" autocomplete="off" placeholder="New task">
+					<a href="javascript:;" class="icon-add" data-key="btn_add_task"></a>
+				</div>
+				<ul id="tasks" class="modList"></ul>
+				<p class="info" data-key="txt_todo">Add your tasks to your to-do list.</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
