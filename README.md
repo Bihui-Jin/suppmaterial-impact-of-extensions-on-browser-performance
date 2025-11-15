@@ -3945,3 +3945,21 @@ The bracketed figures indicate the change ratio of corresponding extensions in e
 		</td>
 	</tr>
 </table>
+
+
+# Citation
+If you find our work helpful, feel free to give us a cite.
+```
+@article{Jin_EMSE_25_google_extensions,
+author = {Jin, Bihui and Li, Heng and Zou, Ying},
+title = {Impact of extensions on browser performance: An empirical study on google chrome},
+year = {2025},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {30},
+number = {4},
+issn = {1382-3256},
+doi = {10.1007/s10664-025-10633-1},
+journal = {Empirical Softw. Engg.},
+numpages = {41}
+```
